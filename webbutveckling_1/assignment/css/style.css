@@ -1,5 +1,6 @@
 body {
-    background-image: url(img./Waves.jpg);
+    background-image: url(../img/Waves.jpg);
+    background-size: 100%;
 }
 
 #navbar {
