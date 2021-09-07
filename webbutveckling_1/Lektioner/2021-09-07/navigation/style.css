@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-item {
+    float: left;
+}
+
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.84em 1em;
+    text-decoration: none;
+}
+
+.navbar-link:hover:not
+(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
