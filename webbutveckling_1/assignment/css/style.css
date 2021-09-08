@@ -37,8 +37,14 @@ body {
     padding-bottom: 2em;
 }
 
-* {
-    box-sizing: border-box;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666;
+    color: white;
 }
 
 .column1 {
