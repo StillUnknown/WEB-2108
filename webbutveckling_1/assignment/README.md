@@ -24,4 +24,10 @@ lyckades jag tillslut felsöka problemet och åtgärda det. Nu räcker det för 
   
 Bestämde mig för att bygga products-sidan först. Jag ville ha med ett grafikkort och en monitor som mina bilder.  
 [Grafikkort 3090](https://www.caseking.de/media/image/gcas-398_gcas_398_01.jpg)  
-[Samsung G9 monitor](https://inetimg.se/img/688x386/2216596_0.jpg)
+[Samsung G9 monitor](https://inetimg.se/img/688x386/2216596_0.jpg)  
+  
+Det första jag fick göra var att gå till w3schools för att lära mig hur man får två columns att ligga bredvid varandra.  
+Därefter la jag in bilden på grafikkortet och sedan texten om detta.  
+Letade en stund efter några citat som jag kunde använda som paragraftext.  
+Sedan gjorde jag likadant för monitorn.  
+Har även ändrat färg på "not active" och active till en vad jag tycker mer mjuk kulör. 
