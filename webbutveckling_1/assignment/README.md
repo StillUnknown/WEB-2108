@@ -18,4 +18,10 @@ Jag började med att skapa de sex filerna vi ska använda oss utav. Med hjälp a
 skapade jag navbaren. Jag la in samma värden som i genomgången men planerar att revidera detta ju längre  
 fram i projektet jag kommer för att få alla färger att matcha.  
 Jag hade problem med att få in bilden som bakgrund men med hjälp av Mohammad Haydar och en [Youtube](https://www.youtube.com/watch?v=TbThMW3UK_w "Fixing broken url")-video  
-lyckades jag tillslut felsöka problemet och åtgärda det. Nu räcker det för idag. Fortsättning imorgon!
+lyckades jag tillslut felsöka problemet och åtgärda det. Nu räcker det för idag. Fortsättning imorgon!  
+  
+## 2021-09-10  
+  
+Bestämde mig för att bygga products-sidan först. Jag ville ha med ett grafikkort och en monitor som mina bilder.  
+[Grafikkort 3090](https://www.caseking.de/media/image/gcas-398_gcas_398_01.jpg)  
+[Samsung G9 monitor](https://inetimg.se/img/688x386/2216596_0.jpg)
