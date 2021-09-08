@@ -27,7 +27,12 @@ Bestämde mig för att bygga products-sidan först. Jag ville ha med ett grafikk
 [Samsung G9 monitor](https://inetimg.se/img/688x386/2216596_0.jpg)  
   
 Det första jag fick göra var att gå till w3schools för att lära mig hur man får två columns att ligga bredvid varandra.  
-Därefter la jag in bilden på grafikkortet och sedan texten om detta.  
-Letade en stund efter några citat som jag kunde använda som paragraftext.  
-Sedan gjorde jag likadant för monitorn.  
-Har även ändrat färg på "not active" och active till en vad jag tycker mer mjuk kulör. 
+Därefter la jag in bilden på grafikkortet och sedan texten om detta. Letade en stund efter några citat som jag kunde  
+använda som paragraftext. Sedan gjorde jag likadant för monitorn.  
+Har även ändrat färg på "not active" och active till en vad jag tycker mer mjuk kulör.  
+Fixade en footer som jag la till på alla sidor. Hade glömt hur man fick den att ligga längst ner så fick gå till  
+inspelningen från igår. Är rätt nöjd med färgerna men kan hända att jag i slutet väljer att testa lika olika.  
+Imorgon tänkte jag börja med about-filen. Koden finns ju redan så det blir mest layouten på sidan som ska bestämmas.  
+**Tack för idag, slut för idag**  
+  
+##
