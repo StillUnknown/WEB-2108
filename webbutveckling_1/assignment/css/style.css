@@ -1,6 +1,7 @@
 body {
     background-image: url(../img/Waves.jpg);
     background-size: 100%;
+    margin: 0;
 }
 
 #navbar {
@@ -24,31 +25,47 @@ body {
 }
 
 .navbar-link:hover:not(.active) {
-    background-color: #111;
+    background-color: mediumaquamarine;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: mediumaquamarine;
 }
 
 .header {
     text-align: center;
     padding-bottom: 2em;
 }
+
 * {
     box-sizing: border-box;
 }
 
-.column {
+.column1 {
     float: left;
     width: 50%;
     padding: 10px;
     height: 300px;
-    border: 2px solid black;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+}
+
+.column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 500px;
+    padding-left: 5em;
+}
+
+.column4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
 }
