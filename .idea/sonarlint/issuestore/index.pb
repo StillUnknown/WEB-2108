@@ -53,11 +53,3 @@ o
 ?webbutveckling_1/Lektioner/2021-09-06/repetition.html/README.md,7\6\765918ac8f8d29fa14a63c7aee176a4607dc5b69
 k
 ;webbutveckling_1/Lektioner/2021-09-07/navigation/other.html,b\2\b2867bd8bcbc0235037dc621e950d421a50cfccf
-X
-(webbutveckling_1/assignment/courses.html,d\0\d00d73121dac511fc9ce11b8d70072c884410c01
-V
-&webbutveckling_1/assignment/index.html,0\6\064d67f0512fd050a452548833e859f80e6d2507
-V
-&webbutveckling_1/assignment/other.html,1\c\1c67aa54f75671be018ac3c41faf0411b3385fb1
-V
-&webbutveckling_1/assignment/blogg.html,5\7\57ee1c5c646fba8ee0d4045ca7dc3f57cb759443
