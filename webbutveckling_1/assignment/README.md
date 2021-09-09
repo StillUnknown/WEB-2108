@@ -35,4 +35,5 @@ inspelningen från igår. Är rätt nöjd med färgerna men kan hända att jag i
 Imorgon tänkte jag börja med about-filen. Koden finns ju redan så det blir mest layouten på sidan som ska bestämmas.  
 **Tack för idag, slut för idag**  
   
-##
+## 2021-09-09  
+  
