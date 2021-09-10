@@ -56,6 +56,7 @@ footer {
     width: 50%;
     height: 300px;
     padding-left: 3em;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -64,6 +65,7 @@ footer {
     width: 50%;
     height: 300px;
     padding-left: 3em;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -72,6 +74,7 @@ footer {
     width: 50%;
     height: 300px;
     padding-left: 3em;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -80,6 +83,7 @@ footer {
     width: 50%;
     height: 300px;
     padding-left: 3em;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -88,6 +92,7 @@ footer {
     width: 50%;
     height: 300px;
     padding-left: 3em;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -96,6 +101,7 @@ footer {
     width: 50%;
     height: 300px;
     padding-left: 3em;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -113,4 +119,62 @@ footer {
     height: 500px;
     padding-left: 4em;
     border: 2px solid black;
+}
+
+.column3b {
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding-left: 20em;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.h2center {
+    text-align: center;
+    padding-top: 2em;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+.zoom {
+    padding: 2px;
+    transition: transform .2s;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.middle {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.middleindex {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 7em;
+    padding-left: 13em;
+    padding-right: 13em;
+}
+
+.imgmiddle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

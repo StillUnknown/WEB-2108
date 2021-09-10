@@ -18,9 +18,10 @@ Jag började med att skapa de sex filerna vi ska använda oss utav. Med hjälp a
 skapade jag navbaren. Jag la in samma värden som i genomgången men planerar att revidera detta ju längre  
 fram i projektet jag kommer för att få alla färger att matcha.  
 Jag hade problem med att få in bilden som bakgrund men med hjälp av Mohammad Haydar och en [Youtube](https://www.youtube.com/watch?v=TbThMW3UK_w "Fixing broken url")-video  
-lyckades jag tillslut felsöka problemet och åtgärda det. Nu räcker det för idag. Fortsättning imorgon!  
+lyckades jag tillslut felsöka problemet och åtgärda det. Nu räcker det för idag.  
+**Fortsättning imorgon!**  
   
-## 2021-09-10  
+## 2021-09-08  
   
 Bestämde mig för att bygga products-sidan först. Jag ville ha med ett grafikkort och en monitor som mina bilder.  
 [Grafikkort 3090](https://www.caseking.de/media/image/gcas-398_gcas_398_01.jpg)  
@@ -37,3 +38,12 @@ Imorgon tänkte jag börja med about-filen. Koden finns ju redan så det blir me
   
 ## 2021-09-09  
   
+Idag har jag gjort en hel del känns det som. Gjorde färdigt about och courses. De behöver såklart gås över igen för att  
+finslipa och polera koden samt css:en. Har lagt in färger i tabellen som liknar den tabellen vi ska "skriva av".  
+Valde att efter ha pratat med Lars lägga till en column för att få med lite info om varje kurs. Slängde med en för de  
+olika veckorna kurserna går också. La på en hover och zoom effekt och har lagt in länkar på varje kurs som länkar till  
+Skolverket.se  
+Tanken för blogg är att fortsätta likt products och about, dvs behålla de olika boxarna för att kunna lägga in blogginlägg  
+samt bilder tillhörande inläggen. Blir att skapa fler boxar än vad jag har idag och det lär bli en del pillande innan allt  
+är som jag vill ha det. Tanken är också att kunna hovra över bilderna så de förstoras.  
+**Peace out**

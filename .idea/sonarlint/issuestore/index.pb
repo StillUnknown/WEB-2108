@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 g
 7webbutveckling_1/Lektioner/2021-09-07/flexbox/style.css,3\d\3d07ef79c37c54305453fef57225a172e91468dc
 u
@@ -53,3 +51,7 @@ o
 ?webbutveckling_1/Lektioner/2021-09-06/repetition.html/README.md,7\6\765918ac8f8d29fa14a63c7aee176a4607dc5b69
 k
 ;webbutveckling_1/Lektioner/2021-09-07/navigation/other.html,b\2\b2867bd8bcbc0235037dc621e950d421a50cfccf
+V
+&webbutveckling_1/assignment/blogg.html,5\7\57ee1c5c646fba8ee0d4045ca7dc3f57cb759443
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
