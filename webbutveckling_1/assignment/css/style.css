@@ -110,6 +110,7 @@ footer {
     width: 50%;
     height: 500px;
     padding-left: 4em;
+    padding-top: 5em;
     border: 2px solid black;
 }
 
@@ -168,7 +169,7 @@ table, th, td {
 .middleindex {
     text-align: center;
     font-size: 1.5em;
-    padding-top: 7em;
+    padding-top: 3em;
     padding-left: 13em;
     padding-right: 13em;
 }
