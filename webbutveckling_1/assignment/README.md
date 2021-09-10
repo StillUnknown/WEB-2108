@@ -46,4 +46,14 @@ Skolverket.se
 Tanken för blogg är att fortsätta likt products och about, dvs behålla de olika boxarna för att kunna lägga in blogginlägg  
 samt bilder tillhörande inläggen. Blir att skapa fler boxar än vad jag har idag och det lär bli en del pillande innan allt  
 är som jag vill ha det. Tanken är också att kunna hovra över bilderna så de förstoras.  
-**Peace out**
+**Peace out**  
+  
+## 2021-09-10  
+  
+Idag valde jag bort att börja med blogg.html. Jag orkade helt enkelt inte sätta mig med det pillet på en fredag utan jag  
+valde att börja med index då det inte är speciellt mycket information att skriva in i filen.  
+Lars visade ett bra verktyg vi kan använda som projektplanering. En hemsida där man likt post-it lappar kan skriva ner  
+steg för steg på små kort vad som ska göras och därefter flytta de till listor beroende på hur långt man kommit per kort.  
+För mig som är dålig på att planera verkar detta vara en fantastisk metod för att kunna ha koll på vad som bör göras direkt  
+och vad som ligger i pipen när man är klar med ett delmoment.  
+**Until next time**
