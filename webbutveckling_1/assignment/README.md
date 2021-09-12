@@ -56,4 +56,8 @@ Lars visade ett bra verktyg vi kan använda som projektplanering. En hemsida dä
 steg för steg på små kort vad som ska göras och därefter flytta de till listor beroende på hur långt man kommit per kort.  
 För mig som är dålig på att planera verkar detta vara en fantastisk metod för att kunna ha koll på vad som bör göras direkt  
 och vad som ligger i pipen när man är klar med ett delmoment.  
-**Until next time**
+**Until next time**  
+  
+## 2021-09-12  
+  
+Ska testa att lägga in en textbox för att se hur det fungerar.
