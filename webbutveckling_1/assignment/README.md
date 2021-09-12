@@ -60,4 +60,5 @@ och vad som ligger i pipen när man är klar med ett delmoment.
   
 ## 2021-09-12  
   
-Ska testa att lägga in en textbox för att se hur det fungerar.
+Ska testa att lägga in en textbox för att se hur det fungerar.  
+Det verkar fungera bra. Låter det vara såhär tills jag bestämmer mig mer för hur jag vill att sidan ska se ut. 
