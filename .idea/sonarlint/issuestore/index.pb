@@ -57,9 +57,3 @@ V
 &webbutveckling_1/assignment/index.html,0\6\064d67f0512fd050a452548833e859f80e6d2507
 Y
 )webbutveckling_1/assignment/products.html,5\0\50958048861dde9e825312763cd6aed4d404247a
-V
-&webbutveckling_1/assignment/about.html,b\d\bd3cc95a219b0c0bedb89541e4b8d29525c277da
-V
-&webbutveckling_1/assignment/blogg.html,5\7\57ee1c5c646fba8ee0d4045ca7dc3f57cb759443
-V
-&webbutveckling_1/assignment/other.html,1\c\1c67aa54f75671be018ac3c41faf0411b3385fb1
