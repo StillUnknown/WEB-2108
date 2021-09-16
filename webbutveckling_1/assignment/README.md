@@ -70,3 +70,20 @@ Idag har varit en jobbig dag. Har insett at jag behöver göra om mer eller mind
 Började med products och fick nästan till det men hade några fel i min media-query som gjorde att sidorna inte blev  
 som jag ville när man växlade mellan de olika lägena för mobil, platta och desktop. Tack vare att Lars kunde komma  
 in och gå igenom css-kodningen fick jag sidan dit jag ville. Nu tänkte jag börja med About. Får se hur långt jag hinner ikväll.  
+  
+## 2021-09-16  
+  
+Jag set att jag helt missat att fylla i min dagbok för 2021-09-15 vilket såklart inte är bra. Igår satt jag hemma med Michaela  
+och tillsammans började vi mer eller mindre om med våra projekt då vi ville bygga enligt grid-modellen.  
+Jag fick inte riktigt ihop det och bad Lars kolla över min kod och med hjälp av Lars fick jag sidan dit jag ville.  
+Idag har jag påbörjat flera sidor. Bytte ut bild på index mot en jag tyckte bättre om. La till en bild på mig själv i about.  
+Gjorde klart courses och valde att tas bort zoomfunktionen då den är helt onödig. Just nu är förmodligen about mitt största  
+problem. Sidan ser inte alls ut som jag vill att den ska göra. Grunden är där men finishen är inte vad jag vill ha.  
+Jag vill att gridsen ska vara ihop, inte delade som de är nu. Får sätta mig och gå igenom koden imorgon.  
+I Iframe la jag till en video från Linus Tech Tips om Samsung Odyssey G9 Monitor. Den skalar beroende på om du kollar via mobil,  
+platta eller desktop. Blogg har jag inte rört nästan. Det enda jag har lagt till är en textarea som äör tänkt som en commentsection  
+i blogg.html. Tanken är att bygga upp tre containers med bild längst upp och text nedanför och commensection under texten. Får se  
+om det blir så när jag väl sätter mig med den. Helt slut nu.
+**I'm out for today**  
+  
+## 

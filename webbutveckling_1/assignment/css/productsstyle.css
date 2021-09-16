@@ -19,6 +19,11 @@ body {
     margin-right: auto;
 }
 
+.center-text-horisontally-in-grid {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .text-left-image-right {
     display: grid;
     border: 2px solid black;
