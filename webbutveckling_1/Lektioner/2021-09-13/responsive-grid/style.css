@@ -50,7 +50,7 @@ body {
     "footer";
 }
 
-/*tablet*/
+
 @media only screen and (min-width: 768px) {
     .container {
         grid-template-columns: repeat(2, 1fr);
@@ -61,7 +61,7 @@ body {
     "footer footer";
     }
 
-    /* Ärvs över till desktop */
+
     .item-a {background-color: red;}
     .item-b {background-color: indianred;}
     .item-c {background-color: greenyellow;}
@@ -70,7 +70,7 @@ body {
 }
 
 
-/*desktop*/
+
 @media only screen and (min-width: 1200px) {
     .container {
         grid-template-columns: repeat(4, 1fr);
