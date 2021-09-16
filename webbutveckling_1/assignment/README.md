@@ -64,4 +64,9 @@ Ska testa att lägga in en textbox för att se hur det fungerar.
 Det verkar fungera bra. Låter det vara såhär tills jag bestämmer mig mer för hur jag vill att sidan ska se ut.  
 Kan inte hålla mig från att på en söndag sitta och pilla.. Lägger till en förbjuden < br > för att få ner bredden på tabellen.  
   
-## 
+## 2021-09-14  
+  
+Idag har varit en jobbig dag. Har insett at jag behöver göra om mer eller mindre allt jag gjort so far.  
+Började med products och fick nästan till det men hade några fel i min media-query som gjorde att sidorna inte blev  
+som jag ville när man växlade mellan de olika lägena för mobil, platta och desktop. Tack vare att Lars kunde komma  
+in och gå igenom css-kodningen fick jag sidan dit jag ville. Nu tänkte jag börja med About. Får se hur långt jag hinner ikväll.  

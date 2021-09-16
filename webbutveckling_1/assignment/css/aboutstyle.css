@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Waves.jpg);
+    background-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+}
+
+.grid-item {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
