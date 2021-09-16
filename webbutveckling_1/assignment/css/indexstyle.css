@@ -6,14 +6,31 @@ body {
     background-image: url(../img/Waves.jpg);
     background-size: 100%;
     margin: 0;
+    padding-bottom: 68px;
 }
 
-.header {
+header {
     text-align: center;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
-.center-text-on-screen {
+img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+section {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
 }
