@@ -4,9 +4,9 @@
 
 body {
     background-image: url(../img/Waves.jpg);
-    background-size: 100%;
+    background-size: cover;
     margin: 0;
-    padding-bottom: 68px;
+    padding-bottom: 92px;
 }
 
 .header {

@@ -4,9 +4,9 @@
 
 body {
     background-image: url(../img/Waves.jpg);
-    background-size: 100%;
+    background-size: cover;
     margin: 0;
-    padding-bottom: 68px;
+    padding-bottom: 92px;
 }
 
 header {
@@ -14,11 +14,18 @@ header {
     padding-bottom: 2em;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .iframe-container {
     position: relative;
-    width: 100%;
+    width: 60%;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .responsive-iframe {

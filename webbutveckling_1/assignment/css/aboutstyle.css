@@ -4,12 +4,12 @@
 
 body {
     background-image: url(../img/Waves.jpg);
-    background-size: 100%;
+    background-size: cover;
     margin: 0;
-    padding-bottom: 68px;
+    padding-bottom: 92px;
 }
 
-img {
+.image-width {
     width: 80%;
     max-width: 500px;
 }
@@ -21,6 +21,7 @@ header {
 
 .center-picture-grid {
     margin-left: auto;
+    margin-right: auto;
 }
 
 .grid-container {

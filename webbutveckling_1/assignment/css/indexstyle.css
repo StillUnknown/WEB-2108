@@ -4,9 +4,9 @@
 
 body {
     background-image: url(../img/Waves.jpg);
-    background-size: 100%;
+    background-size: cover;
     margin: 0;
-    padding-bottom: 68px;
+    padding-bottom: 92px;
 }
 
 header {
@@ -14,12 +14,12 @@ header {
     padding-bottom: 3em;
 }
 
-img {
+.image-width {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 section {
