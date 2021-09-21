@@ -15,8 +15,7 @@ body {
 }
 
 .center-picture-grid {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .center-text-horisontally-in-grid {
@@ -66,15 +65,18 @@ body {
 
     .image-left-text-right {
         grid-template-columns: repeat(2, 1fr);
+        width: 90%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .text-left-image-right {
         grid-template-columns: 2fr 1fr;
+        width: 90%;
     }
 
     .image-left-text-right {
         grid-template-columns: 1fr 2fr;
+        width: 90%;
     }
 }

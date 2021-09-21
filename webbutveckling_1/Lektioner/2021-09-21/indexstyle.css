@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .header { grid-area: header; }
 .nav {grid-area: nav; }
 .main {grid-area: main; }
@@ -7,43 +17,41 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    "header header header header"
-    "nav nav nav nav"
-    "main main main main"
-    "main main main main"
-    "aside aside aside aside"
-    "aside aside aside aside"
-    "footer footer footer footer";
-    grid-gap: 10px;
-    padding: 10px;
+    "header"
+    "nav"
+    "main"
+    "main"
+    "aside"
+    "aside"
+    "footer";
 }
 
 .header {
     background-color: pink;
-    height: 50px;
+    height: 5vh;
 
 }
 
 .nav {
     background-color: purple;
-    height: 50px;
+    height: 5vh;
 
 }
 
 .main {
     background-color: green;
-    height: 425px;
+    height: 42.5vh;
 
 }
 
 .aside {
     background-color: yellow;
-    height: 425px;
+    height: 42.5vh;
 }
 
 .footer {
     background-color: blue;
-    height: 50px;
+    height: 5vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -55,8 +63,12 @@
     "main main aside aside"
     "main main aside aside"
     "footer footer footer footer";
-        grid-gap: 10px;
-        padding: 10px;
+    }
+    .main, .aside {
+        height: 85vh;
+    }
+    .header, .nav, .footer {
+        height: 10vh;
     }
 }
 
@@ -68,7 +80,11 @@
     "main main main aside"
     "main main main aside"
     "footer footer footer footer";
-        grid-gap: 10px;
-        padding: 10px;
+    }
+    .main, .aside {
+        height: 85vh;
+    }
+    .header, .nav, .footer {
+        height: 10vh;
     }
 }

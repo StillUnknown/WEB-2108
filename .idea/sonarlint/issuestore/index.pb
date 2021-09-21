@@ -71,5 +71,3 @@ U
 %webbutveckling_1/assignment/README.md,6\f\6f9adb47d42491bcad54a0fa1d0f475d3f0840b1
 _
 /webbutveckling_1/assignment/css/footerstyle.css,f\d\fdfd28944bbcb88eb4f5adde00d84e249505a017
-_
-/webbutveckling_1/assignment/css/navbarstyle.css,e\5\e5b446fa3473fd6f5d4aaf6d755e862ace3726ea
