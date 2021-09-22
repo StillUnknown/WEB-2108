@@ -6,7 +6,7 @@ body {
     background-image: url(../img/Waves.jpg);
     background-size: cover;
     margin: 0;
-    padding-bottom: 92px;
+    padding-bottom: 10px;
 }
 
 .header {
@@ -33,6 +33,7 @@ body {
     grid-template-rows: auto;
     background-color: white;
     margin-bottom: 10em;
+    padding: 4px;
 }
 
 .img-responsive {
@@ -50,6 +51,7 @@ body {
     margin-right: auto;
     background-color: white;
     margin-bottom: 10em;
+    padding: 4px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -57,21 +59,8 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .image-left-text-right {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
-@media only screen and (min-width: 992px) {
-    .text-left-image-right {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .image-left-text-right {
-        grid-template-columns: repeat(2, 1fr);
-        width: 90%;
-    }
-}
 
 @media only screen and (min-width: 1200px) {
     .text-left-image-right {

@@ -6,7 +6,7 @@ body {
     background-image: url(../img/Waves.jpg);
     background-size: cover;
     margin: 0;
-    padding-bottom: 92px;
+    padding-bottom: 170px;
 }
 
 header {
@@ -14,24 +14,45 @@ header {
     padding-bottom: 3em;
 }
 
+.container {
+    background-color: white;
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    padding: 4px;
+}
+
 .image-width {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     max-width: 450px;
+    margin-top: 7em;
 }
 
-section {
+.center {
     text-align: center;
-    padding-bottom: 5em;
 }
 
 @media only screen and (min-width: 768px) {
+    .container {
+        background-color: white;
+        border: 2px solid black;
+        width: 50%;
+        margin: auto;
+        padding: 4px;
+    }
 }
 
-@media only screen and (min-width: 992px) {
-}
 
 @media only screen and (min-width: 1200px) {
+    .container {
+        background-color: white;
+        border: 2px solid black;
+        width: 30%;
+        margin: auto;
+        padding: 4px;
+    }
+
 }

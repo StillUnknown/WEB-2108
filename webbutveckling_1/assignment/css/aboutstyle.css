@@ -9,33 +9,45 @@ body {
     padding-bottom: 92px;
 }
 
-.image-width {
-    width: 80%;
-    max-width: 500px;
-}
-
 header {
     text-align: center;
     padding-bottom: 2em;
 }
 
-.center-picture-grid {
-    margin-left: auto;
-    margin-right: auto;
+div {
+    background-color: white;
+    margin: auto;
+    border: 2px solid black;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5em;
+}
+
+.image-width {
+    width: 80%;
+    max-width: 500px;
+}
+
+.div-smaller-size-to-better-fit-content {
+    width: 65%;
+}
+
+.div-even-smaller-size-to-better-fit-content {
+    width: 55%;
+}
+
+.image-width {
+    text-align: center;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.grid-item {
-    border: 2px solid black;
-    padding: 20px;
-    width: 90%;
+.smaller-div-center-picture {
+    align-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -51,7 +63,7 @@ header {
 
 @media only screen and (min-width: 992px) {
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .grid-item {
@@ -62,7 +74,7 @@ header {
 
 @media only screen and (min-width: 1200px) {
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .grid-item {

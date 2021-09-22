@@ -6,7 +6,7 @@ body {
     background-image: url(../img/Waves.jpg);
     background-size: cover;
     margin: 0;
-    padding-bottom: 92px;
+    padding-bottom: 100px;
 }
 
 header {
@@ -17,6 +17,14 @@ header {
 main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+}
+
+h2 {
+    text-align: center;
+}
+
+.padding-to-h2-under {
+    padding-bottom: 5em;
 }
 
 .center-text-over-iframe {
