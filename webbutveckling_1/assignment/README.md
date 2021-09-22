@@ -86,4 +86,7 @@ i blogg.html. Tanken är att bygga upp tre containers med bild längst upp och t
 om det blir så när jag väl sätter mig med den. Helt slut nu.
 **I'm out for today**  
   
-## 
+## 2021-09-22  
+  
+Idag har jag nästan gjort klart projektet. Dock finns det lite i about som behöver ses över. Jag känner mig väldigt nöjd med hur allt  
+ser ut och bortsett från about så återstår bara att göra en ordentlig dokumentation. Projektplaneringen görs via **Trello**.  
