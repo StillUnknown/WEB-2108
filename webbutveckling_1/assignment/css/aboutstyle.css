@@ -32,7 +32,10 @@ div {
 }
 
 .div-even-smaller-size-to-better-fit-content {
-    width: 55%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
 }
 
 .image-width {
@@ -58,18 +61,15 @@ div {
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media only screen and (min-width: 992px) {
-    .grid-container {
+    .div-even-smaller-size-to-better-fit-content {
+        width: 90%;
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .grid-item {
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
     }
 }
+
 
 @media only screen and (min-width: 1200px) {
     .grid-container {
@@ -79,5 +79,12 @@ div {
     .grid-item {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .div-even-smaller-size-to-better-fit-content {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
     }
 }

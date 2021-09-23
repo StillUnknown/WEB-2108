@@ -15,10 +15,11 @@ header {
 }
 
 .center-picture-grid {
-    margin: auto;
+    text-align: center;
+
 }
 
-.center-text-horisontally-in-grid {
+.center-text-vertically-in-grid {
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -75,11 +76,11 @@ header {
 @media only screen and (min-width: 1200px) {
     .text-left-image-right {
         grid-template-columns: 2fr 1fr;
-        width: 90%;
+        width: 70%;
     }
 
     .image-left-text-right {
         grid-template-columns: 1fr 2fr;
-        width: 90%;
+        width: 70%;
     }
 }
