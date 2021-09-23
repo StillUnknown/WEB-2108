@@ -90,3 +90,10 @@ om det blir så när jag väl sätter mig med den. Helt slut nu.
   
 Idag har jag nästan gjort klart projektet. Dock finns det lite i about som behöver ses över. Jag känner mig väldigt nöjd med hur allt  
 ser ut och bortsett från about så återstår bara att göra en ordentlig dokumentation. Projektplaneringen görs via **Trello**.  
+  
+## 2021-09-23  
+  
+Idag har jag gjort klart allt utom about. Det ser inte bra ut i mobilläge då det finns för mycket vit padding och jag hittar inte felet.  
+Michaela gick igenom min kod idag och tyckte den såg bra ut. Det gör även jag. Jag har försökt döpa klasserna till något som  
+gör att man lätt kan förstå vad den gör. Näst på tur blir att göra en dokumentation på projektet. Den kommer finnas tillgänglig  
+via en egen readme.md fil här i assignment döpt till dokumentation.md.

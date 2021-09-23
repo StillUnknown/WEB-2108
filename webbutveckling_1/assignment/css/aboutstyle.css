@@ -16,11 +16,9 @@ header {
 
 div {
     background-color: white;
-    margin: auto;
+    margin: auto auto 5em auto;
     border: 2px solid black;
     width: 90%;
-    padding: 10px;
-    margin-bottom: 5em;
     padding: 2em;
 }
 
