@@ -28,12 +28,10 @@ header {
     display: grid;
     border: 2px solid black;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto 10em auto;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     background-color: white;
-    margin-bottom: 10em;
     padding: 2em;
 }
 
@@ -53,10 +51,8 @@ header {
     grid-template-rows: auto;
     border: 2px solid black;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto 10em auto;
     background-color: white;
-    margin-bottom: 10em;
     padding: 2em;
 }
 
