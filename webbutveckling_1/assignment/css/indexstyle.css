@@ -19,7 +19,7 @@ header {
     border: 2px solid black;
     width: 60%;
     margin: auto;
-    padding: 4px;
+    padding: 2em;
 }
 
 .image-width {
@@ -41,7 +41,7 @@ header {
         border: 2px solid black;
         width: 50%;
         margin: auto;
-        padding: 4px;
+        padding: 2em;
     }
 }
 
@@ -52,7 +52,7 @@ header {
         border: 2px solid black;
         width: 30%;
         margin: auto;
-        padding: 4px;
+        padding: 2em;
     }
 
 }

@@ -21,6 +21,7 @@ div {
     width: 90%;
     padding: 10px;
     margin-bottom: 5em;
+    padding: 2em;
 }
 
 .image-width {
@@ -29,7 +30,7 @@ div {
 }
 
 .div-smaller-size-to-better-fit-content {
-    width: 65%;
+    width: 63%;
 }
 
 .div-even-smaller-size-to-better-fit-content {
