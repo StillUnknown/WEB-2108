@@ -29,7 +29,7 @@ div {
 }
 
 .div-smaller-size-to-better-fit-content {
-    width: 63%;
+    width: 90%;
 }
 
 .div-even-smaller-size-to-better-fit-content {
@@ -58,6 +58,10 @@ div {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .image-width {
+        max-width: 564px;
+    }
+
     .grid-item {
         margin-left: auto;
         margin-right: auto;
@@ -68,6 +72,10 @@ div {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
+    }
+
+    .div-smaller-size-to-better-fit-content {
+        width: 63%;
     }
 }
 
@@ -88,4 +96,9 @@ div {
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
     }
+
+    .div-smaller-size-to-better-fit-content {
+        width: 71%;
+    }
+
 }
