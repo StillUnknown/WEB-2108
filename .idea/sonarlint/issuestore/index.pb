@@ -83,8 +83,6 @@ V
 0webbutveckling_1/assignment/css/coursesstyle.css,4\7\4797134280050fc952cdb80f557bc2c8b1dccb55
 _
 /webbutveckling_1/assignment/css/footerstyle.css,f\d\fdfd28944bbcb88eb4f5adde00d84e249505a017
-U
-%webbutveckling_1/assignment/README.md,6\f\6f9adb47d42491bcad54a0fa1d0f475d3f0840b1
 V
 &webbutveckling_1/assignment/other.html,1\c\1c67aa54f75671be018ac3c41faf0411b3385fb1
 Y
@@ -93,3 +91,11 @@ _
 /webbutveckling_1/assignment/css/navbarstyle.css,e\5\e5b446fa3473fd6f5d4aaf6d755e862ace3726ea
 a
 1webbutveckling_1/assignment/css/productsstyle.css,6\e\6ecff97fabf379c2d68adc3186196f00cb51cec9
+^
+.webbutveckling_1/assignment/css/otherstyle.css,a\b\abdaf57a308f06f3a9c9afaa730cbaf779506077
+V
+&webbutveckling_1/assignment/about.html,b\d\bd3cc95a219b0c0bedb89541e4b8d29525c277da
+^
+.webbutveckling_1/assignment/css/aboutstyle.css,c\0\c0737f29d24b49dbd3b5fc31bcd17c04dd666a2b
+\
+,webbutveckling_1/assignment/dokumentation.md,7\5\75725697778ab9e1773369b47bef73eb7126633b

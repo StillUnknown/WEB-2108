@@ -96,4 +96,8 @@ ser ut och bortsett från about så återstår bara att göra en ordentlig dokum
 Idag har jag gjort klart allt utom about. Det ser inte bra ut i mobilläge då det finns för mycket vit padding och jag hittar inte felet.  
 Michaela gick igenom min kod idag och tyckte den såg bra ut. Det gör även jag. Jag har försökt döpa klasserna till något som  
 gör att man lätt kan förstå vad den gör. Näst på tur blir att göra en dokumentation på projektet. Den kommer finnas tillgänglig  
-via en egen readme.md fil här i assignment döpt till dokumentation.md.
+via en egen readme.md fil här i assignment döpt till dokumentation.md.  
+  
+## 2021-09-24  
+  
+Idag har jag gjort klart min about i mobilläge. Har även gjort min dokumentation och tänkte lämna in projektet idag.
