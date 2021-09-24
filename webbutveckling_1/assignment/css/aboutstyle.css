@@ -23,8 +23,9 @@ div {
 }
 
 .image-width {
-    width: 80%;
+    width: 100%;
     max-width: 500px;
+    max-height: 665px;
 }
 
 .div-smaller-size-to-better-fit-content {
