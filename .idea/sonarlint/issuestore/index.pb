@@ -67,8 +67,6 @@ e
 5webbutveckling_1/Lektioner/2021-09-13/grid/index.html,b\5\b5ed2397c49a31aaa12c19c3bdd9f1558d8a43ee
 p
 @webbutveckling_1/Lektioner/2021-09-13/responsive-grid/index.html,7\8\78b3cd1ddb11785e48eed8325eeb5c69bc9f822f
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 X
 (webbutveckling_1/assignment/courses.html,d\0\d00d73121dac511fc9ce11b8d70072c884410c01
 V
