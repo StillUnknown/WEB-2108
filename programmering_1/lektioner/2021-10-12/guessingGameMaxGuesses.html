@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessingGameMaxGuesses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<script>
+    const maxNum = 10
+
+    function verifyGuess(correctNumber, guess) {
+        let isGuessCorrect = false
+        console.log(`Du gissade på ${guess}`)
+        if (correctNumber === guess) {
+            console.log('Rätt nummer')
+            isGuessCorrect = true
+        } else if (correctNumber > guess) {
+            console.log('Du gissade för lågt')
+        } else if (correctNumber < guess) {
+            console.log('Du gissade för högt')
+        }
+        return isGuessCorrect
+    }
+
+    function generateRandomNumber(maxNumber) {
+        let correctNumber = Math.floor(Math.random() * maxNumber + 1)
+        console.log(correctNumber)
+        return correctNumber
+    }
+
+    let random = generateRandomNumber(maxNum)
+
+
+
+    function runGameFor() {
+        for (let i = 0; i < 3; i++) {
+            let input = Number(window.prompt(`Skriv in ett nummer mellan 1-10:`))
+            let exitGame = verifyGuess(random, input)
+            if (exitGame) {
+                break
+            }
+        }
+        alert('GAME OVER')
+    }
+
+    runGameFor()
+
+
+</script>
+
+
+</body>
+</html>
