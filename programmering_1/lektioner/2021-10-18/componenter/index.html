@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komponenter</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+<main>
+    <h1>Komponenter</h1>
+
+    <section>
+        <h2>Unordered list</h2>
+        <ul>
+            <li>img</li>
+            <li>button</li>
+            <li>hi-h6</li>
+            <li>p</li>
+            <li>input</li>
+            <li>Hämta värden och skriva till DOMen</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Ordered list</h2>
+        <ol>
+            <li>img</li>
+            <li>button</li>
+            <li>hi-h6</li>
+            <li>p</li>
+            <li>input</li>
+            <li>Hämta värden och skriva till DOMen</li>
+        </ol>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Img</h2>
+        <img src="img/random.png" alt="Random myImage">
+        <hr>
+    </section>
+
+    <section>
+        <button onclick="alertSomething()">Alert button</button>
+        <button onclick="consoleLogSomething()">Console log button</button>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Titel</h2>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <h6 class="bigger-h6">h6</h6>
+        <p>p</p>
+        <p>Brödtext</p>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Input</h2>
+
+        <label>Text:
+            <input type="text" value="Value ger synlig text">
+        </label>
+
+        <label>Nummer:
+            <input type="text" value=5>
+        </label>
+        <hr>
+    </section>
+
+    <h1>Javascript</h1>
+    <section>
+        <h2>onClick anropar en funktion</h2>
+        <button onclick="alertSomething()">onClick</button>
+        <hr>
+    </section>
+
+    <section>
+        <h2>eventListener lyssnar efter klick på id eller class</h2>
+        <button id="event-listener-1">eventListener1</button>
+        <button id="event-listener-2">eventListener2</button>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Hämta data från ett fält</h2>
+        <label for="name-field">Name:<input type="text" id="name-field" value="value"></label>
+        <button onclick="nameFieldButton()">OK</button>
+        <p id="hello-name-field">Nisse</p>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Addera 2 nummer</h2>
+        <label for="num-field-1">Number 1:</label><input type="number" id="num-field-1" value="4">
+        <label for="num-field-2">Number 2:</label><input type="number" id="num-field-2" value="5">
+        <button onclick="addNumbers()">Add numbers</button>
+        <p>Summa: <span id="sum-num-field"></span></p>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Rendera JavaScript variabler på hemsidan vid laddning av sidan</h2>
+        <p>Variabeln <strong>"morE"</strong> innehåller <em>"something </em>
+            <strong><span id="more"></span></strong>" som laddas vid omladdning av sidan av funktionen
+            "somethingMoreToLoadOnPageRender()!</p>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
