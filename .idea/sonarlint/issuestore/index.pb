@@ -97,3 +97,5 @@ V
 .webbutveckling_1/assignment/css/aboutstyle.css,c\0\c0737f29d24b49dbd3b5fc31bcd17c04dd666a2b
 \
 ,webbutveckling_1/assignment/dokumentation.md,7\5\75725697778ab9e1773369b47bef73eb7126633b
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
