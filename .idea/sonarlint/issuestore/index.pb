@@ -85,8 +85,6 @@ V
 &webbutveckling_1/assignment/other.html,1\c\1c67aa54f75671be018ac3c41faf0411b3385fb1
 Y
 )webbutveckling_1/assignment/products.html,5\0\50958048861dde9e825312763cd6aed4d404247a
-_
-/webbutveckling_1/assignment/css/navbarstyle.css,e\5\e5b446fa3473fd6f5d4aaf6d755e862ace3726ea
 a
 1webbutveckling_1/assignment/css/productsstyle.css,6\e\6ecff97fabf379c2d68adc3186196f00cb51cec9
 ^
@@ -99,3 +97,33 @@ V
 ,webbutveckling_1/assignment/dokumentation.md,7\5\75725697778ab9e1773369b47bef73eb7126633b
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+a
+1programmering_1/lektioner/2021-10-12/js/script.js,b\6\b6c41e0b93d285c0b6ce183fbe89d710cd413744
+p
+@programmering_1/lektioner/2021-10-18/centrera sida/css/style.css,d\e\de25b7047d23fb8a6be8460f904002f52c466a7b
+m
+=programmering_1/lektioner/2021-10-18/centrera sida/index.html,7\e\7ec6d2185b525c3ec955e2fc5a57fad58d13e39b
+d
+4programmering_1/lektioner/2021-10-18/grid/index.html,d\2\d27d11fc1a53e6d706f736b542b77f011763a076
+g
+7programmering_1/lektioner/2021-10-18/grid/css/style.css,0\0\00da540c9753247feadb0d023988aed91c884e43
+b
+2programmering_1/lektioner/2021-10-12/css/style.css,c\5\c583190bfa752634b836390b7a1ed459e07a9e96
+j
+:programmering_1/lektioner/2021-10-12/js/computesGuesses.js,a\2\a20f49df574cfefe12c72ccdf17746232c2fb822
+n
+>programmering_1/lektioner/2021-10-12/guessingGameWithHtml.html,b\c\bc8f6502daa23cdc380f74c3eb8fc672e5592b95
+_
+/programmering_1/lektioner/2021-10-12/index.html,c\a\ca19b7cd281e10a78554c31bf3be92e95283e36c
+t
+Dprogrammering_1/lektioner/2021-10-18/dropdownmenu/js/dropdownmenu.js,5\2\52ce4446df0d73d4723ae98b0b38e39bf4f2bece
+l
+<programmering_1/lektioner/2021-10-18/dropdownmenu/index.html,f\9\f9b73f9505b1025a10de9097b7e79baf780ea614
+o
+?programmering_1/lektioner/2021-10-18/dropdownmenu/css/style.css,2\8\28c1e81d25913e7ed88c8d6b1143ec2ada89faf7
+n
+>programmering_1/lektioner/2021-10-18/componenter/css/style.css,f\8\f8cb91527d037b1b98413829391011027830198f
+m
+=programmering_1/lektioner/2021-10-18/componenter/js/script.js,3\0\308bc5487718b3556eb7c2ac324ac9f14fba28b7
+k
+;programmering_1/lektioner/2021-10-18/componenter/index.html,5\d\5d123621b53cc1c03b65371142c8f979e0b82038
