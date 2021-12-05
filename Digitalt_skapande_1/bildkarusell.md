@@ -40,7 +40,11 @@ Hade jag haft en systemkamera hade såklart bilderna blivit bättre. Jag personl
   
 ### Digitala presentationsvägar:  
   
-Det finns givetvis flera bra sidor för att publicera sina i detta fallet bilder. Den första som kommer till tankarna är såklart Instagram som med sina närmare en miljard månatliga användare  
+Det finns givetvis flera bra sidor för att publicera sina i detta fallet bilder sammansatta till en gif. Den första som kommer till tankarna är såklart Instagram som med sina närmare en miljard månatliga användare  
 är en väldigt bra plattform för att sprida sitt verk. Här kan man hashtagga varje bild för att göra de sökbara.  
 En annan plattform är Facebook som med sina i runda slängar 2.89 miljarder användare månatligen.  
-Andra sidor man kan använda är Flickr som är en av de mest populära, PhotoBlog, 1x.com, Unsplash.
+Andra sidor man kan använda är Flickr som är en av de mest populära, PhotoBlog, 1x.com, Unsplash.  
+  
+1. Instagram - Det är nog den första sida folk tänker på när man säger att man vill dela med sig av sina bilder.  
+2. Facebook - Om jag inte misstar mig är det den största sociala plattformen på nätet.  
+3. Flickr - Hög lägstanivå av kunskap men mer okänd för gemene man.
