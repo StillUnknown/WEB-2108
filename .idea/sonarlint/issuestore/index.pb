@@ -67,8 +67,6 @@ e
 5webbutveckling_1/Lektioner/2021-09-13/grid/index.html,b\5\b5ed2397c49a31aaa12c19c3bdd9f1558d8a43ee
 p
 @webbutveckling_1/Lektioner/2021-09-13/responsive-grid/index.html,7\8\78b3cd1ddb11785e48eed8325eeb5c69bc9f822f
-X
-(webbutveckling_1/assignment/courses.html,d\0\d00d73121dac511fc9ce11b8d70072c884410c01
 V
 &webbutveckling_1/assignment/index.html,0\6\064d67f0512fd050a452548833e859f80e6d2507
 ^
@@ -95,8 +93,6 @@ V
 .webbutveckling_1/assignment/css/aboutstyle.css,c\0\c0737f29d24b49dbd3b5fc31bcd17c04dd666a2b
 \
 ,webbutveckling_1/assignment/dokumentation.md,7\5\75725697778ab9e1773369b47bef73eb7126633b
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 a
 1programmering_1/lektioner/2021-10-12/js/script.js,b\6\b6c41e0b93d285c0b6ce183fbe89d710cd413744
 p

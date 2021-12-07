@@ -1,0 +1,86 @@
+:root {
+    --main-background-color: #0288D1;
+    --aside-background-color: #B3E5FC;
+    --header-background-color: #00BCD4;
+    --text-icons: #FFFFFF;
+    --nav-background-color: #03A9F4;
+    --h1-text-color: #212121;
+    --h3-text-color: #757575;
+    --normal-text: #FFFFFF;
+    --footer-background-color: #00BCD4;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item1 { grid-area: header}
+.item2 { grid-area: nav}
+.item3 { grid-area: aside}
+.item4 { grid-area: main}
+.item5 { grid-area: menu}
+.item6 { grid-area: footer}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'nav nav nav nav nav'
+    'menu main main main aside'
+    'menu main main main aside'
+    'footer footer footer footer footer';
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    grid-gap: 100px;
+}
+
+header{
+    background-color: var( --header-background-color);
+    padding: 10px;
+}
+
+main{
+    background-color: var( --main-background-color);
+    height: 60vh;
+    padding: 10px;
+}
+
+aside {
+    background-color: var( --aside-background-color);
+    height: 60vh;
+    padding: 10px;
+}
+
+side {
+    background-color: var( --aside-background-color);
+    padding: 10px;
+}
+
+footer {
+    background-color: var( --header-background-color);
+    padding: 10px;
+}
+
+nav {
+    background-color: var( --nav-background-color);
+    padding: 10px;
+}
+
+h1 {
+    color: var(--h1-text-color);
+}
+
+h3 {
+    color: var(--h3-text-color);
+}
+
+p {
+    color: var(--normal-text);
+}
