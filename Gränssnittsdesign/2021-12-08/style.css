@@ -27,7 +27,7 @@ header{
 main{
     background-color: var( --main-background-color);
     height: 60vh;
-    padding: 10px;
+    padding:10px;
 }
 
 aside {
@@ -53,6 +53,10 @@ nav {
 
 h1 {
     color: var(--h1-text-color);
+}
+
+h2 {
+    margin: 0;
 }
 
 h3 {

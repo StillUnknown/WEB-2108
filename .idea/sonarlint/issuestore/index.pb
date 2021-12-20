@@ -123,3 +123,13 @@ m
 =programmering_1/lektioner/2021-10-18/componenter/js/script.js,3\0\308bc5487718b3556eb7c2ac324ac9f14fba28b7
 k
 ;programmering_1/lektioner/2021-10-18/componenter/index.html,5\d\5d123621b53cc1c03b65371142c8f979e0b82038
+X
+(Gränssnittsdesign/2021-12-07/index.html,b\6\b632b6de94d0635942e21c03db48e80747433a11
+W
+'Gränssnittsdesign/2021-12-07/style.css,d\a\da817df2ada241937ba02e7f8cc590efac6c8b84
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+X
+(Gränssnittsdesign/2021-12-08/index.html,5\3\53b0aa7b10addd0febaa6ed773fc356de8d5f230
+W
+'Gränssnittsdesign/2021-12-08/style.css,e\e\ee205f7ce62c1f5562b311d61c46f68e3ea7990f
