@@ -8,8 +8,13 @@ body {
 }
 
 @font-face {
+    font-family: 'Bubble';
+    src: url('../font/Cormorant_Garamond/CormorantGaramond-Light.ttf')
+}
+
+@font-face {
     font-family: 'PT Sans Narrow';
-    src: url('../fonts/')
+    src: url('../fonts/PTSansNarrow-Regular.ttf')
 }
 
 header {
@@ -82,6 +87,8 @@ li {
     grid-gap: 2em;
     margin-top: 170px;
     padding-bottom: 200px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
 }
 
 button {
