@@ -68,9 +68,9 @@ function renderSingleAlbum(album) {
     </article> `
 }
 
-let renderCardsToSite = [];
+let renderCardsToSite = "";
 
 for (const album of allAlbums){
-    renderCardsToSite.push(renderSingleAlbum(album))
+    renderCardsToSite += renderSingleAlbum(album)
 }
 document.getElementById('album-card-container').innerHTML = renderCardsToSite

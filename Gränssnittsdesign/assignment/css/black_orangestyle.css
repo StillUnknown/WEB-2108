@@ -62,7 +62,7 @@ li {
 }
 
 #grid-container {
-    height: 90vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     text-align: center;
@@ -72,7 +72,7 @@ li {
 
 #album-card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding: 2em;
     grid-gap: 2em;
     margin-top: 170px;
@@ -104,7 +104,7 @@ footer {
 @media only screen and (min-width: 768px) {
     #album-card-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .logo {
@@ -124,7 +124,7 @@ footer {
 @media only screen and (min-width: 1200px) {
     #album-card-container {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .logo {
