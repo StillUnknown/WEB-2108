@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G3A</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/dropdownmenustyle.css'>
+</head>
+<body>
+
+<header>
+    <section class="header">
+        <img src="img/logo.gif" class="logo" alt="logo">
+    </section>
+    <section>
+        <img class="banner" src="img/50off.gif" alt="banner">
+    </section>
+    <div class=" header">
+        <section class="dropdown">
+            <img src="img/cart.png" alt="cart" class="logo" onclick="openCart()">
+            <button>Login</button>
+            <section id="dropdown" class="dropdown-content">
+                <p>Cart</p>
+                <section id="cards-in-cart">
+                </section>
+                <section id="total-sum-of-cart">
+                </section>
+                <section id="total-quantity-in-cart">
+                </section>
+                <section id="cost-of-shipping">
+                </section>
+                <section>
+                    <button onclick="closeCart()">Close</button>
+                    <button onclick="purchaseAlert()">Checkout</button>
+                </section>
+            </section>
+        </section>
+    </div>
+</header>
+
+<nav id="nav">
+</nav>
+
+<main>
+    <div id="grid-container">
+        <section id="div-middle-of-the-screen">
+        </section>
+        <section id="album-card-container">
+        </section>
+    </div>
+    <footer id="footer">
+    </footer>
+</main>
+
+<script src="js/cart_content.js"></script>
+<script src="js/data_and_render_single_cards.js"></script>
+<script src="js/alerts.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

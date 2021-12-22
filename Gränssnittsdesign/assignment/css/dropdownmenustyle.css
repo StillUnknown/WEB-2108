@@ -1,0 +1,61 @@
+.dropdown-button {
+    cursor: pointer;
+    margin: 2em;
+}
+
+.dropdown-button:hover {
+    background-color: aqua;
+}
+
+.img-in-cart {
+    display: none;
+}
+
+.dropdown-content {
+    padding: 1em;
+    font-size: 1em
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: mintcream;
+    color: black;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.75em 1em;
+}
+
+.dropdown a:hover {
+    background-color: aqua;
+}
+
+.show {
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-in-cart {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: auto;
+    width: auto;
+    background: black;
+    color: white;
+    padding-top: 40px;
+}
+
+.header {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+.logo {
+    height: 50px;
+
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    height: 2em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar-hover:hover {
+    background-color: mintcream;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 60%;
+}
+
+#grid-container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    text-align: center;
+    background: mintcream;
+}
+
+#album-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2em;
+    grid-gap: 2em;
+    margin-top: 170px;
+    padding-bottom: 100px;
+}
+
+button {
+    width: 5em;
+    color: white;
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+.footer-item {
+    width: 100%;
+    margin: auto 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #album-card-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .footer-item {
+        width: 100%;
+        margin: auto 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #album-card-container {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .logo {
+        height: 130px;
+    }
+
+    #navbar {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+}
+
+
