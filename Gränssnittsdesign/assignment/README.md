@@ -29,7 +29,7 @@ koden i samma mapp skulle man kunna säga vilket gör att ../page2.html inte fun
 I första hand felsöker jag via koden i IDE'n då det an någon ful vana har satt sig att jag gör så istället för att använda mig av  
 inspektorn och därifrån direkt hitta var felet ligger. Fördelen med inspektorn är att man kan skriva in ny kod och se resultatet  
 utan att behöva gå in i IDE'n. Det gör man först när man hittat rätt kod att använda sig av via inspektorn.  
-Sedan har jag även tagit hjälp av Michaela och då vi komplimenterar varandra med bra kunskap i olika områden.  
+Sedan har jag även tagit hjälp av Michaela och Aram då vi komplimenterar varandra med bra kunskap i olika områden.  
   
 #### Vad gick bra:  
   
