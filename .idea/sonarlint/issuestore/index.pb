@@ -121,15 +121,3 @@ W
 'Gränssnittsdesign/2021-12-07/style.css,d\a\da817df2ada241937ba02e7f8cc590efac6c8b84
 W
 'Gränssnittsdesign/2021-12-08/style.css,e\e\ee205f7ce62c1f5562b311d61c46f68e3ea7990f
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-X
-(Gränssnittsdesign/2021-12-08/index.html,5\3\53b0aa7b10addd0febaa6ed773fc356de8d5f230
-_
-/webbutveckling_1/assignment/css/footerstyle.css,f\d\fdfd28944bbcb88eb4f5adde00d84e249505a017
-^
-.webbutveckling_1/assignment/css/bloggstyle.css,6\9\693e8d33a2afb6cbc7d4366e5c56885549e64f89
-V
-&webbutveckling_1/assignment/blogg.html,5\7\57ee1c5c646fba8ee0d4045ca7dc3f57cb759443
-V
-&webbutveckling_1/assignment/about.html,b\d\bd3cc95a219b0c0bedb89541e4b8d29525c277da
