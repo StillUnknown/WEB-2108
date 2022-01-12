@@ -1,16 +1,15 @@
+import './WelcomeMessage.css'
+
+function WelcomeMessage({name, age}) {
 
 
-function WelcomeMessage(props) {
+
     return (
         <>
-            <h1>Välkommen {props.name}</h1>
-            <h3>{hello('Liselott')}</h3>
+            <h1>Välkommen {name} {age}</h1>
         </>
     )
 }
 
 export default WelcomeMessage
 
-function hello(name) {
-    return `Hello ${name}`
-}
