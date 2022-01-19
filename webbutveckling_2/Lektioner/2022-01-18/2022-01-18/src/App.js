@@ -1,14 +1,15 @@
-import { BrowserRouter, Router, Route } from 'react-router-dom'
+import NavigationBar from "./NavigationBar";
+import Routing from "./utils/routing/Routing";
+
 
 function App() {
     return (
         <>
-            <BrowserRouter>
-                <h1>App</h1>
-            </BrowserRouter>
+            <Routing>
+                <NavigationBar/>
+            </Routing>
 
         </>
-
     );
 }
 
