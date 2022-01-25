@@ -267,3 +267,7 @@ Xwebbutveckling_2/Lektioner/2022-01-24/repetition/2022-01-24-repetition/public/i
 Swebbutveckling_2/Lektioner/2022-01-24/repetition/2022-01-24-repetition/src/index.js,1\0\10b6bdb731354da1ea6758911ffe0cefe8fd36f1
 €
 Pwebbutveckling_2/Lektioner/2022-01-24/repetition/2022-01-24-repetition/README.md,e\9\e9ab50fcc3d48b75876b3d4cd03a07d3bf03558e
+ƒ
+Swebbutveckling_2/Lektioner/2022-01-24/repetition/2022-01-24-repetition/package.json,0\b\0b5dbadab5872b3c5749ca6e4e24a8dc6f20fb62
+ˆ
+Xwebbutveckling_2/Lektioner/2022-01-24/repetition/2022-01-24-repetition/package-lock.json,2\b\2b61cc81277bb424372a1da1e68d2a85ade23780
