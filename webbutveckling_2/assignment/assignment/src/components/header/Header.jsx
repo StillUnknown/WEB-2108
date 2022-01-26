@@ -15,7 +15,10 @@ const Header = () => {
                 value="Håkan Hellström"/>
                 <button onClick="searchButton()">Search</button>
             </section>
-            <Dropdown/>
+            <section>
+                <Dropdown/>
+            </section>
+
         </header>
     )
 }
