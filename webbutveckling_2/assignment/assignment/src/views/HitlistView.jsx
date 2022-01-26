@@ -1,7 +1,7 @@
-function HitlistView() {
+function HitListView() {
     return (
-        <h1>Hitlist</h1>
+        <h1>HitList</h1>
     )
 }
 
-export default HitlistView
+export default HitListView

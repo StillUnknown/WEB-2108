@@ -1,6 +1,6 @@
 function AlbumsView() {
     return (
-        <h1>Album</h1>
+        <h1>AlbumsView</h1>
     )
 }
 

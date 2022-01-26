@@ -3,7 +3,7 @@
     padding: 0;
     height: 2em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 li {
@@ -12,12 +12,12 @@ li {
     padding: 0;
 }
 
-.navItems {
+.navBarItems {
     background-color: aqua;
     border: 1px solid black;
     text-align: center;
 }
 
-.navbarItem:hover {
+.navBarItems:hover {
     background-color: white;
 }

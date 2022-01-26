@@ -1,6 +1,6 @@
 function ContactView() {
-    return(
-        <h1>Contact</h1>
+    return (
+        <h1>ContactView</h1>
     )
 }
 

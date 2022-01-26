@@ -1,8 +1,7 @@
-import './utils/global/css/global.css';
-import Routing from './utils/router/Routing'
-import NavBar from './components/navBar/NavBar'
-import Header from "./components/header/Header"
-
+import './utils/global/css/global.css'
+import Header from "./components/header/Header";
+import Routing from "./utils/router/Routing";
+import NavBar from "./components/navBar/NavBar";
 
 function App() {
     return (
@@ -12,7 +11,7 @@ function App() {
                 <NavBar/>
             </Routing>
         </>
-    )
+    );
 }
 
 export default App;

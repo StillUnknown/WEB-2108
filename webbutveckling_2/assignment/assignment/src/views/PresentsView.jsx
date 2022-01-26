@@ -1,6 +1,6 @@
 function PresentsView() {
     return (
-        <h1>Presents</h1>
+        <h1>PresentsView</h1>
     )
 }
 

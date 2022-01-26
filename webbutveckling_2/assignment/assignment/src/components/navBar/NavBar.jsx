@@ -6,24 +6,24 @@ function NavBar() {
     return (
         <nav>
             <ul className={css.navbar}>
-                <li className={css.navItems}>
-                    <Link
-                        to={RoutingPath.albumsView}>Our albums</Link></li>
-                <li className={css.navItems}>
-                    <Link
-                        to={RoutingPath.newAlbumsView}>New albums</Link></li>
-                <li className={css.navItems}>
-                    <Link
-                        to={RoutingPath.offersView}>Offers</Link></li>
-                <li className={css.navItems}>
-                    <Link
-                        to={RoutingPath.hitlistView}>Hitlist</Link></li>
-                <li className={css.navItems}>
-                    <Link
-                        to={RoutingPath.presentsView}>Presents</Link></li>
-                <li className={css.navItems}>
-                    <Link
-                        to={RoutingPath.contactView}>Contact</Link></li>
+                <li className={css.navBarItems}>
+                    <Link to={RoutingPath.homeView}>Home</Link>
+                </li>
+                <li className={css.navBarItems}>
+                    <Link to={RoutingPath.albumsView}>Our Albums</Link>
+                </li>
+                <li className={css.navBarItems}>
+                    <Link to={RoutingPath.newAlbumsView}>New Albums</Link>
+                </li>
+                <li className={css.navBarItems}>
+                    <Link to={RoutingPath.offersView}>Offers</Link>
+                </li>
+                <li className={css.navBarItems}>
+                    <Link to={RoutingPath.hitListView}>HitList</Link>
+                </li>
+                <li className={css.navBarItems}>
+                    <Link to={RoutingPath.contactView}>Contact</Link>
+                </li>
             </ul>
         </nav>
     )

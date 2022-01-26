@@ -1,6 +1,6 @@
 function OffersView() {
     return (
-        <h1>Offer</h1>
+        <h1>OffersView</h1>
     )
 }
 

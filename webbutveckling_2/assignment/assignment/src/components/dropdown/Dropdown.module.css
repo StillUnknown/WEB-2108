@@ -42,3 +42,8 @@
 .show {
     display: block;
 }
+
+.logo {
+    height: 70px;
+    margin: 1em;
+}

@@ -1,9 +1,9 @@
 const RoutingPath = {
     homeView: '/',
-    albumsView: '/album',
+    albumsView: '/albums',
     newAlbumsView: '/newAlbums',
     offersView: '/offers',
-    hitlistView: '/hitlist',
+    hitListView: '/hitList',
     presentsView: '/presents',
     contactView: '/contact'
 }
