@@ -1,0 +1,44 @@
+.dropdownButton {
+    cursor: pointer;
+    margin: 2em;
+}
+
+.dropdownButton:hover {
+    background-color: aqua;
+}
+
+.imgInCart {
+    width: 75px;
+    height: 75px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, purple, red);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 1em;
+    font-size: 1em
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 0.75em 1em;
+}
+
+.dropdown a:hover {
+    background-color: aqua;
+}
+
+.show {
+    display: block;
+}
