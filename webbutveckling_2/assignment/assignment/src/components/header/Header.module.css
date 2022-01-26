@@ -1,0 +1,20 @@
+header {
+    height: auto;
+    width: auto;
+    background: #303F9F;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 40px;
+}
+
+
+.header {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.logo {
+    height: 70px;
+    margin: 1em;
+}

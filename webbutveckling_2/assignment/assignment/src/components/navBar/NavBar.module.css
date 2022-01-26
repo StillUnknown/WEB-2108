@@ -1,0 +1,23 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItems {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.navbarItem:hover {
+    background-color: white;
+}
