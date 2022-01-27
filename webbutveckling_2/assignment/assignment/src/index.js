@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './utils/global/css/global.css';
 import App from './App';
+import 'tachyons'
 
 ReactDOM.render(
     <React.StrictMode>
