@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import RoutingPath from "../../utils/router/RoutingPath";
+import RoutingPath from "../../router/RoutingPath";
 import css from './NavBar.module.css'
 
 function NavBar() {
