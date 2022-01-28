@@ -8,10 +8,7 @@ function Header() {
             <section className={css.header}>
                 <img src={logo} className={css.logo} alt="logo"/>
             </section>
-            <section className={css.header}><label htmlFor="Håkan Hellström">Search album: </label><input type="text"
-                                                                                                          id="Håkan Hellström"
-                                                                                                          value="Håkan Hellström"/>
-                <button onClick="searchButton()">Search</button>
+            <section className={css.header}>
             </section>
             <div className={css.header}>
                 <Dropdown/>

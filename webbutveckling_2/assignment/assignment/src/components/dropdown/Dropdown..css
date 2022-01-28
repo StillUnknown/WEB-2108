@@ -1,15 +1,21 @@
-.dropdownButton {
+.dropdown-button {
     cursor: pointer;
     margin: 2em;
 }
 
-.dropdownButton:hover {
+.dropdown-button:hover {
     background-color: aqua;
 }
 
-.imgInCart {
+.img-in-cart {
     width: 75px;
     height: 75px;
+}
+
+.dropdown-content {
+    padding: 1em;
+    font-size: 1em
+
 }
 
 .dropdown {
@@ -18,7 +24,7 @@
     text-align: center;
 }
 
-.dropdownContent {
+.dropdown-content {
     display: none;
     position: absolute;
     background: linear-gradient(to right, purple, red);
@@ -26,11 +32,9 @@
     overflow: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
-    padding: 1em;
-    font-size: 1em
 }
 
-.dropdownContent a {
+.dropdown-content a {
     color: black;
     padding: 0.75em 1em;
 }
@@ -41,9 +45,4 @@
 
 .show {
     display: block;
-}
-
-.logo {
-    height: 70px;
-    margin: 1em;
 }
