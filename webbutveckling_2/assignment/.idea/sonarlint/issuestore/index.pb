@@ -1,20 +1,14 @@
 
 E
 assignment/.gitignore,d\6\d6e71db3d8835d7d320b753703f2e1ad7aa9acfd
-f
-6assignment/src/components/dropdown/Dropdown.module.css,7\2\72c837ebf2329262381d0a7d8dd4c50f57aaa759
 b
 2assignment/src/components/header/Header.module.css,c\d\cd598d2d96bd97979689130a68f65d6dd553b940
 b
 2assignment/src/components/navBar/NavBar.module.css,8\3\8378fc84a1c61edb7cc52fa0955fba722bf3a1cf
 L
 assignment/public/robots.txt,1\2\1237b0b03b0074131b9572863a5a2b682c0be565
-W
-'assignment/src/components/cart/Cart.jsx,6\f\6ff34bb81c884978390162f9363793dea9d8512e
 T
 $assignment/src/views/ContactView.jsx,e\1\e13c7a1017e7f5c77264b9c52e2c545744938696
-[
-+assignment/src/components/header/Header.jsx,9\3\9373670f254ffb89cedfdf437bcc105af36fd357
 L
 assignment/public/index.html,0\b\0b6b5bb47dabe3552e9ab445d3a22dd10f4f2e21
 Z
@@ -35,3 +29,27 @@ O
 assignment/public/manifest.json,3\b\3b44d2445ee00146957f0934682267376525fd52
 [
 +assignment/src/components/navBar/NavBar.jsx,c\2\c231e31489ef7c21451836126b88b050bc948795
+T
+$assignment/src/router/RoutingPath.js,8\b\8b735b563edd3b356df25f9c9946fce6810d6f87
+Q
+!assignment/src/router/Routing.jsx,0\f\0fff1ae925ceeff6b566bd0c251341d6ac3ba316
+G
+assignment/package.json,9\b\9bb2db4e70424fa873567a2f43293794f0a3e84d
+L
+assignment/package-lock.json,2\e\2e307303490edec10f886349a85194bef3348b1c
+G
+assignment/src/index.js,9\d\9d0e0aabccfdef6ed305554d24e3892dbe4e1efc
+V
+&assignment/src/components/card/Card.js,4\2\42a1c93efdcb2cd292becc0a547ee6121f4cb621
+Z
+*assignment/src/components/card/CardList.js,e\7\e768a642ab1b290404fa17b9324788ebddd62f70
+W
+'assignment/src/utils/data/AlbumsData.js,f\b\fb23f5254fdb24087b16c1af96f362b08d70c307
+`
+0assignment/src/components/searchBox/SearchBox.js,9\b\9b7c30e4349b122f6f5c51c938430a82841c326d
+S
+#assignment/src/views/AlbumsView.jsx,b\d\bd44cfbab1aeb0f356205ffbbc13f970bc6fe752
+[
++assignment/src/components/header/Header.jsx,9\3\9373670f254ffb89cedfdf437bcc105af36fd357
+_
+/assignment/src/components/dropdown/Dropdown.jsx,7\e\7e51ad89f6aeb610c5d8e909a8b796f05cde9d23
