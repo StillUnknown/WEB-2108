@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import RoutingPath from "./RoutingPath";
 import HomeView from '../views/HomeView';
 import AlbumsView from "../views/AlbumsView";

@@ -1,5 +1,3 @@
-import Varukorg from "../components/dropdown/Varukorg";
-
 function HomeView() {
     return (
         <>
