@@ -1,6 +1,6 @@
 
 
-const SearchBox = ({setSearchField}) => {
+const SearchBox = ({ setSearchField }) => {
 
     return (
         <div className='pa2'>
