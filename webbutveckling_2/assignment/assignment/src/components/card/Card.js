@@ -1,6 +1,6 @@
 import css from './Card.module.css'
 
-const Card = ({ id, image, title, price }) => {
+const Card = ({ image, title, price }) => {
     return (
         <article className='tc bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
             <div>

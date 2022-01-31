@@ -3,15 +3,12 @@ import './Cart.css'
 
 function Cart() {
 
-    function openCart(cartItems) {
+    function openCart() {
         document.getElementById('cart')
             .classList.toggle('show')
     }
 
-    function closeCart() {
-        document.getElementById('cart')
-            .classList.toggle('show', false)
-    }
+
 
     function purchaseAlert() {
         alert('Your purchase was denied you poor thing!')
@@ -26,7 +23,7 @@ function Cart() {
                     </button>
                     <section id="cart" className="dropdown-content">
                         <div>Cart Items</div>
-                        <button onClick={closeCart}>Close</button>
+                        <button onClick={openCart}>Close</button>
                         <button onClick={purchaseAlert}>Checkout</button>
                     </section>
                 </section>
