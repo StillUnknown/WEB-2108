@@ -14,6 +14,7 @@ function Header() {
             <section className={ css.header }>
             </section>
             <div className={css.header}>
+                <p data-testid='cart'>Cart</p>
                 <Cart/>
             </div>
         </header>
