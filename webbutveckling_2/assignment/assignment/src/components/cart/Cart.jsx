@@ -3,10 +3,7 @@ import './Cart.css'
 
 function Cart() {
 
-    function openCart() {
-        document.getElementById('cart')
-            .classList.toggle('show')
-    }
+
 
 
 
@@ -18,12 +15,12 @@ function Cart() {
         <>
             <div className="header">
                 <section className="dropdown">
-                    <img src={cart} alt='cart' className='logo' onClick={openCart}/>
-                    <button className="dropdown-button" onClick={openCart}>Open Cart
+                    <img src={cart} alt='cart' className='logo' onClick={}/>
+                    <button className="dropdown-button" onClick={}>Open Cart
                     </button>
                     <section id="cart" className="dropdown-content">
                         <div>Cart Items</div>
-                        <button onClick={openCart}>Close</button>
+                        <button onClick={}>Close</button>
                         <button onClick={purchaseAlert}>Checkout</button>
                     </section>
                 </section>
