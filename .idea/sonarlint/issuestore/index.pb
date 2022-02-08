@@ -317,3 +317,25 @@ Iwebbutveckling_2/Lektioner/2022-01-25/fetch-axios/src/views/FetchView.jsx,a\f\
 Mwebbutveckling_2/Lektioner/2022-01-25/fetch-axios/src/utils/api/pokemonAPI.js,5\c\5cb34e3a89cc0fdb8d51d0d5491373096663565e
 ‰
 Ywebbutveckling_2/Lektioner/2022-01-25/fetch-axios/src/utils/api/service/PokemonService.js,8\d\8dc8b20536ecf3897c64ca5a331082d8273b4b5c
+q
+AWebbserverprogrammering_1/Lektioner/2022-02-08/second_server/.env,a\a\aadbbd42f7bf9e5ff1363d6ec2f436d794529dbb
+p
+@Webbserverprogrammering_1/Lektioner/2022-02-08/third_server/.env,1\e\1e3bdb189889ef55a67a336301a7dd3ae66bbf3c
+z
+JWebbserverprogrammering_1/Lektioner/2022-02-08/second_server/.env_templete,6\4\64d0e02edf855e2bdbb6677a5d06eb16c753e0ef
+y
+IWebbserverprogrammering_1/Lektioner/2022-02-08/third_server/.env_templete,5\f\5fc541da3c9dd89af99d2488cf16e6f38c64f60e
+9
+	gitignore,6\f\6f819b366cb83f2e62d7b8b23b65c2e28c01306a
+y
+IWebbserverprogrammering_1/Lektioner/2022-02-08/second_server/package.json,2\6\26973359b11b5a66a4a3dfc16c8a0b7d11f1a8b7
+x
+HWebbserverprogrammering_1/Lektioner/2022-02-08/third_server/package.json,1\8\18e5f4c35cad4747d19a6a0b545a537a73cb68e4
+~
+NWebbserverprogrammering_1/Lektioner/2022-02-08/second_server/package-lock.json,a\6\a681159570b6a7cfd8a74cc8c8380b46df3dbcb9
+}
+MWebbserverprogrammering_1/Lektioner/2022-02-08/third_server/package-lock.json,0\7\074ecf7baac42d0ab115070466dcd86e2cd8af78
+u
+EWebbserverprogrammering_1/Lektioner/2022-02-08/second_server/index.js,a\d\ad0da9696f1fa0b5bfd3089a9495cda531dfa7b9
+t
+DWebbserverprogrammering_1/Lektioner/2022-02-08/third_server/index.js,c\f\cf9d5d431e5656ba4a936852aa4cd4d49b4b9982
