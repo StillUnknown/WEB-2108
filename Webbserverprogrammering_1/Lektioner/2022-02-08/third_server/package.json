@@ -1,7 +1,7 @@
 {
-  "name": "second_server",
+  "name": "third_server",
   "version": "1.0.0",
-  "description": "Node, express",
+  "description": "Third Server",
   "main": "index.js",
   "type": "module",
   "scripts": {
