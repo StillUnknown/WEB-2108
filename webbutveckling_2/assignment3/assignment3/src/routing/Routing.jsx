@@ -3,7 +3,7 @@ import RoutingPath from "./RoutingPath";
 import HomeView from '../views/homeView/HomeView';
 import AlbumsView from "../views/albumsView/AlbumsView";
 import ContactView from "../views/ContactView";
-import HelpersView from "../views/HelpersView";
+import HelpersView from "../views/helpersView/HelpersView";
 import OffersView from "../views/OffersView";
 import VideoView from "../views/videoView/VideoView";
 
