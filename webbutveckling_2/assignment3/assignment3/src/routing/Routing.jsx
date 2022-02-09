@@ -3,7 +3,7 @@ import RoutingPath from "./RoutingPath";
 import HomeView from '../views/homeView/HomeView';
 import AlbumsView from "../views/albumsView/AlbumsView";
 import ContactView from "../views/ContactView";
-import NewAlbumsView from "../views/NewAlbumsView";
+import HelpersView from "../views/HelpersView";
 import OffersView from "../views/OffersView";
 import VideoView from "../views/videoView/VideoView";
 
@@ -17,7 +17,7 @@ const Routing = (props) => {
                 <Route path={RoutingPath.albumsView} element={<AlbumsView/>}/>
                 <Route path={RoutingPath.contactView} element={<ContactView/>}/>
                 <Route path={RoutingPath.videoView} element={<VideoView/>}/>
-                <Route path={RoutingPath.newAlbumsView} element={<NewAlbumsView/>}/>
+                <Route path={RoutingPath.helpers} element={<HelpersView/>}/>
                 <Route path={RoutingPath.offersView} element={<OffersView/>}/>
             </Routes>
         </BrowserRouter>

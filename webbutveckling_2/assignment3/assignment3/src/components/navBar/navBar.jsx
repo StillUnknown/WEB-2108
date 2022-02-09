@@ -12,8 +12,8 @@ function NavBar() {
                 <Link to={RoutingPath.albumsView} className={css.navBarItems}>
                     <li>Our albums</li>
                 </Link>
-                <Link to={RoutingPath.newAlbumsView} className={css.navBarItems}>
-                    <li>New albums</li>
+                <Link to={RoutingPath.helpers} className={css.navBarItems}>
+                    <li>Helpers</li>
                 </Link>
                 <Link to={RoutingPath.offersView} className={css.navBarItems}>
                     <li>Offers</li>

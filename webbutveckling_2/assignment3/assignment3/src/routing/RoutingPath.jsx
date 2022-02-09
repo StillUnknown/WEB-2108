@@ -1,7 +1,7 @@
 const RoutingPath = {
     homeView: '/',
     albumsView: '/albums',
-    newAlbumsView: '/newAlbums',
+    helpers: '/helpers',
     offersView: '/offers',
     videoView: '/video',
     presentsView: '/presents',
