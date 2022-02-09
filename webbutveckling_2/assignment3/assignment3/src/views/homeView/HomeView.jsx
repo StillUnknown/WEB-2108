@@ -10,6 +10,9 @@ function HomeView() {
             <p>
                 Under "Video" you'll find a surprice!
             </p>
+            <p>
+                Under "Helpers" you'll find three people who helped me a lot with this assignment
+            </p>
         </div>
     )
 }
