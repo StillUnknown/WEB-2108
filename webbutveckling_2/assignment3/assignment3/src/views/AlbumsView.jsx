@@ -6,7 +6,7 @@ function AlbumsView() {
 
     return (
         <main className='tc'>
-            <h1 className='robo-logo f1'>Albums</h1>
+            <h1 className='robo-logo f1' data-testid='header'>Albums</h1>
             <CardList dataAlbum={dataAlbum} />
         </main>
     )

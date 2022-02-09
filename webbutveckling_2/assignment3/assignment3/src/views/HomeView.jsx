@@ -1,7 +1,7 @@
 function HomeView() {
     return (
         <>
-            <h1>HomeView</h1>
+            <h1 data-testid='header'>HomeView</h1>
         </>
     )
 }

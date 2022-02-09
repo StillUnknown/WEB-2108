@@ -1,6 +1,6 @@
 function HitListView() {
     return (
-        <h1>HitList</h1>
+        <h1 data-testid='header'>HitList</h1>
     )
 }
 

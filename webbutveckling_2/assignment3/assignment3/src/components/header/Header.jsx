@@ -1,6 +1,7 @@
-import { useState } from "react";
+import {useState} from "react";
 import logoShop from '../../utils/img/shoppingcart.PNG'
-import { FaCartArrowDown } from "react-icons/fa";
+import {FaCartArrowDown} from "react-icons/fa";
+import logo from '../../utils/img/logo.PNG'
 
 import css from "./Header.module.css";
 import ShoppingCartList from "../shoppingCart/ShoppingCartList";
@@ -9,15 +10,8 @@ import ShoppingCartList from "../shoppingCart/ShoppingCartList";
 function Header(props) {
     const [cartIsOpen, setCartIsOpen] = useState(false);
 
-    function cartHandler() {
-        setCartIsOpen(true);
-        // console.log('clicked')
-    }
-
-    function closeCartHandler() {
-        if (cartIsOpen === true) {
-            setCartIsOpen(false);
-        }
+    function toggleMenu() {
+        setCartIsOpen(!cartIsOpen)
     }
 
     function messageExitPayment() {
@@ -25,30 +19,31 @@ function Header(props) {
     }
 
     return (
-        <header >
+        <header>
             <div className={css.gridContainerHeader}>
                 <div className={css.logo}>
-                    <img src={logoShop} alt="Logo Amoeba"/>
+                    <img src={logo} alt="logo"/>
                 </div>
                 <div className={css.title}>
                     <h1 data-testid='header'>AMOEBA STORE: The Best Music</h1>
                 </div>
                 <div className={css.checkOut}>
                     <div>
+                        <img src={logoShop} onClick={toggleMenu} alt='cartlogo'/>
+                        <br/>
                         <button data-testid='openBtnCart'
                                 onClick={() => {
-                                    cartHandler()
-                                    closeCartHandler()
+                                    toggleMenu()
                                 }} className={css.checkoutDropdownButton}>
                             <FaCartArrowDown/>
                             <span data-testid='btnCart' className={css.label}>ShopCart</span></button>
                     </div>
-                    {cartIsOpen && <ShoppingCartList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
+                    {cartIsOpen && <ShoppingCartList onCancel={toggleMenu} onConfirm={messageExitPayment}/>}
                 </div>
             </div>
             <div className={css.searchArea}>
                 <input data-testid='input' type="text" placeholder='artist name, keywords'/>
-                <button data-testid='btnSearch' >SEARCH</button>
+                <button data-testid='btnSearch'>SEARCH</button>
             </div>
         </header>
     )

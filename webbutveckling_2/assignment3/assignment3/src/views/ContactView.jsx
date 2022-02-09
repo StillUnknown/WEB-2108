@@ -1,6 +1,6 @@
 function ContactView() {
     return (
-        <h1>ContactView</h1>
+        <h1 data-testid='header'>ContactView</h1>
     )
 }
 
