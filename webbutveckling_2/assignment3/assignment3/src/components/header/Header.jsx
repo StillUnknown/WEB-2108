@@ -3,7 +3,7 @@ import logoShop from '../../utils/img/shoppingcart.PNG'
 import { FaCartArrowDown } from "react-icons/fa";
 
 import css from "./Header.module.css";
-import BasketList from "../basket/BasketList";
+import ShoppingCartList from "../shoppingCart/ShoppingCartList";
 
 
 function Header(props) {
@@ -43,7 +43,7 @@ function Header(props) {
                             <FaCartArrowDown/>
                             <span data-testid='btnCart' className={css.label}>ShopCart</span></button>
                     </div>
-                    {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
+                    {cartIsOpen && <ShoppingCartList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
                 </div>
             </div>
             <div className={css.searchArea}>

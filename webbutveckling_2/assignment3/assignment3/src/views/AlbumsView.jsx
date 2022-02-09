@@ -1,5 +1,5 @@
 import CardList from "../components/card/CardList";
-import dataProducts from "../utils/data/dataProducts";
+import dataAlbum from "../utils/data/dataAlbum";
 
 
 function AlbumsView() {
@@ -7,7 +7,7 @@ function AlbumsView() {
     return (
         <main className='tc'>
             <h1 className='robo-logo f1'>Albums</h1>
-            <CardList albumsData={dataProducts} />
+            <CardList dataAlbum={dataAlbum} />
         </main>
     )
 }

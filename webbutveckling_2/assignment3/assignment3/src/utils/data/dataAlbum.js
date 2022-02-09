@@ -7,41 +7,41 @@ import picSix from '../img/hardstyle-six.PNG'
 import picSeven from '../img/hardstyle-seven.PNG'
 import picEight from '../img/HåkanHellström.PNG'
 
-const dataProducts = [
+const dataAlbum = [
     {
         id: 1,
         image: picOne,
-        title: 'Abcdef',
+        name: 'Abcdef',
         price: 79,
     },
     {
         id: 2,
         image: picTwo,
-        title: 'Cdefgh',
+        name: 'Cdefgh',
         price: 57,
     },
     {
         id: 3,
         image: picthree,
-        title: 'Efghij',
+        name: 'Efghij',
         price: 63,
     },
     {
         id: 4,
         image: picFour,
-        title: 'Ghijkl',
+        name: 'Ghijkl',
         price: 44,
     },
     {
         id: 5,
         image: picFive,
-        title: 'Ijklmn',
+        name: 'Ijklmn',
         price: 20,
     },
     {
         id: 6,
         image: picSix,
-        title: 'Klmnop',
+        name: 'Klmnop',
         price: 23,
     },
     {
@@ -53,21 +53,21 @@ const dataProducts = [
     {
         id: 8,
         image: picEight,
-        title: 'Opqrst',
+        name: 'Opqrst',
         price: 1,
     },
     {
         id: 9,
         image: picOne,
-        title: 'Qrstuv',
+        name: 'Qrstuv',
         price: 55,
     },
     {
         id: 10,
         image: picTwo,
-        title: 'Stuvxy',
+        name: 'Stuvxy',
         price: 11,
     },
 ]
 
-export default dataProducts
+export default dataAlbum

@@ -1,25 +1,20 @@
 import CardItem from "./CardItem";
-import dataProducts from "../../utils/data/dataProducts";
 
 
-const CardList = (props) => {
+export default function CardList({dataAlbum}) {
     return (
-        <div className='tc ba b--red br3 pa3'>
+        <>
             {
-                dataProducts.map((user, index) => {
+                dataAlbum.map((user, index) => {
                     return (
-                        <CardItem key={ index }
-                                  id={ dataProducts[index].id }
-                                  image={ dataProducts[index].image }
-                                  artist={ dataProducts[index].artist }
-                                  album={ dataProducts[index].album }
-                                  price={ dataProducts[index].price }
-                        />
+                        <CardItem key={index}
+                                  id={dataAlbum[index].id}
+                                  image={dataAlbum[index].image}
+                                  name={dataAlbum[index].name}
+                                  price={dataAlbum[index].price}/>
                     )
                 })
             }
-        </div>
+        </>
     )
 }
-
-export default CardList
