@@ -25,7 +25,7 @@ export default function CardItem(props) {
     }
 
     return (
-        <article>
+        <article className='tc bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
             <div>
                 <img className={ css.image } src={props.image} alt={props.name}/>
             </div>

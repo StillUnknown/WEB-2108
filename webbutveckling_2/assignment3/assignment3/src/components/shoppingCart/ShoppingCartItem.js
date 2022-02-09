@@ -1,44 +1,52 @@
-import { useContext} from "react";
-import AlbumContext from "../../context/AlbumContext";
 import css from './ShoppingCartItem.module.css'
+import {useContext} from "react";
+import AlbumContext from "../../context/AlbumContext";
+
 
 export default function ShoppingCartItem(props) {
     const productOnCartCtx = useContext(AlbumContext);
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
-    const itemInCart = productOnCartCtx.itemInCart(props.id);
 
-    function toggleProductOnCartStatusHandler(){
+    function removeProductInCartHandler() {
         if (itemIsOnCart) {
-            const increasedByOne = itemInCart.quantity + 1;
-            productOnCartCtx.updateProduct(props.id, increasedByOne)
-        } else {
-            productOnCartCtx.addProduct({
-                id: props.id,
-                image: props.image,
-                name: props.name,
-                price: props.price,
-                quantity: 1,
-                totalSum: props.price
-            });
+            productOnCartCtx.removeProduct(props.id)
+        }
+    }
+
+    function updateProductInCartHandler(newValue) {
+        console.log(newValue);
+        if (itemIsOnCart) {
+            productOnCartCtx.updateProduct(props.id, newValue);
         }
     }
 
     return (
-        <article>
-            <div>
-                <img className={ css.image } src={props.image} alt={props.name}/>
-            </div>
-            <div>
-                <h3>{props.name}</h3>
-                <p data-testid='name'>{props.price}Kr</p>
-            </div>
-            <div>
-                <button data-testid='buy'
-                        className={ css.byeButton }
-                        id={props.id}
-                        onClick={toggleProductOnCartStatusHandler}>Köp</button>
-            </div>
-        </article>
+        <div>
+            <ul>
+                <section className={css.gridContainer}>
+                    <article>
+                    </article>
+                    <article>
+                        <img
+                            src={props.image}
+                            alt={props.name}
+                            className={css.imageCart}/>
+                        <h3>Namn: {props.name}</h3>
+                    </article>
+                    <article>
+                        <input data-testid='input'
+                               onChange={(e) => updateProductInCartHandler(Number(e.target.value))}
+                               className={css.input}
+                               type="number"
+                               min='0'
+                               value= {props.quantity}/>
+                    </article>
+                    <article>
+                        <h3>Pris: {props.totalSum} :- </h3>
+                    </article>
+                </section>
+            </ul>
+        </div>
     )
 }
