@@ -1,4 +1,4 @@
-import AlbumsView from "../../views/AlbumsView";
+import AlbumsView from "../../views/albumsView/AlbumsView";
 import {fireEvent, render} from "@testing-library/react";
 
 let getByTestId

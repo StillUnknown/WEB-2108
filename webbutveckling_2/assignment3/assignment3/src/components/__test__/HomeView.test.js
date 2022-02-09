@@ -1,4 +1,4 @@
-import HomeView from "../../views/HomeView";
+import HomeView from "../../views/homeView/HomeView";
 import {fireEvent, render} from "@testing-library/react";
 
 let getByTestId

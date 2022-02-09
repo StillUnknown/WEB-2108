@@ -1,8 +1,5 @@
 import {useState} from "react";
-import logoShop from '../../utils/img/shoppingcart.PNG'
 import {FaCartArrowDown} from "react-icons/fa";
-import logo from '../../utils/img/logo.PNG'
-
 import css from "./Header.module.css";
 import ShoppingCartList from "../shoppingCart/ShoppingCartList";
 
@@ -21,23 +18,22 @@ function Header() {
     return (
         <header>
             <div className={css.gridContainerHeader}>
-                <div>
-                    <img src={logo} className={css.logo} alt="logo"/>
+                <div className={css.centerText}>
+                    <h1>StillUnknowns</h1>
+                    <h1>Webshop</h1>
                 </div>
                 <div className={css.title}>
                     <input data-testid='input' type="text" placeholder='artist name, keywords'/>
                     <button data-testid='btnSearch'>SEARCH</button>
                 </div>
                 <div className={css.checkOut}>
-                    <div>
-                        <img src={logoShop} className={css.logoCursor} onClick={toggleMenu} alt='cartlogo'/>
-                        <br/>
+                    <div className={css.alignVertically}>
                         <button data-testid='openBtnCart'
                                 onClick={() => {
                                     toggleMenu()
                                 }} className={css.checkoutDropdownButton}>
                             <FaCartArrowDown/>
-                            <span data-testid='btnCart' className={css.label}>ShopCart</span></button>
+                            <span data-testid='btnCart' className={css.label}>Cart</span></button>
                     </div>
                     {cartIsOpen && <ShoppingCartList onCancel={toggleMenu} onConfirm={messageExitPayment}/>}
                 </div>

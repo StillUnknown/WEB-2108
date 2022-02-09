@@ -36,7 +36,6 @@ export default function ShoppingCartList(props) {
                             )
                         })
                     }
-                    <hr className={css.hr}/>
                     <section className={css.totalSum}>
                         <h3>Antal: {productOnCartCtx.totalAlbumInCart}</h3>
                     </section>
@@ -44,11 +43,11 @@ export default function ShoppingCartList(props) {
                         <h3>Totalsumma: {productOnCartCtx.totalSumInCart}</h3>
                     </section>
                     <article>
-                        <h3>{productOnCartCtx.totalSumInCart >= 259 ? 'Du har nu fri frakt!' : (259 - productOnCartCtx.totalSumInCart) + 'kr kvar till fri frakt'}</h3>
+                        <h3>{productOnCartCtx.totalSumInCart >= 259 ? 'You have free shipping!' : (259 - productOnCartCtx.totalSumInCart) + ' kr left for fre shipping'}</h3>
                     </article>
                     <section className={css.endButton}>
                         <button className={css.closeButton} onClick={cancelHandler}>
-                            X
+                            Close
                         </button>
                         <button data-testid='pay' className={css.payButton} onClick={pay}>
                             Betala

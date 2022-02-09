@@ -26,7 +26,7 @@ export default function ShoppingCartItem(props) {
             <ul>
                 <section className={css.gridContainer}>
                     <article>
-                        <button onClick={removeProductInCartHandler}>X</button>
+                        <button className={css.verticallyAlign} onClick={removeProductInCartHandler}>X</button>
                     </article>
                     <article>
                         <img
@@ -41,12 +41,13 @@ export default function ShoppingCartItem(props) {
                                className={css.input}
                                type="number"
                                min='0'
-                               value= {props.quantity}/>
+                               value={props.quantity}/>
                     </article>
                     <article>
-                        <h3>Pris: {props.totalSum} :- </h3>
+                        <h3>Price: {props.totalSum} :- </h3>
                     </article>
                 </section>
+                <hr className={css.hr}/>
             </ul>
         </div>
     )

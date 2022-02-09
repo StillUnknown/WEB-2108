@@ -3,7 +3,7 @@ const RoutingPath = {
     albumsView: '/albums',
     newAlbumsView: '/newAlbums',
     offersView: '/offers',
-    hitListView: '/hitList',
+    videoView: '/video',
     presentsView: '/presents',
     contactView: '/contact'
 }

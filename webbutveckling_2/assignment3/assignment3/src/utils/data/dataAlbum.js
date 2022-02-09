@@ -47,26 +47,14 @@ const dataAlbum = [
     {
         id: 7,
         image: picSeven,
-        title: 'Mnopqr',
+        name: 'Mnopqr',
         price: 41,
     },
     {
         id: 8,
         image: picEight,
         name: 'Opqrst',
-        price: 1,
-    },
-    {
-        id: 9,
-        image: picOne,
-        name: 'Qrstuv',
-        price: 55,
-    },
-    {
-        id: 10,
-        image: picTwo,
-        name: 'Stuvxy',
-        price: 11,
+        price: 21,
     },
 ]
 

@@ -6,7 +6,6 @@ function NavBar() {
     return (
         <nav>
             <ul className={css.navbar}>
-
                 <Link to={RoutingPath.homeView} className={css.navBarItems}>
                     <li>Home</li>
                 </Link>
@@ -19,8 +18,8 @@ function NavBar() {
                 <Link to={RoutingPath.offersView} className={css.navBarItems}>
                     <li>Offers</li>
                 </Link>
-                <Link to={RoutingPath.hitListView} className={css.navBarItems}>
-                    <li>Hitlist</li>
+                <Link to={RoutingPath.videoView} className={css.navBarItems}>
+                    <li>Video</li>
                 </Link>
                 <Link to={RoutingPath.contactView} className={css.navBarItems}>
                     <li>Contact</li>
