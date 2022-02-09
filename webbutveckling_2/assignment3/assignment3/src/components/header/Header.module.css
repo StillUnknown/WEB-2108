@@ -36,6 +36,12 @@
     padding-left: 8px;
 }
 
+.logoCursor {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
 .logo {
     width: 100px;
     height: 100px;

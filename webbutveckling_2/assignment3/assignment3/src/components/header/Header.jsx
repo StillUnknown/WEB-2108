@@ -30,7 +30,7 @@ function Header() {
                 </div>
                 <div className={css.checkOut}>
                     <div>
-                        <img src={logoShop} className={css.logo} onClick={toggleMenu} alt='cartlogo'/>
+                        <img src={logoShop} className={css.logoCursor} onClick={toggleMenu} alt='cartlogo'/>
                         <br/>
                         <button data-testid='openBtnCart'
                                 onClick={() => {
