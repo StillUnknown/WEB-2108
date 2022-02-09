@@ -43,7 +43,7 @@ export default function ShoppingCartList(props) {
                         <h3>Totalsumma: {productOnCartCtx.totalSumInCart}</h3>
                     </section>
                     <article>
-                        <h3>{productOnCartCtx.totalSumInCart >= 259 ? 'You have free shipping!' : (259 - productOnCartCtx.totalSumInCart) + ' kr left for fre shipping'}</h3>
+                        <h3>{productOnCartCtx.totalSumInCart >= 259 ? 'You have free shipping!' : (259 - productOnCartCtx.totalSumInCart) + ' $ left for fre shipping'}</h3>
                     </article>
                     <section className={css.endButton}>
                         <button className={css.closeButton} onClick={cancelHandler}>

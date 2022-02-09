@@ -19,8 +19,8 @@ function Header() {
         <header>
             <div className={css.gridContainerHeader}>
                 <div className={css.centerText}>
-                    <h1>StillUnknowns</h1>
-                    <h1>Webshop</h1>
+                    <h1 className={css.h1MarginTop}>StillUnknowns</h1>
+                    <h1 className={css.h1}>Webshop</h1>
                 </div>
                 <div className={css.title}>
                     <input data-testid='input' type="text" placeholder='artist name, keywords'/>
@@ -32,7 +32,7 @@ function Header() {
                                 onClick={() => {
                                     toggleMenu()
                                 }} className={css.checkoutDropdownButton}>
-                            <FaCartArrowDown/>
+                            <FaCartArrowDown className={css.cart}/>
                             <span data-testid='btnCart' className={css.label}>Cart</span></button>
                     </div>
                     {cartIsOpen && <ShoppingCartList onCancel={toggleMenu} onConfirm={messageExitPayment}/>}

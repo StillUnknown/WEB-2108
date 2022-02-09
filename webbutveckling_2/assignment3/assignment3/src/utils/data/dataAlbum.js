@@ -11,13 +11,13 @@ const dataAlbum = [
     {
         id: 1,
         image: picOne,
-        name: 'Abcdef',
+        name: 'Warspite',
         price: 79,
     },
     {
         id: 2,
         image: picTwo,
-        name: 'Cdefgh',
+        name: 'Mekrolos',
         price: 57,
     },
     {

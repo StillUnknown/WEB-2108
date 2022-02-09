@@ -1,3 +1,7 @@
 .alignCenter {
     text-align: center;
 }
+
+.iframeShadow {
+    box-shadow: 5px 10px 8px 10px #888888;
+}

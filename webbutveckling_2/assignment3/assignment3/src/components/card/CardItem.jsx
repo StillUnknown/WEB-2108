@@ -32,13 +32,13 @@ export default function CardItem(props) {
                 </div>
                 <div>
                     <h3>{props.name}</h3>
-                    <p data-testid='name'>{props.price}Kr</p>
+                    <p data-testid='name'>{props.price} $</p>
                 </div>
                 <div>
                     <button data-testid='buy'
                             className={css.byeButton}
                             id={props.id}
-                            onClick={toggleProductOnCartStatusHandler}>Köp
+                            onClick={toggleProductOnCartStatusHandler}>BUY
                     </button>
                 </div>
             </div>
