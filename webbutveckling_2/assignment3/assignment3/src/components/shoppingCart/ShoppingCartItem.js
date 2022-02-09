@@ -26,6 +26,7 @@ export default function ShoppingCartItem(props) {
             <ul>
                 <section className={css.gridContainer}>
                     <article>
+                        <button onClick={removeProductInCartHandler}>X</button>
                     </article>
                     <article>
                         <img

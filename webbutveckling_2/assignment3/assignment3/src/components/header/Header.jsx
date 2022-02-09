@@ -7,7 +7,7 @@ import css from "./Header.module.css";
 import ShoppingCartList from "../shoppingCart/ShoppingCartList";
 
 
-function Header(props) {
+function Header() {
     const [cartIsOpen, setCartIsOpen] = useState(false);
 
     function toggleMenu() {
@@ -21,15 +21,16 @@ function Header(props) {
     return (
         <header>
             <div className={css.gridContainerHeader}>
-                <div className={css.logo}>
-                    <img src={logo} alt="logo"/>
+                <div>
+                    <img src={logo} className={css.logo} alt="logo"/>
                 </div>
                 <div className={css.title}>
-                    <h1 data-testid='header'>AMOEBA STORE: The Best Music</h1>
+                    <input data-testid='input' type="text" placeholder='artist name, keywords'/>
+                    <button data-testid='btnSearch'>SEARCH</button>
                 </div>
                 <div className={css.checkOut}>
                     <div>
-                        <img src={logoShop} onClick={toggleMenu} alt='cartlogo'/>
+                        <img src={logoShop} className={css.logo} onClick={toggleMenu} alt='cartlogo'/>
                         <br/>
                         <button data-testid='openBtnCart'
                                 onClick={() => {
@@ -41,12 +42,8 @@ function Header(props) {
                     {cartIsOpen && <ShoppingCartList onCancel={toggleMenu} onConfirm={messageExitPayment}/>}
                 </div>
             </div>
-            <div className={css.searchArea}>
-                <input data-testid='input' type="text" placeholder='artist name, keywords'/>
-                <button data-testid='btnSearch'>SEARCH</button>
-            </div>
         </header>
-    )
+)
 
 }
 
