@@ -44,7 +44,7 @@ export default function ShoppingCartItem(props) {
                                value={props.quantity}/>
                     </article>
                     <article>
-                        <h3>Price: {props.totalSum} :- </h3>
+                        <h3>Price: {props.totalSum} $ </h3>
                     </article>
                 </section>
                 <hr className={css.hr}/>
