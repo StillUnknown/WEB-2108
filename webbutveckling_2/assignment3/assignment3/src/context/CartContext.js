@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-const AlbumContext = createContext({
+const CartContext = createContext({
     productOnCart: [],
     totalAlbumInCart: 0,
     totalSumInCart: 0,
@@ -11,7 +11,7 @@ const AlbumContext = createContext({
     itemInCart: (productId) => { }
 });
 
-export function AlbumContextProvider(props) {
+export function CartContextProvider(props) {
     //Album i varukorgen
     const [ itemsSelected, setItemsSelected] = useState([]);
 
@@ -54,7 +54,7 @@ export function AlbumContextProvider(props) {
     }
 
     //Tar bort album/antal/pris/totalsumma i varukorg
-    function removeProductOnCartHandler(productId) {
+    function removeProductFromCartHandler(productId) {
         //Temp variable för att lagra alla album från useState
         let currentItems = [];
 
@@ -120,7 +120,7 @@ export function AlbumContextProvider(props) {
     }
 
     //Kollar om albumet finns i varukorgen
-    function itemIsProductOnCartHandler(productId) {
+    function ifProductExistInCartAddToInputHandler(productId) {
         return itemsSelected.some(product => product.id === productId);
     }
 
@@ -134,17 +134,17 @@ export function AlbumContextProvider(props) {
         totalAlbumInCart: totalAlbum,
         totalSumInCart: totalSumInCart,
         addProduct: addProductOnCartHandler,
-        removeProduct: removeProductOnCartHandler,
+        removeProduct: removeProductFromCartHandler,
         updateProduct: updateProductOnCartHandler,
-        itemIsOnCart: itemIsProductOnCartHandler,
+        itemIsOnCart: ifProductExistInCartAddToInputHandler,
         itemInCart: productInCartHandler
     };
 
     return (
-        <AlbumContext.Provider value={ context }>
+        <CartContext.Provider value={ context }>
             {props.children}
-        </AlbumContext.Provider>
+        </CartContext.Provider>
     )
 }
 
-export default AlbumContext;
+export default CartContext;

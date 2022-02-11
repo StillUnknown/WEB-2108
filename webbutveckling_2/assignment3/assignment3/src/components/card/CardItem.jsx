@@ -1,9 +1,9 @@
 import {useContext} from "react";
-import AlbumContext from "../../context/AlbumContext";
+import CartContext from "../../context/CartContext";
 import css from './CardItem.module.css'
 
 export default function CardItem(props) {
-    const productOnCartCtx = useContext(AlbumContext);
+    const productOnCartCtx = useContext(CartContext);
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
     const itemInCart = productOnCartCtx.itemInCart(props.id);

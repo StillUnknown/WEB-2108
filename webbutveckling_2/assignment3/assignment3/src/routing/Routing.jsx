@@ -2,9 +2,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import RoutingPath from "./RoutingPath";
 import HomeView from '../views/homeView/HomeView';
 import AlbumsView from "../views/albumsView/AlbumsView";
-import ContactView from "../views/ContactView";
+import ContactView from "../views/contactView/ContactView";
 import HelpersView from "../views/helpersView/HelpersView";
-import OffersView from "../views/OffersView";
+import OffersView from "../views/offersView/OffersView";
 import VideoView from "../views/videoView/VideoView";
 
 

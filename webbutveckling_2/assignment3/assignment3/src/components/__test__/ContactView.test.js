@@ -1,4 +1,4 @@
-import ContactView from "../../views/ContactView";
+import ContactView from "../../views/contactView/ContactView";
 import {fireEvent, render} from "@testing-library/react";
 
 let getByTestId

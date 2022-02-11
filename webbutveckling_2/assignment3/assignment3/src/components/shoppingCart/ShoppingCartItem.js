@@ -1,14 +1,14 @@
 import css from './ShoppingCartItem.module.css'
 import {useContext} from "react";
-import AlbumContext from "../../context/AlbumContext";
+import CartContext from "../../context/CartContext";
 
 
 export default function ShoppingCartItem(props) {
-    const productOnCartCtx = useContext(AlbumContext);
+    const productOnCartCtx = useContext(CartContext);
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
 
-    function removeProductInCartHandler() {
+    function removeProductFromCartHandler() {
         if (itemIsOnCart) {
             productOnCartCtx.removeProduct(props.id)
         }
@@ -26,7 +26,7 @@ export default function ShoppingCartItem(props) {
             <ul>
                 <section className={css.gridContainer}>
                     <article>
-                        <button className={css.verticallyAlign} onClick={removeProductInCartHandler}>X</button>
+                        <button className={css.verticallyAlign} onClick={removeProductFromCartHandler}>x</button>
                     </article>
                     <article>
                         <img

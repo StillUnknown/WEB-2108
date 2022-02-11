@@ -1,11 +1,11 @@
 import {useContext} from "react";
 import ShoppingCartItem from './ShoppingCartItem'
-import AlbumContext from "../../context/AlbumContext";
+import CartContext from "../../context/CartContext";
 import css from './ShoppingCartList.module.css'
 
 
 export default function ShoppingCartList(props) {
-    const productOnCartCtx = useContext(AlbumContext);
+    const productOnCartCtx = useContext(CartContext);
 
     function cancelHandler() {
         props.onCancel();

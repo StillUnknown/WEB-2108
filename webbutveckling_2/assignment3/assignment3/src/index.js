@@ -4,12 +4,12 @@ import './utils/global/css/global.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
-import {AlbumContextProvider} from "./context/AlbumContext";
+import {CartContextProvider} from "./context/CartContext";
 
 ReactDOM.render(
-    <AlbumContextProvider>
+    <CartContextProvider>
         <App/>
-    </AlbumContextProvider>,
+    </CartContextProvider>,
     document.getElementById('root')
 );
 reportWebVitals();
