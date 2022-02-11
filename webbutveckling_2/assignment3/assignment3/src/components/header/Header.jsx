@@ -2,6 +2,7 @@ import {useState} from "react";
 import {FaCartArrowDown} from "react-icons/fa";
 import css from "./Header.module.css";
 import ShoppingCartList from "../shoppingCart/ShoppingCartList";
+import cartlogo from '../../utils/img/img_2.png'
 
 
 function Header() {
@@ -28,6 +29,7 @@ function Header() {
                 </div>
                 <div className={css.checkOut}>
                     <div className={css.alignVertically}>
+                        <img src={cartlogo} className={css.logo} onClick={toggleMenu} alt='cartlogo'/>
                         <button data-testid='openBtnCart'
                                 onClick={() => {
                                     toggleMenu()

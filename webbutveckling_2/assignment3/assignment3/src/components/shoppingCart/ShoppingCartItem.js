@@ -36,8 +36,8 @@ export default function ShoppingCartItem(props) {
                         <h3>Namn: {props.name}</h3>
                     </article>
                     <article>
-                        <input data-testid='input'
-                               onChange={(e) => updateProductInCartHandler(Number(e.target.value))}
+                        <input data-testid='changeInputValue'
+                               onChange={(e) => updateProductInCartHandler(Number(e.target.value))} // Har valt att ha Number här istället för parseInt då parseInt bara hanterar heltal
                                className={css.input}
                                type="number"
                                min='0'
