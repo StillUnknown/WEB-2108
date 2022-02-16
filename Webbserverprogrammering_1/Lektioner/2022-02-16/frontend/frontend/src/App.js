@@ -6,6 +6,7 @@ import Subtraction from "./components/Subtraction";
 import Multiplication from "./components/Multiplication";
 import Division from "./components/Division";
 import FullName from "./components/FullName";
+import Array from "./components/Array";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <Multiplication/>
             <Division/>
             <FullName/>
+            <Array/>
         </>
     )
 }
