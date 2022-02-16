@@ -3,6 +3,9 @@ import Alive from "./components/Alive";
 import Name from "./components/Name";
 import Addition from "./components/Addition";
 import Subtraction from "./components/Subtraction";
+import Multiplication from "./components/Multiplication";
+import Division from "./components/Division";
+import FullName from "./components/FullName";
 
 function App() {
     return (
@@ -12,6 +15,9 @@ function App() {
             <Name/>
             <Addition/>
             <Subtraction/>
+            <Multiplication/>
+            <Division/>
+            <FullName/>
         </>
     )
 }
