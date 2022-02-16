@@ -20,3 +20,29 @@ _
 /src/components/shoppingCart/ShoppingCartList.js,d\2\d204cea0431bb8170db7a1b752fc94d22070c5ec
 P
  src/components/card/CardList.jsx,a\b\ab503f8db3f2c187730b63c5d598421a94a79b58
+_
+/src/components/shoppingCart/ShoppingCartItem.js,0\2\026edfc176de7c9c41302b995092a862b8756edf
+P
+ src/components/card/CardItem.jsx,b\9\b9d01f1acf3a0cff1c320fdf040e9d02a726dd19
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+H
+src/views/AlbumsView.jsx,e\5\e5e837ee5720f6bcb0214342edfeeb33d5c87756
+Y
+)src/components/__test__/AlbumView.test.js,4\7\47f482ecf7e03e73197cce38249713e7281592c9
+?
+src/App.test.js,9\2\923703ced91ac38943d37930d9d27a7ebe8f01ad
+I
+src/views/ContactView.jsx,3\f\3f6747c645370402a595da9a27547074e4770cf1
+[
++src/components/__test__/ContactView.test.js,1\c\1c3fe97f101169b7b302b91267ba70c4b659a427
+I
+src/views/HitlistView.jsx,5\7\57636e0dacfe4641eb4b4250709cdb5c7cfba96b
+[
++src/components/__test__/HitlistView.test.js,7\c\7cd30c1ac902c9b2ff398f4ab0a9d3a0b6d973db
+F
+src/views/HomeView.jsx,7\1\7114fd4c1db76e27356d5afa8da77316a53531f2
+X
+(src/components/__test__/HomeView.test.js,0\d\0d45b4de055931cd3f50148d2a2f96543608cd66
+P
+ src/components/header/Header.jsx,f\b\fb61ea60bd9a3589a8bd04d22589abf09b75c994
