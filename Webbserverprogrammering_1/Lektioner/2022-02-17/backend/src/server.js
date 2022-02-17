@@ -4,10 +4,12 @@ import cors from 'cors'
 
 dotenv.config()
 const port = process.env.SERVER_PORT
+const allowedRequestOrigins = '*'
+const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
 
 const cors_options = {
-    origin: '*',
-    methods: ['GET', 'POST', 'PUT', 'DELETE']
+    origin: allowedRequestOrigins,
+    methods: allowedRequestMethods
 }
 const app = express()
 
@@ -51,7 +53,6 @@ const getUserByName = (name) => {
     userDatabase.forEach(user => {
         if (name === user.name) {
             object = user
-            return
         }
     })
     return object
