@@ -11,8 +11,9 @@ const cors_option = {
 }
 
 const app = express()
+
 app.use(cors(cors_option))
-app.use(express.json)
+app.use(express.json())
 
 app.get('/', (req, res) => {
     res.send('API is Alive')
