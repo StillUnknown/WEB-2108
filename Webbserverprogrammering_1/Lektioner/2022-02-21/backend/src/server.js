@@ -19,6 +19,13 @@ app.get('/', (req, res) => {
     res.send('API is Alive')
 })
 
+app.post('/calc/add/:numOne/:numTwo', (req, res) => {
+    let num1 = Number(req.params.numOne)
+    let num2 = Number(req.params.numTwo)
+    let sum = num1 + num2
+    res.send(`Summan av talen ${num1} + ${num2} = ${sum}`)
+})
+
 app.listen(port, () => {
     console.log(`SERVER RUNNING ON PORT: http://localhost:${port}`)
 })
