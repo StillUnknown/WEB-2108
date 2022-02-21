@@ -15,15 +15,14 @@ const app = express()
 app.use(cors(cors_option))
 app.use(express.json())
 
+const toDo = ['Michaela, Christoffer']
+
 app.get('/', (req, res) => {
     res.send('API is Alive')
 })
 
-app.post('/calc/add/:numOne/:numTwo', (req, res) => {
-    let num1 = Number(req.params.numOne)
-    let num2 = Number(req.params.numTwo)
-    let sum = num1 + num2
-    res.send(`Summan av talen ${num1} + ${num2} = ${sum}`)
+app.post('/list', (req, res) => {
+    res.send(toDo)
 })
 
 app.listen(port, () => {

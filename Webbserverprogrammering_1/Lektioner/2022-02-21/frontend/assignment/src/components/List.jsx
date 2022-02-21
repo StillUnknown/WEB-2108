@@ -1,11 +1,11 @@
 import {useState} from "react";
 import MyAPIServices from '../utils/api/services/MyAPIServices'
 
-const Alive = () => {
-    const [data, setData] = useState('')
+const List = () => {
+    const [data, setData] = useState([])
 
     function fetchDataFromExternalApi() {
-        MyAPIServices.Alive()
+        MyAPIServices.List()
             .then((response) => {
                 setData(response.data)
             })
@@ -21,11 +21,11 @@ const Alive = () => {
 
     return (
         <>
-            <h1>Alive</h1>
-            <button onClick={() => fetchDataFromExternalApi()}>Make API call</button>
+            <h1>List</h1>
+            <button onClick={() => fetchDataFromExternalApi()}>Make API Call</button>
             {displayData()}
         </>
     )
 }
 
-export default Alive
+export default List

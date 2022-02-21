@@ -1,4 +1,5 @@
 import css from './ToDoList.module.css'
+import List from "../List";
 
 const ToDoList = () => {
 
@@ -11,7 +12,8 @@ const ToDoList = () => {
                 <button className={css.buttonStyle}>Update</button>
             </div>
             <div>
-                <ul>
+                <ul className={css.ulStyle}>
+                    <List/>
                     <li>hej</li>
                     <li>hej</li>
                     <li>hej</li>
