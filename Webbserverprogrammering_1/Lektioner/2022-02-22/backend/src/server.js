@@ -3,13 +3,10 @@ import Configuration from './configurations/configuration.js'
 import ApplyMiddlewares from './configurations/ApplyMiddlewares.js'
 import AliveController from "./controller/AliveController.js"
 import UserController from "./controller/UserController.js"
-import userDatabase from "./data/userDatabase.js";
 
 // Initiate ExpressAPP
 const app = express()
 ApplyMiddlewares(app)
-
-// API Functions
 
 // Endpoint + Business Logic
 app.get('/', AliveController.alive)
