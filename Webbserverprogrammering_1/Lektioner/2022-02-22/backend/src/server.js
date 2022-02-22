@@ -1,21 +1,14 @@
 import express from 'express'
-import dotenv from 'dotenv'
-import cors from 'cors'
+import Configuration from './configurations/configuration.js'
+import ApplyMiddlewares from './configurations/ApplyMiddlewares.js'
+import AliveController from "./controller/AliveController.js";
 
-dotenv.config()
-const port = process.env.SERVER_PORT
-const allowedRequestOrigins = '*'
-const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
 
-const cors_options = {
-    origin: allowedRequestOrigins,
-    methods: allowedRequestMethods
-}
+// Initiate ExpressAPP
 const app = express()
+ApplyMiddlewares(app)
 
-app.use(cors(cors_options))
-app.use(express.json())
-
+// Database
 const userDatabase = [
     {
         name: 'Aram',
@@ -25,12 +18,12 @@ const userDatabase = [
     {
         name: 'Bengtina',
         age: 19,
-        gender: 'female'
+        gender: 'Female'
     },
     {
         name: 'Carin',
         age: 29,
-        gender: 'female'
+        gender: 'Female'
     },
     {
         name: 'Emil',
@@ -39,6 +32,7 @@ const userDatabase = [
     }
 ]
 
+// API Functions
 const userNames = () => {
     const names = []
     userDatabase.forEach(user => {
@@ -50,44 +44,59 @@ const userNames = () => {
 }
 
 const getUserByName = (name) => {
-    let object = `Could not find ${name} in database`
+    let object = `Could not find "${ name }" in database`
     userDatabase.forEach(user => {
         if (name === user.name) {
             object = user
+
         }
     })
     return object
 }
 
 const updateUserByName = (name, newName, age, gender) => {
-    let object = `Could not find ${name} in database`
+    let object = `Could not find "${ name }" in database`
     userDatabase.forEach(user => {
         if (name === user.name) {
             user.name = newName
             user.age = age
             user.gender = gender
             object = user
+
         }
     })
     return object
 }
 
 const deleteUserByName = (name) => {
-    let text = `User with name: "${name}"`
+    let text = `User with name: "${name}" `
 
     for (let i = 0; i < userDatabase.length; i++) {
         if (name === userDatabase[i].name) {
-            text += `was deleted from database`
+            text += `was deleted from database!`
             userDatabase.splice(i, 1)
             return text
         }
     }
-    text += ' dont exist in database'
+
+    text += `don't exist in database!`
     return text
 }
 
-app.post('/user', (req, res) => {
-    const {name, age, gender} = req.body
+// Endpoint + Business Logic
+// app.get('/', (req, res) => {
+//     res.send('API is Alive')
+// })
+
+app.get('/', AliveController.alive)
+
+// CRUD
+// CREATE
+app.post('/user/', (req, res) => {
+    // const name = req.body.name
+    // const age = req.body.age
+    // const gender = req.body.gender
+    const { name, age, gender } = req.body
     const newObject = {
         name: name,
         age: age,
@@ -97,38 +106,36 @@ app.post('/user', (req, res) => {
     res.status(201).send(userDatabase)
 })
 
+// READ
 app.get('/users', (req, res) => {
-    res.send(userDatabase)
+    res.status(200).send(userDatabase)
 })
 
 app.get('/users/name', (req, res) => {
     const responseFromDb = userNames()
-    res.send(responseFromDb)
+    res.status(200).send(responseFromDb)
 })
 
 app.get('/user/:name', (req, res) => {
     const name = req.params.name
     const responseFromDb = getUserByName(name)
-    res.send(responseFromDb)
+    res.status(200).send(responseFromDb)
 })
 
-app.put('/user', (req, res) => {
-    const {name, newName, age, gender} = req.body
+// UPDATE
+app.put('/user/', (req, res) => {
+    const { name, newName, age, gender } = req.body
     const response = updateUserByName(name, newName, age, gender)
 
     res.status(202).send(response)
 })
 
+// DELETE
 app.delete('/user/:name', (req, res) => {
     const name = req.params.name
-    const responseFromDb = deleteUserByName(name)
-    res.status(200).send(responseFromDb)
+    const responseFromDB = deleteUserByName(name)
+    res.status(200).send(responseFromDB)
 })
 
-app.get('/', (req, res) => {
-    res.send(`API is Alive på port ${port}`)
-})
-
-app.listen(port, () => {
-    console.log(`Server running on address:port http://localhost:${port}`)
-})
+// Start Server
+Configuration.connectToPort(app)
