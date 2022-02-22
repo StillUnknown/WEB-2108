@@ -36,7 +36,6 @@ const searchUserByName = (name) => {
     userDatabase.forEach(user => {
         if (name === user.name) {
             object = user
-
         }
     })
     return object
