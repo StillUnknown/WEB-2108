@@ -5,7 +5,8 @@ const createUser = (req, res) => {
     const newObject = {
         name: name,
         age: age,
-        gender: gender
+        gender: gender,
+        id: userDatabase.length
     }
     userDatabase.push(newObject)
     res.status(201).send(userDatabase)
