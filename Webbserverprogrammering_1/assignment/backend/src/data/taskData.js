@@ -1,4 +1,4 @@
-const ToDoData = [
+const TaskData = [
     {
         name: 'Christoffer',
         task: 'Shop groceries',
@@ -21,4 +21,4 @@ const ToDoData = [
     },
 ]
 
-export default ToDoData
+export default TaskData

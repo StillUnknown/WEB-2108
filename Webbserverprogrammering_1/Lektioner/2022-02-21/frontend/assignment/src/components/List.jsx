@@ -1,5 +1,5 @@
 import {useState} from "react";
-import MyAPIServices from '../utils/api/services/MyAPIServices'
+import MyAPIService from '../utils/api/MyAPIService.js'
 
 const List = () => {
     const [data, setData] = useState([])

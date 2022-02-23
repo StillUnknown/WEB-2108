@@ -1,23 +1,23 @@
-import ToDoData from '../data/toDoData.js'
+import TaskData from '../data/taskData.js'
 
 const creatUser = (req, res) => {
     const { task, name } = req.body
     const newObject = {
         task: task,
         name: name,
-        id: ToDoData.length
+        id: TaskData.length
     }
-    ToDoData.push(newObject)
-    res.status(201).send(ToDoData)
+    TaskData.push(newObject)
+    res.status(201).send(TaskData)
 }
 
 const getUsers = (req, res) => {
-    res.status(200).send(ToDoData)
+    res.status(200).send(TaskData)
 }
 
 const userNames = () => {
     const names = []
-    ToDoData.forEach(user => {
+    TaskData.forEach(user => {
         names.push({
             name: user.name
         })
@@ -32,7 +32,7 @@ const getUserNames = (req, res) => {
 
 const searchUserByName = (name) => {
     let object = `Could not find "${ name }" in database`
-    ToDoData.forEach(user => {
+    TaskData.forEach(user => {
         if (name === user.name) {
             object = user
             return user
@@ -49,7 +49,7 @@ const getUserByName = (req, res) => {
 
 const modifyUserByName = (name, newName, task) => {
     let object = `Could not find "${ name }" in database`
-    ToDoData.forEach(user => {
+    TaskData.forEach(user => {
         if (name === user.name) {
             user.name = newName
             user.task = task
@@ -69,10 +69,10 @@ const updateUserByName = (req, res) => {
 const removeUserByName = (name) => {
     let text = `User with name: "${ name }" `
 
-    for (let i = 0; i < ToDoData.length; i++) {
-        if (name === ToDoData[i].name) {
+    for (let i = 0; i < TaskData.length; i++) {
+        if (name === TaskData[i].name) {
             text += `was deleted from database!`
-            ToDoData.splice(i, 1)
+            TaskData.splice(i, 1)
             return text
         }
     }
