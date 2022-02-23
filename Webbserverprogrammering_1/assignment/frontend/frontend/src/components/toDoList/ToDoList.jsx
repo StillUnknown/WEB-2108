@@ -13,7 +13,7 @@ const ToDoList = () => {
             </div>
             <div>
                 <ul className={css.ulStyle}>
-                    <CardList/>
+                    <CardList ToDoList={ToDoList}/>
                 </ul>
             </div>
         </>
