@@ -1,4 +1,4 @@
-import AliveController from "../controller/AliveController.js";
+import AliveController from '../controller/AliveController.js'
 
 // Endpoint + Business Logic
 const routes = (app) => {
@@ -6,5 +6,5 @@ const routes = (app) => {
 }
 
 export default {
-    routes,
+    routes
 }

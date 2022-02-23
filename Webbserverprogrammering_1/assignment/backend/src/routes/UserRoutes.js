@@ -1,10 +1,11 @@
-import UserController from "../controller/UserController.js";
+import UserController from '../controller/UserController.js'
 
 // Endpoint + Business Logic and CRUD Operations
 const routes = (app) => {
-    app.post('/user', UserController.createUser)
+    // CREATE
+    app.post('/user/', UserController.creatUser)
 
-// READ
+    // READ
     app.get('/users', UserController.getUsers)
     app.get('/users/name', UserController.getUserNames)
     app.get('/user/:name', UserController.getUserByName)
@@ -12,10 +13,10 @@ const routes = (app) => {
     // UPDATE
     app.put('/user/', UserController.updateUserByName)
 
-// DELETE
-    app.delete('/user/:name', UserController.deleteUserByNAme)
+    // DELETE
+    app.delete('/user/:name', UserController.deleteUserByName)
 }
 
 export default {
-    routes,
+    routes
 }

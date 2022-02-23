@@ -1,6 +1,6 @@
-import userDatabase from "../data/userDatabase.js";
+import userDatabase from '../data/userDatabase.js'
 
-const createUser = (req, res) => {
+const creatUser = (req, res) => {
     const { name, age, gender } = req.body
     const newObject = {
         name: name,
@@ -32,10 +32,11 @@ const getUserNames = (req, res) => {
 }
 
 const searchUserByName = (name) => {
-    let object = `Could not find "${name}" in database`
+    let object = `Could not find "${ name }" in database`
     userDatabase.forEach(user => {
         if (name === user.name) {
             object = user
+            return user
         }
     })
     return object
@@ -48,7 +49,7 @@ const getUserByName = (req, res) => {
 }
 
 const modifyUserByName = (name, newName, age, gender) => {
-    let object = `Could not find "${name}" in database`
+    let object = `Could not find "${ name }" in database`
     userDatabase.forEach(user => {
         if (name === user.name) {
             user.name = newName
@@ -62,13 +63,14 @@ const modifyUserByName = (name, newName, age, gender) => {
 }
 
 const updateUserByName = (req, res) => {
-    const {name, newName, age, gender} = req.body
+    const { name, newName, age, gender } = req.body
     const response = modifyUserByName(name, newName, age, gender)
     res.status(202).send(response)
 }
 
 const removeUserByName = (name) => {
-    let text = `User with name: "${name}" `
+    let text = `User with name: "${ name }" `
+
     for (let i = 0; i < userDatabase.length; i++) {
         if (name === userDatabase[i].name) {
             text += `was deleted from database!`
@@ -76,21 +78,22 @@ const removeUserByName = (name) => {
             return text
         }
     }
+
     text += `don't exist in database!`
     return text
 }
 
-const deleteUserByNAme = (req, res) => {
+const deleteUserByName = (req, res) => {
     const name = req.params.name
     const responseFromDB = removeUserByName(name)
     res.status(200).send(responseFromDB)
 }
 
 export default {
-    createUser,
+    creatUser,
     getUsers,
     getUserNames,
     getUserByName,
     updateUserByName,
-    deleteUserByNAme,
+    deleteUserByName
 }
