@@ -1,6 +1,6 @@
 import css from './ToDoList.module.css'
 import {useState} from "react";
-import UserService from "../../utils/api/service/UsersService";
+import UsersService from "../../utils/api/service/UsersService";
 import CardList from "../CardList";
 
 
@@ -8,7 +8,7 @@ const ToDoList = () => {
     const [data, setData] = useState([])
 
     function fetchDataFromExternalApi() {
-        UserService.ToDoList()
+        UsersService.allData()
             .then(response => {
                 setData(response.data)
             })
