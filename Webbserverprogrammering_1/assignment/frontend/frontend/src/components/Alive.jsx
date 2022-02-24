@@ -1,16 +1,20 @@
-import {useState} from "react";
-import MyAPIServices from '../utils/api/MyAPIService.js'
+import {useEffect, useState} from "react";
+import AliveService from '../utils/api/service/AliveService.js'
 
 const Alive = () => {
     const [data, setData] = useState('')
 
-    function fetchDataFromExternalApi() {
-        MyAPIServices.Alive()
+    function checkIfAPIIsAlive() {
+        AliveService.alive()
             .then((response) => {
                 setData(response.data)
             })
             .catch((error) => console.log(error))
     }
+
+    useEffect( () => {
+        checkIfAPIIsAlive()
+    }, [])
 
 
     function displayData() {
@@ -22,7 +26,7 @@ const Alive = () => {
     return (
         <>
             <h1>Alive</h1>
-            <button onClick={() => fetchDataFromExternalApi()}>Make API call</button>
+            {/*<button onClick={() => checkIfAPIIsAlive()}>Check if API is Alive</button>*/}
             {displayData()}
         </>
     )

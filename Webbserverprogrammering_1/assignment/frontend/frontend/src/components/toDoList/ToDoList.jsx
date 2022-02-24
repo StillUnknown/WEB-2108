@@ -1,5 +1,5 @@
 import css from './ToDoList.module.css'
-import CardList from "../CardList";
+
 
 const ToDoList = () => {
 
@@ -13,7 +13,7 @@ const ToDoList = () => {
             </div>
             <div>
                 <ul className={css.ulStyle}>
-                    <CardList ToDoList={ToDoList}/>
+
                 </ul>
             </div>
         </>
