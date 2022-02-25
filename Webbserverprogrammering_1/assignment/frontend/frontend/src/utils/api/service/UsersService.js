@@ -4,8 +4,8 @@ const allData = () => {
     return http.get('/alldata')
 }
 
-const createTaskData = () => {
-    return http.post('/createtask')
+const createTaskData = (newName) => {
+    return http.post('/createtask', newName)
 }
 
 const updateDataByName = () => {

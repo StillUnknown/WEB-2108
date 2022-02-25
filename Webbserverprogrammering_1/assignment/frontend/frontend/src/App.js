@@ -9,6 +9,7 @@ function App() {
             <h1>App</h1>
             <Alive/>
             <ToDoList/>
+            <CreateData/>
         </>
     );
 }

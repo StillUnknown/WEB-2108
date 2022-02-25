@@ -4,8 +4,8 @@ import CardList from './CardList'
 
 const CreataData = () => {
     const [data, setData] = useState([])
-    const [task, setTask] = useState('Carina')
-    const [name, setName] = useState(19)
+    const [task, setTask] = useState('Clean')
+    const [name, setName] = useState('Carina')
 
     const sendDataToApi = () => {
         const newData = {
@@ -29,7 +29,7 @@ const CreataData = () => {
                    value={name}
                    onChange={event => setName(event.target.value)}/>
             <button onClick={ sendDataToApi }>CreateData</button>
-            <CardList/>
+            <CardList users={ data }/>
         </>
     )
 }
