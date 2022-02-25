@@ -1,6 +1,6 @@
 import TaskData from '../data/taskData.js'
 
-const creatUser = (req, res) => {
+const createTask = (req, res) => {
     const { task, name } = req.body
     const newObject = {
         task: task,
@@ -11,7 +11,7 @@ const creatUser = (req, res) => {
     res.status(201).send(TaskData)
 }
 
-const getUsers = (req, res) => {
+const allData = (req, res) => {
     res.status(200).send(TaskData)
 }
 
@@ -88,8 +88,8 @@ const deleteUserByName = (req, res) => {
 }
 
 export default {
-    creatUser,
-    getUsers,
+    createTask,
+    allData,
     getUserNames,
     getUserByName,
     updateUserByName,
