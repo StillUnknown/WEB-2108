@@ -14,7 +14,7 @@ const ToDoList = () => {
             })
             .catch(error => console.log(error))
     }
-
+console.log(data)
     return (
         <>
             <div className={css.centerContent}>
