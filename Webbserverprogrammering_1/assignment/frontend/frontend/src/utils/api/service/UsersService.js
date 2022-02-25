@@ -5,15 +5,15 @@ const allData = () => {
 }
 
 const createTaskData = () => {
-    return http.post('createtask')
+    return http.post('/createtask')
 }
 
 const updateDataByName = () => {
-    return http.put('updatedatabyname')
+    return http.put('/updatedatabyname')
 }
 
 const deleteDataByName = () => {
-    return http.delete('deletedatabyname')
+    return http.delete('/deletedatabyname')
 }
 
 export default {
