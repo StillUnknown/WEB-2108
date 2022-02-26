@@ -8,18 +8,22 @@ const createTaskData = (newName) => {
     return http.post('/createtask', newName)
 }
 
-const updateDataByName = () => {
-    return http.put('/updatedatabyname')
+const updateDataByName = (changedData) => {
+    return http.put('/updatedatabyname', changedData)
 }
 
-const deleteDataByName = () => {
-    return http.delete('/deletedatabyname')
+const deleteDataByName = (name) => {
+    return http.delete(`/deletedatabyname/${name}`)
+}
+
+const getSingleDataByName = (dataByName) => {
+    return http.get(`/getuserbyname/${dataByName}`)
 }
 
 export default {
     allData,
     createTaskData,
     updateDataByName,
-    deleteDataByName
-
+    deleteDataByName,
+    getSingleDataByName
 }
