@@ -1,7 +1,6 @@
 import UsersService from "../../utils/api/service/UsersService";
 import {useState} from "react";
 import css from './GetSingleDataByName.module.css'
-import CardList from "../CardList";
 import Card from "../Card";
 
 const GetSingleDataByName = () => {

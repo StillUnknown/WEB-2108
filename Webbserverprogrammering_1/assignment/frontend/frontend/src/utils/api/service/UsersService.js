@@ -16,8 +16,8 @@ const deleteDataByName = (name) => {
     return http.delete(`/deletedatabyname/${name}`)
 }
 
-const getSingleDataByName = (dataByName) => {
-    return http.get(`/getuserbyname/${dataByName}`)
+const getSingleDataByName = (name) => {
+    return http.get(`/getuserbyname/${name}`)
 }
 
 export default {

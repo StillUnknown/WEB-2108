@@ -1,10 +1,10 @@
 import css from './Card.module.css'
 
-const Card = ({ name, task }) => {
+const Card = ({name, task}) => {
     return (
-        <article>
-                <p> { task } { name } </p>
-        </article>
+        <ul>
+            <li> {task} {name} </li>
+        </ul>
     )
 }
 

@@ -2,7 +2,7 @@ import Card from './Card'
 
 const CardList = ({ users }) => {
     return (
-        <>
+        <div>
             {
                 users.map((item) => {
                     return (
@@ -13,7 +13,7 @@ const CardList = ({ users }) => {
                     )
                 })
             }
-        </>
+        </div>
     )
 }
 

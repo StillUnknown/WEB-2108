@@ -14,16 +14,14 @@ const ToDoList = () => {
             })
             .catch(error => console.log(error))
     }
-console.log(data)
+
     return (
         <>
             <div className={css.centerContent}>
                 <h1>ToDoList</h1>
                 <input className={css.inputStyle} type="text"/>
-                <button className={css.buttonStyle} onClick={ fetchDataFromExternalApi }>Update</button>
-            </div>
-            <div>
-                <CardList users={ data } />
+                <button className={css.buttonStyle} onClick={fetchDataFromExternalApi}>Update</button>
+                <CardList users={data}/>
             </div>
         </>
     )
