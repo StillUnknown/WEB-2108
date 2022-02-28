@@ -1,7 +1,7 @@
 import UsersService from "../../utils/api/service/UsersService";
 import {useState} from "react";
 import css from './GetSingleDataByName.module.css'
-import Card from "../Card";
+import Card from "../card/Card";
 
 const GetSingleDataByName = () => {
     const [data, setData] = useState([])

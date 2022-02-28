@@ -1,6 +1,6 @@
 import UsersService from "../../utils/api/service/UsersService";
 import {useState} from "react";
-import Card from "../Card";
+import Card from "../card/Card";
 import css from './UpdateData.module.css'
 
 const UpdateData = () => {
