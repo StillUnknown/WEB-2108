@@ -31,3 +31,13 @@ q
 AFrontend/frontend/src/components/deleteData/DeleteData.module.css,8\e\8e5b8cb5203b52fe9ac10983a242d66b8a3f944c
 L
 Frontend/frontend/src/App.js,8\f\8fe979efcbcb674c6ee6dccb34e3cb91d4cfcd91
+j
+:Frontend/frontend/src/components/deleteData/DeleteData.jsx,f\5\f586ca3d12c68c9ff2f99e43db6b97fe4ede36f8
+a
+1Frontend/frontend/src/utils/global/css/global.css,f\c\fc9410a3fb1aa7c022d4de36e792c7cece8ca091
+]
+-Frontend/frontend/src/components/CardList.jsx,0\e\0e3b5037aa24ca3874fdea7964189adac8e2c2cb
+|
+LFrontend/frontend/src/components/getSingleDataByName/GetSingleDataByName.jsx,b\1\b13cd8d420ff8207d5ad091f1d73805ac93fd5c6
+g
+7Frontend/frontend/src/utils/api/service/UsersService.js,c\0\c00470658f83a85b31114ddcf6a098146a0beb5c
