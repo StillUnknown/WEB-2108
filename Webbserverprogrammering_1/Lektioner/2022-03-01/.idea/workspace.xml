@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aafa291-69e0-49f4-8c3b-6821f856ba73" name="Changes" comment="2022-03-01 forts">
-      <change afterPath="$PROJECT_DIR$/backend/tests/Alive.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../assignment/.idea/Assignment.iml" afterDir="false" />
+    <list default="true" id="8aafa291-69e0-49f4-8c3b-6821f856ba73" name="Changes" comment="2022-03-01 test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/Alive.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Alive.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,45 @@
       <recent name="C:\GitHub\WEB-2108\Webbserverprogrammering_1\Lektioner\2022-03-01\backend" />
     </key>
   </component>
+  <component name="RunManager" selected="Mocha.Testing API Alive route">
+    <configuration name="Test route that exist.should expect 200 OK" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/backend/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/backend</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/backend/tests/Alive.test.js</test-file>
+      <test-names>
+        <name value="Test route that exist" />
+        <name value="should expect 200 OK" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing API Alive route" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/backend/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/backend</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/backend/tests/Alive.test.js</test-file>
+      <test-names>
+        <name value="Testing API Alive route" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Testing API Alive route" />
+        <item itemvalue="Mocha.Test route that exist.should expect 200 OK" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646131185678</updated>
-      <workItem from="1646131186824" duration="2306000" />
+      <workItem from="1646131186824" duration="3738000" />
     </task>
     <task id="LOCAL−00001" summary="2022-03-01 forts">
       <created>1646131340737</created>
@@ -74,7 +109,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1646131340737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="2022-03-01 test">
+      <created>1646133793757</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1646133793757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022-03-01 forts" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-03-01 forts" />
+    <MESSAGE value="2022-03-01 test" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-03-01 test" />
   </component>
 </project>
