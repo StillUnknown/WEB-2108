@@ -41,3 +41,11 @@ a
 LFrontend/frontend/src/components/getSingleDataByName/GetSingleDataByName.jsx,b\1\b13cd8d420ff8207d5ad091f1d73805ac93fd5c6
 g
 7Frontend/frontend/src/utils/api/service/UsersService.js,c\0\c00470658f83a85b31114ddcf6a098146a0beb5c
+f
+6Frontend/frontend/src/components/toDoList/ToDoList.jsx,1\5\158219c7a127a62a7bd7dca9832380fe04764e04
+j
+:Frontend/frontend/src/components/createData/CreataData.jsx,d\5\d5054cdb4457f308f181bfe4477d977d8ca9ef4e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+j
+:Frontend/frontend/src/components/updateData/UpdateData.jsx,2\c\2c9ba0c4cbcfc16e4296cebb14e8c9b56f2351b4

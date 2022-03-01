@@ -5,8 +5,8 @@ import css from './CreateData.module.css'
 
 const CreataData = () => {
     const [data, setData] = useState([])
-    const [task, setTask] = useState('Clean')
-    const [name, setName] = useState('Carina')
+    const [task, setTask] = useState('')
+    const [name, setName] = useState('')
 
     const sendDataToApi = () => {
         const newData = {

@@ -26,10 +26,21 @@ const UpdateData = () => {
         <>
             <div className={css.centerContent}>
                 <h1>Update Data</h1>
-                Task: <input className={css.inputStyle} type="text" value={task} onChange={event => setTask(event.target.value)}/>
-                Name: <input className={css.inputStyle} type="text" value={name} onChange={event => setName(event.target.value)}/>
-                NewName: <input className={css.inputStyle} type="text" value={newName} onChange={event => setNewName(event.target.value)}/>
-                <button className={css.buttonStyle} onClick={sendDataToApi}>Update Data</button>
+                Task: <input className={css.inputStyle}
+                             type="text"
+                             value={task}
+                             onChange={event => setTask(event.target.value)}/>
+                Name: <input className={css.inputStyle}
+                             type="text"
+                             value={name}
+                             onChange={event => setName(event.target.value)}/>
+                NewName: <input className={css.inputStyle}
+                                type="text"
+                                value={newName}
+                                onChange={event => setNewName(event.target.value)}/>
+                <button className={css.buttonStyle}
+                        onClick={sendDataToApi}>
+                    Update Data</button>
                 {data.name ? <Card name={data.name}
                                    task={data.task}/>
                     : <h3>{data}</h3>}
