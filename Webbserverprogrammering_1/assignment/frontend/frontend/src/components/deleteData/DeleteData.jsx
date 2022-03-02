@@ -18,11 +18,11 @@ const DeleteData = () => {
         <>
             <div className={css.centerContent}>
                 <h1>Delete Data</h1>
-                Name: <input className={css.inputStyle} type="text"
+                Name: <input data-testid='dataInput' className={css.inputStyle} type="text"
                              value={ name }
                              onChange={event => setName(event.target.value)}/>
-                <button className={css.buttonStyle} onClick={ sendDataToApi }>Delete Data</button>
-                <h3>{ data }</h3>
+                <button data-testid='deleteButton' className={css.buttonStyle} onClick={ sendDataToApi }>Delete Data</button>
+                <h3 data-testid='DbResponse'>{ data }</h3>
             </div>
         </>
     )
