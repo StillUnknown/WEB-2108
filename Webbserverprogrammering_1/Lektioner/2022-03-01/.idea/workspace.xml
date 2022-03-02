@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aafa291-69e0-49f4-8c3b-6821f856ba73" name="Changes" comment="2022-03-01 test">
+    <list default="true" id="8aafa291-69e0-49f4-8c3b-6821f856ba73" name="Changes" comment="2022-03-01 test forts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/Alive.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Alive.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/backend/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -101,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646131185678</updated>
-      <workItem from="1646131186824" duration="3738000" />
+      <workItem from="1646131186824" duration="5151000" />
     </task>
     <task id="LOCAL−00001" summary="2022-03-01 forts">
       <created>1646131340737</created>
@@ -115,7 +115,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1646133793757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="2022-03-01 test forts">
+      <created>1646144997835</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1646144997835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022-03-01 forts" />
     <MESSAGE value="2022-03-01 test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-03-01 test" />
+    <MESSAGE value="2022-03-01 test forts" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-03-01 test forts" />
   </component>
 </project>
