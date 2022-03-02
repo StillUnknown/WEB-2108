@@ -13,3 +13,5 @@ UserRoutes.routes(app)
 
 // Start Server
 Configuration.connectToPort(app)
+
+export default app
