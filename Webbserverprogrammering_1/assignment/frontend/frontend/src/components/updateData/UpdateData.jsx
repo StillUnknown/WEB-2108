@@ -25,7 +25,7 @@ const UpdateData = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1>Update Data</h1>
+                <h1 data-testid='header'>Update Data</h1>
                 Task: <input className={css.inputStyle}
                              type="text"
                              value={task}

@@ -18,7 +18,7 @@ const ToDoList = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1>ToDoList</h1>
+                <h1 data-testid='header'>ToDoList</h1>
                 <input className={css.inputStyle} type="text"/>
                 <button className={css.buttonStyle} onClick={fetchDataFromExternalApi}>Update</button>
                 <CardList users={data}/>
