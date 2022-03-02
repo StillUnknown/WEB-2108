@@ -3,8 +3,8 @@ import TaskData from '../data/taskData.js'
 const createTask = (req, res) => {
     const { task, name } = req.body
     const newObject = {
-        task: task,
         name: name,
+        task: task,
         id: TaskData.length
     }
     TaskData.push(newObject)
