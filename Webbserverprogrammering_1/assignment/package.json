@@ -1,0 +1,11 @@
+{
+  "name": "Assignment",
+  "version": "1.0.0",
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6"
+  }
+}

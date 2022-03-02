@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aafa291-69e0-49f4-8c3b-6821f856ba73" name="Changes" comment="2022-03-01 test forts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8aafa291-69e0-49f4-8c3b-6821f856ba73" name="Changes" comment="2022-03-02 test forts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646131185678</updated>
       <workItem from="1646131186824" duration="5151000" />
+      <workItem from="1646224539083" duration="94000" />
     </task>
     <task id="LOCAL−00001" summary="2022-03-01 forts">
       <created>1646131340737</created>
@@ -121,7 +120,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1646144997835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="2022-03-02 test forts">
+      <created>1646224556577</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1646224556577</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,11 +142,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022-03-01 forts" />
     <MESSAGE value="2022-03-01 test" />
     <MESSAGE value="2022-03-01 test forts" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-03-01 test forts" />
+    <MESSAGE value="2022-03-02 test forts" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-03-02 test forts" />
   </component>
 </project>
