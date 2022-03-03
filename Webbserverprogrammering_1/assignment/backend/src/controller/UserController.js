@@ -8,7 +8,7 @@ const createTask = (req, res) => {
         id: TaskData.length
     }
     TaskData.push(newObject)
-    res.status(201).send(TaskData)
+    res.status(201).send(TaskData[TaskData.length -1])
 }
 
 const allData = (req, res) => {
