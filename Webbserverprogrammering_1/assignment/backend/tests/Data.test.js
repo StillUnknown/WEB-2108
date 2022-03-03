@@ -13,9 +13,9 @@ const newUser = {
 }
 
 const updatedUser = {
-    "name": "Michaela",
-    "newName": "Aram",
-    "task": "Dance"
+    name: "Michaela",
+    newName: "Aram",
+    task: "Dance"
 }
 
 const allData = () => {
@@ -189,10 +189,10 @@ describe('TESTING EXISTING DATA ROUTES', () => {
     allData()
     getUserNames()
     getUserByName()
-    checkIfUserDoNotExist('Michaela')
+    checkIfUserDoNotExist(newUser.name)
     createTask()
-    checkIfUserExist('Michaela')
+    checkIfUserExist(newUser.name)
     updateUserByName()
-    deletedatabyname('Aram')
-    deletedataThatDontExist('Lars')
+    deletedatabyname(updatedUser.newName)
+    deletedataThatDontExist(updatedUser.name)
 })
