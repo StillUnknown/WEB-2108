@@ -17,5 +17,6 @@ test('Check that name that does not exist in DB gets correct response from DB', 
 
     fireEvent.click(deleteButton)
 
-    expect(getByTestId(dbResponse).textContent).toBe('User with name: "Mats" don\'t exist in database!')
+    setTimeout: () => {expect(getByTestId(dbResponse).textContent).toBe('User with name: "Mats" don\'t exist in database!'), 500}
+
 })
