@@ -12,6 +12,12 @@ const newUser = {
     task: "Dance"
 }
 
+const updatedUser = {
+    "name": "Michaela",
+    "newName": "Aram",
+    "task": "Dance"
+}
+
 const allData = () => {
     describe('Testing to get an array of all data (GET)', () => {
         it('should expect an array of data to be returned', (done) => {
@@ -131,8 +137,52 @@ const checkIfUserExist = (name) => {
     })
 }
 
+const updateUserByName = () => {
+    describe('Testing to update data by name (PUT)', () => {
+        it('should get object with updated data', (done) => {
+            Chai.request(app)
+                .put(`/updatedatabyname`)
+                .send(updatedUser)
+                .end((error, respond) => {
+                    expect(respond.status).to.equal(202)
 
+                    const body = respond.body
+                    expect(body).to.be.an('object')
+                    expect(body.name).to.equal(updatedUser.newName)
+                    expect(body.task).to.equal(updatedUser.task)
+                    done()
+                })
+        })
+    })
+}
 
+const deletedatabyname = (name) => {
+    describe('Testing to delete updated data (DELETE)', () => {
+        it('should get a response that name was deleted from database', (done) => {
+            Chai.request(app)
+                .delete(`/deletedatabyname/${name}`)
+                .end((error, response) => {
+                    expect(response.status).to.equal(200)
+                    expect(response.text).to.equal(`User with name: "${ name }" was deleted from database!`)
+                    done()
+                })
+        })
+    })
+}
+
+const deletedataThatDontExist = (name) => {
+    describe('Testing to delete updated data (DELETE)', () => {
+        it('should get a response that name dont exist in database', (done) => {
+            Chai.request(app)
+                .delete(`/deletedatabyname/${name}`)
+                .end((error, response) => {
+                    expect(response.status).to.equal(200)
+                    expect(response.text).to.equal(`User with name: "${ name }" don't exist in database!`)
+                    done()
+                })
+        })
+    })
+}
 
 
 describe('TESTING EXISTING DATA ROUTES', () => {
@@ -142,4 +192,7 @@ describe('TESTING EXISTING DATA ROUTES', () => {
     checkIfUserDoNotExist('Michaela')
     createTask()
     checkIfUserExist('Michaela')
+    updateUserByName()
+    deletedatabyname('Aram')
+    deletedataThatDontExist('Lars')
 })

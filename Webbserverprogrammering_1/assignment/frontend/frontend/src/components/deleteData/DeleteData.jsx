@@ -4,7 +4,7 @@ import css from './DeleteData.module.css'
 
 const DeleteData = () => {
     const [data, setData] = useState('')
-    const [name, setName] = useState('')
+    const [name, setName] = useState('Mats')
 
     const sendDataToApi = () => {
         UsersService.deleteDataByName(name)

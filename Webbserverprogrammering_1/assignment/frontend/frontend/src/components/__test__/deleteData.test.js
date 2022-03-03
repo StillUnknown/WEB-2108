@@ -13,7 +13,7 @@ test('Check that name that does not exist in DB gets correct response from DB', 
     const dbResponse = getByTestId('DbResponse')
     const input = getByTestId('dataInput')
 
-    expect(input.textContent).toBe('Mats')
+
 
     fireEvent.click(deleteButton)
 
