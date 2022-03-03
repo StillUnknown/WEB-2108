@@ -13,7 +13,7 @@ const testingAliveRoute = () => {
             Chai.request(app)
                 .get('/')
                 .end((request, response) => {
-                    expect(response.status).to.equal(201)
+                    expect(response.status).to.equal(200)
                     expect(response.text).to.equal('API is Alive!')
                     done()
                 })
