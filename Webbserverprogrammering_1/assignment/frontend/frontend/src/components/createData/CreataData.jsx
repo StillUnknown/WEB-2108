@@ -1,10 +1,10 @@
 import UsersService from '../../utils/api/service/UsersService'
 import {useState} from 'react'
-import CardList from '../CardList'
 import css from './CreateData.module.css'
+import Card from "../card/Card";
 
 const CreataData = () => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState({})
     const [task, setTask] = useState('')
     const [name, setName] = useState('')
 
@@ -15,6 +15,7 @@ const CreataData = () => {
         }
         UsersService.createTaskData(newData)
             .then(response => {
+                console.log(response.data)
                 setData(response.data)
             })
             .catch(error => console.log(error))
@@ -31,7 +32,9 @@ const CreataData = () => {
                              value={name}
                              onChange={event => setName(event.target.value)}/>
                 <button className={css.buttonStyle} onClick={sendDataToApi}>CreateData</button>
-                <CardList users={data}/>
+                {data.name ? <Card name={data.name}
+                                   task={data.task}/>
+                    : ''}
             </div>
         </>
     )
