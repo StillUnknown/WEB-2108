@@ -26,7 +26,7 @@ const Alive = () => {
     return (
         <>
             <h1>Alive</h1>
-            {/*<button onClick={() => checkIfAPIIsAlive()}>Check if API is Alive</button>*/}
+            {/*<button onClick={() => checkIfAPIIsAlive()}>Check if API is Alive</button> Choose not to use button but instead have a useEffect*/}
             {displayData()}
         </>
     )

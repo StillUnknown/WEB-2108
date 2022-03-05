@@ -83,7 +83,11 @@ inte är något jag ville implementera så kanske det inte faller under kod jag 
 
 UI/UX har aldrig och kommer aldrig vara min grej. Jag vet att den inte är speciellt avancerad eller på något sätt supertilltalande denna gången.  
 Jag börjar inse mer och mer att backend är det håll jag troligtvis vill gå åt. Och det är också medvetet gjort denna gånger för att spara mig massor  
-av onödig stress. Det krävs nästan mer av mig med UI/UX än att skriva all annan kod tyvärr.
+av onödig stress. Det krävs nästan mer av mig med UI/UX än att skriva all annan kod tyvärr.  
+  
+"UPDATE"  
+  
+Efter mycket tänkande valde jag att försöka snygga till inlämningen genom att ändra färger.
 
 ### Egna tankar:
 

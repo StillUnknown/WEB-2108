@@ -4,7 +4,7 @@ import css from './DeleteData.module.css'
 
 const DeleteData = () => {
     const [data, setData] = useState('')
-    const [name, setName] = useState('Mats')
+    const [name, setName] = useState('')
 
     const sendDataToApi = () => {
         UsersService.deleteDataByName(name)
@@ -17,7 +17,7 @@ const DeleteData = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1>Delete Data</h1>
+                <h1 className={css.h1Style}>Delete Data</h1>
                 Name: <input data-testid='dataInput' className={css.inputStyle} type="text"
                              value={ name }
                              onChange={event => setName(event.target.value)}/>

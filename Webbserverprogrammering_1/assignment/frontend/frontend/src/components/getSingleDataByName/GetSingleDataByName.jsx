@@ -18,7 +18,7 @@ const GetSingleDataByName = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1 data-testid='header'>Get Single Data By Name</h1>
+                <h1 className={css.h1Style} data-testid='header'>Get Single Data By Name</h1>
                 Name: <input className={css.inputStyle} type='text'
                              value={name}
                              onChange={event => setName(event.target.value)}/>

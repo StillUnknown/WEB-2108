@@ -18,8 +18,8 @@ const ToDoList = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1 data-testid='header'>ToDoList</h1>
-                <input className={css.inputStyle} type="text"/>
+                <h1 className={css.h1Style} data-testid='header'>ToDoList</h1>
+                <h3 className={css.h3Style}>Click the button to always get the most updated ToDoList</h3>
                 <button className={css.buttonStyle} onClick={fetchDataFromExternalApi}>Update</button>
                 <CardList users={data}/>
             </div>

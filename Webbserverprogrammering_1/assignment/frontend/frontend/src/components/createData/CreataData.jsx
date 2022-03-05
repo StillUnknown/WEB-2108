@@ -22,9 +22,9 @@ const CreataData = () => {
     }
 
     return (
-        <>
+        <div>
             <div className={css.centerContent}>
-                <h1 data-testid='header'>CreateData</h1>
+                <h1 className={css.h1Style} data-testid='header'>CreateData</h1>
                 Task: <input className={css.inputStyle} type="text"
                              value={task}
                              onChange={event => setTask(event.target.value)}/>
@@ -36,7 +36,7 @@ const CreataData = () => {
                                    task={data.task}/>
                     : ''}
             </div>
-        </>
+        </div>
     )
 }
 

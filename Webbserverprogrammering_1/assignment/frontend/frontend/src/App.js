@@ -10,7 +10,6 @@ function App() {
     return (
         <>
             <Alive/>
-            <h1>ToDo's</h1>
             <ToDoList/>
             <CreateData/>
             <UpdateData/>

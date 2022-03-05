@@ -1,13 +1,15 @@
 .centerContent {
     text-align: center;
-    background-color: red;
+    background-color: lightgray;
     width: 50%;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .inputStyle {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .buttonStyle {
@@ -35,3 +37,10 @@
     background: #ddd;
 }
 
+.h1Style {
+    background-color: lightgrey;
+}
+
+.h3Style {
+    background-color: lightgray;
+}
