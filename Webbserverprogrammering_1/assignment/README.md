@@ -25,7 +25,12 @@ fireEventtestet på min deletefunktionalitet var inte alls så enkel att få til
 men det var inte så lätt. Efter lite huvudbry frågade jag dig (Lars) om varför det inte fungerade och du tipsade om att en delay kanske skulle funka så jag började söka efter  
 olika delayer och hittade setTimeout som jag försökte implementera och efter lite trixande gick testet igenom. Efter lite funderande om varför kom jag fram till detta:  
 Då knapptrycket görs måste det gå några millisekunder för att infon ska hinna skickas från frontend till backend, hämta svaret och skicka tillbaka det till frontend.  
-Jag fick också hårdkoda in "Mats" istället för att försöka lägga en expect på inputen som innehåller name.
+Jag fick också hårdkoda in "Mats" istället för att försöka lägga en expect på inputen som innehåller name.  
+  
+"UPDATE"  
+  
+Då jag inte ville ha Mats hårdkodat på frontend valde jag att bara ha en tom sträng då det funkar lika bra.  
+Svaret från backend blir detsamma fast utan Mats, det kommer bara could not find "" in database istället.
 
 ### Beskriv om du fått byta lösning och varför i sådana fall:
 
