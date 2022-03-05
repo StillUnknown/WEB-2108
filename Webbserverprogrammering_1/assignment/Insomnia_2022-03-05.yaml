@@ -1,6 +1,6 @@
 _type: export
 __export_format: 4
-__export_date: 2022-03-02T15:07:05.498Z
+__export_date: 2022-03-05T11:37:38.660Z
 __export_source: insomnia.desktop.app:v2022.1.0
 resources:
   - _id: req_abd0f19cdaaf42b3862270c0be506f0e
@@ -291,7 +291,7 @@ resources:
     _type: unit_test
   - _id: ut_d7fec1b4619e4663a9a27ea112b53ad0
     parentId: uts_df962ceb26194b9d8aedfaa9a3b514a1
-    modified: 1646233493923
+    modified: 1646307860172
     created: 1646227741988
     requestId: req_985ce1e039f748128fb6792e3e6557c7
     name: Get pre-existing data
@@ -329,18 +329,16 @@ resources:
     _type: unit_test
   - _id: ut_47c7708d883a4d059f5de890cc4226ff
     parentId: uts_df962ceb26194b9d8aedfaa9a3b514a1
-    modified: 1646233497393
+    modified: 1646480148151
     created: 1646230351836
     requestId: req_3599bcff60bf4cd3b1a12fb54512c000
     name: Create data
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
-      const data = body[4]
+      const data = body
       expect(response1.status).to.equal(201);
 
-      expect(body).to.be.an('array')
-      expect(body.length).to.equal(5)
 
       expect(data).to.be.an('object')
       expect(data.name).to.equal('Michaela')
@@ -348,7 +346,7 @@ resources:
     _type: unit_test
   - _id: ut_249ca4abe59743b18904a32016d647ac
     parentId: uts_df962ceb26194b9d8aedfaa9a3b514a1
-    modified: 1646233513243
+    modified: 1646308735463
     created: 1646230751749
     requestId: req_df77e5e62e3f41b39df14d6a441f3426
     name: Get data by name - Michaela
