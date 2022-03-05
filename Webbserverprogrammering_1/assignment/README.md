@@ -93,4 +93,5 @@ Vi har repeterat flera av momenten i kursen vilket gör att mam hinner lära sig
 uppbyggda på samma satt. Det har varit lite otydligheter med vad exakt som ska lämnas in tycker jag då det inte specifikt står att alla funktioner ska ligga i en  
 "superfunktion" som kan hantera alla funktioner. Det står "Produkten är av god kvalitet när det gäller funktion, vilket eleven kontrollerar med hjälp av flera tester,  
 även manuella. Dessutom kontrollerar eleven med säkerhet, produktens tillgänglighet med automatiserade tester och simuleringar samt manuella tester" för betyget A.  
-Jag tycker att min kod är av god kvalitet när det gäller funktion.
+Jag tycker att min kod är av god kvalitet när det gäller funktion.  
+Jag tycker denna kursen har varit riktigt rolig!!
