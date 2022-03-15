@@ -1,14 +1,14 @@
 import TaskData from '../data/taskData.js'
 
 const createTask = (req, res) => {
-    const { task, name } = req.body
+    const {task, name} = req.body
     const newObject = {
         name: name,
         task: task,
-        id: TaskData.length
-    }
+        id:TaskData.length
+}
     TaskData.push(newObject)
-    res.status(201).send(TaskData[TaskData.length -1])
+    res.status(201).send(TaskData[TaskData.length - 1])
 }
 
 const allData = (req, res) => {
@@ -31,7 +31,7 @@ const getUserNames = (req, res) => {
 }
 
 const searchUserByName = (name) => {
-    let object = `Could not find "${ name }" in database`
+    let object = `Could not find "${name}" in database`
     TaskData.forEach(todo => {
         if (name === todo.name) {
             object = todo
@@ -48,7 +48,7 @@ const getUserByName = (req, res) => {
 }
 
 const modifyUserByName = (name, newName, task) => {
-    let object = `Could not find "${ name }" in database`
+    let object = `Could not find "${name}" in database`
     TaskData.forEach(todo => {
         if (name === todo.name) {
             todo.name = newName
@@ -61,13 +61,13 @@ const modifyUserByName = (name, newName, task) => {
 }
 
 const updateUserByName = (req, res) => {
-    const { name, newName, task } = req.body
+    const {name, newName, task} = req.body
     const response = modifyUserByName(name, newName, task)
     res.status(202).send(response)
 }
 
 const removeUserByName = (name) => {
-    let text = `User with name: "${ name }" `
+    let text = `User with name: "${name}" `
 
     for (let i = 0; i < TaskData.length; i++) {
         if (name === TaskData[i].name) {
