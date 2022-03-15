@@ -1,4 +1,4 @@
-import UserController from '../controller/UserController.js'
+import UserController from '../controller/TodoController.js'
 
 // Endpoint + Business Logic and CRUD Operations
 const routes = (app) => {

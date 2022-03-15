@@ -17,9 +17,9 @@ const allData = (req, res) => {
 
 const userNames = () => {
     const names = []
-    TaskData.forEach(user => {
+    TaskData.forEach(todo => {
         names.push({
-            name: user.name
+            name: todo.name
         })
     })
     return names
@@ -32,10 +32,10 @@ const getUserNames = (req, res) => {
 
 const searchUserByName = (name) => {
     let object = `Could not find "${ name }" in database`
-    TaskData.forEach(user => {
-        if (name === user.name) {
-            object = user
-            return user
+    TaskData.forEach(todo => {
+        if (name === todo.name) {
+            object = todo
+            return todo
         }
     })
     return object
@@ -49,12 +49,12 @@ const getUserByName = (req, res) => {
 
 const modifyUserByName = (name, newName, task) => {
     let object = `Could not find "${ name }" in database`
-    TaskData.forEach(user => {
-        if (name === user.name) {
-            user.name = newName
-            user.task = task
-            object = user
-            return user
+    TaskData.forEach(todo => {
+        if (name === todo.name) {
+            todo.name = newName
+            todo.task = task
+            object = todo
+            return todo
         }
     })
     return object
