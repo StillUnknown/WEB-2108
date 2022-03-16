@@ -1,10 +1,11 @@
 import TaskData from '../data/taskData.js'
 
 const createTask = (req, res) => {
-    const {task, name} = req.body
+    const {task, name, isDone} = req.body
     const newObject = {
         name: name,
         task: task,
+        isDone: false,
         id:TaskData.length
 }
     TaskData.push(newObject)

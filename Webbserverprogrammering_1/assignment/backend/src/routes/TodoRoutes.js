@@ -1,20 +1,20 @@
-import UserController from '../controller/TodoController.js'
+import TodoController from '../controller/TodoController.js'
 
 // Endpoint + Business Logic and CRUD Operations
 const routes = (app) => {
     // CREATE
-    app.post('/createtask/', UserController.createTask)
+    app.post('/createtask/', TodoController.createTask)
 
     // READ
-    app.get('/alldata', UserController.allData)
-    app.get('/getusernames/name', UserController.getUserNames)
-    app.get('/getuserbyname/:name', UserController.getUserByName)
+    app.get('/alldata', TodoController.allData)
+    app.get('/getusernames/name', TodoController.getUserNames)
+    app.get('/getuserbyname/:name', TodoController.getUserByName)
 
     // UPDATE
-    app.put('/updatedatabyname/', UserController.updateUserByName)
+    app.put('/updatedatabyname/', TodoController.updateUserByName)
 
     // DELETE
-    app.delete('/deletedatabyname/:name', UserController.deleteUserByName)
+    app.delete('/deletedatabyname/:name', TodoController.deleteUserByName)
 }
 
 export default {
