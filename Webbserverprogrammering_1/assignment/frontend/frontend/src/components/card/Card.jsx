@@ -15,14 +15,14 @@ const Card = ({name, task, isDone, id}) => {
         TodoService.changeTaskIsDone(id)
             .then(response => {
                 console.log(response.data)
-                setIsTaskDone(response.data)
+                setIsTaskDone(response.data.isDone)
             }).catch(error => console.log(error))
     }
 
     return (
-        <ul className={isTaskDone ? css.lineThrough : null} onClick={toggleDone}>
-            <li className={isActive ? css.lineThrough : null} onClick={toggleClass}> {task} {name} </li>
-        </ul>
+
+        <li className={isTaskDone ? css.lineThrough : null} onClick={toggleDone}> {task} {name} </li>
+
     )
 }
 

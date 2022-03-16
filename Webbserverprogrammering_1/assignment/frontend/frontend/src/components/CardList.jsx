@@ -2,7 +2,7 @@ import Card from './card/Card'
 
 const CardList = ({ todo }) => {
     return (
-        <div>
+        <ul>
             {
                 todo.map((item) => {
                     return (
@@ -13,7 +13,7 @@ const CardList = ({ todo }) => {
                     )
                 })
             }
-        </div>
+        </ul>
     )
 }
 

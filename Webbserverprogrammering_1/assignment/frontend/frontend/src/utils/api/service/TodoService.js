@@ -21,7 +21,7 @@ const getSingleDataByName = (name) => {
 }
 
 const changeTaskIsDone = (id) => {
-    return http.put('/changetaskisdone', id)
+    return http.put(`/changetaskisdone/${id}`)
 }
 
 export default {

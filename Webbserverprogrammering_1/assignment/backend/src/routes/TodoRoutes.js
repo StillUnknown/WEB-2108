@@ -6,13 +6,13 @@ const routes = (app) => {
     app.post('/createtask/', TodoController.createTask)
 
     // READ
-    app.get('/alldata', TodoController.allData)
+    app.get('/alldata/', TodoController.allData)
     app.get('/getusernames/name', TodoController.getUserNames)
     app.get('/getuserbyname/:name', TodoController.getUserByName)
 
     // UPDATE
     app.put('/updatedatabyname/', TodoController.updateUserByName)
-    app.put('changetaskisdone', TodoController.toggleTaskDone)
+    app.put('/changetaskisdone/:id', TodoController.toggleTaskDone)
 
     // DELETE
     app.delete('/deletedatabyname/:name', TodoController.deleteUserByName)

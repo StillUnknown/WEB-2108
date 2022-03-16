@@ -91,23 +91,9 @@ const deleteUserByName = (req, res) => {
 
 const toggleTaskDone = (req, res) => {
     const id = Number(req.params.id)
-    const response = actualToggle(id)
-    res.status(202).send(response)
+    TaskData[id].isDone = !TaskData[id].isDone
 
-    function actualToggle(id) {
-        let foundItem = {}
-        for (let i = 0; i < TaskData.length; i++) {
-            if (id === TaskData[i].id) {
-                foundItem = TaskData[i]
-                if (foundItem.isDone.valueOf() === false) {
-                    foundItem.isDone = true
-                } else {
-                    foundItem.isDone = false
-                }
-                return foundItem.isDone
-            }
-        }
-    }
+    res.status(202).send(TaskData[id])
 }
 
 export default {
