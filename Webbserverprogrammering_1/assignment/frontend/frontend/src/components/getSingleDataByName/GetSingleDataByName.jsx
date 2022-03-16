@@ -1,4 +1,4 @@
-import UsersService from "../../utils/api/service/UsersService";
+import TodoService from "../../utils/api/service/TodoService";
 import {useState} from "react";
 import css from './GetSingleDataByName.module.css'
 import Card from "../card/Card";
@@ -8,7 +8,7 @@ const GetSingleDataByName = () => {
     const [name, setName] = useState('')
 
     const sendDataToApi = () => {
-        UsersService.getSingleDataByName(name)
+        TodoService.getSingleDataByName(name)
             .then(response => {
                 setData(response.data)
             })

@@ -1,4 +1,4 @@
-import UsersService from '../../utils/api/service/UsersService'
+import TodoService from '../../utils/api/service/TodoService'
 import {useState} from 'react'
 import css from './CreateData.module.css'
 import Card from "../card/Card";
@@ -13,7 +13,7 @@ const CreataData = () => {
             'task': task,
             'name': name
         }
-        UsersService.createTaskData(newData)
+        TodoService.createTaskData(newData)
             .then(response => {
                 console.log(response.data)
                 setData(response.data)

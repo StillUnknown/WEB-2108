@@ -1,13 +1,13 @@
 import TaskData from '../data/taskData.js'
 
 const createTask = (req, res) => {
-    const {task, name, isDone} = req.body
+    const {task, name} = req.body
     const newObject = {
         name: name,
         task: task,
         isDone: false,
-        id:TaskData.length
-}
+        id: TaskData.length
+    }
     TaskData.push(newObject)
     res.status(201).send(TaskData[TaskData.length - 1])
 }
@@ -56,6 +56,7 @@ const modifyUserByName = (name, newName, task) => {
             todo.task = task
             object = todo
             return todo
+
         }
     })
     return object
@@ -88,11 +89,33 @@ const deleteUserByName = (req, res) => {
     res.status(200).send(responseFromDB)
 }
 
+const toggleTaskDone = (req, res) => {
+    const id = Number(req.params.id)
+    const response = actualToggle(id)
+    res.status(202).send(response)
+
+    function actualToggle(id) {
+        let foundItem = {}
+        for (let i = 0; i < TaskData.length; i++) {
+            if (id === TaskData[i].id) {
+                foundItem = TaskData[i]
+                if (foundItem.isDone.valueOf() === false) {
+                    foundItem.isDone = true
+                } else {
+                    foundItem.isDone = false
+                }
+                return foundItem.isDone
+            }
+        }
+    }
+}
+
 export default {
     createTask,
     allData,
     getUserNames,
     getUserByName,
     updateUserByName,
-    deleteUserByName
+    deleteUserByName,
+    toggleTaskDone
 }

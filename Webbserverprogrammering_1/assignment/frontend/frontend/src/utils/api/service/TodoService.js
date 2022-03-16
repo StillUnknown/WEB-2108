@@ -20,10 +20,15 @@ const getSingleDataByName = (name) => {
     return http.get(`/getuserbyname/${name}`)
 }
 
+const changeTaskIsDone = (id) => {
+    return http.put('/changetaskisdone', id)
+}
+
 export default {
     allData,
     createTaskData,
     updateDataByName,
     deleteDataByName,
-    getSingleDataByName
+    getSingleDataByName,
+    changeTaskIsDone
 }

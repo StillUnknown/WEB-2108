@@ -1,4 +1,4 @@
-import UsersService from "../../utils/api/service/UsersService";
+import TodoService from "../../utils/api/service/TodoService";
 import {useState} from "react";
 import Card from "../card/Card";
 import css from './UpdateData.module.css'
@@ -15,7 +15,7 @@ const UpdateData = () => {
             'newName': newName,
             'task': task
         }
-        UsersService.updateDataByName(changedData)
+        TodoService.updateDataByName(changedData)
             .then(response => {
                 setData(response.data)
             })

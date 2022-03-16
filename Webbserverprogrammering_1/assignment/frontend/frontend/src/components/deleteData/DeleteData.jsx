@@ -1,4 +1,4 @@
-import UsersService from "../../utils/api/service/UsersService";
+import TodoService from "../../utils/api/service/TodoService";
 import {useState} from "react";
 import css from './DeleteData.module.css'
 
@@ -7,7 +7,7 @@ const DeleteData = () => {
     const [name, setName] = useState('')
 
     const sendDataToApi = () => {
-        UsersService.deleteDataByName(name)
+        TodoService.deleteDataByName(name)
             .then(response => {
                 setData(response.data)
             })

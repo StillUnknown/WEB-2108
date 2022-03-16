@@ -1,10 +1,10 @@
 import Card from './card/Card'
 
-const CardList = ({ users }) => {
+const CardList = ({ todo }) => {
     return (
         <div>
             {
-                users.map((item) => {
+                todo.map((item) => {
                     return (
                         <Card key={ item.id }
                               id={ item.id }
