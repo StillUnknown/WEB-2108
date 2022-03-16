@@ -92,7 +92,6 @@ const deleteUserByName = (req, res) => {
 const toggleTaskDone = (req, res) => {
     const id = Number(req.params.id)
     TaskData[id].isDone = !TaskData[id].isDone
-
     res.status(202).send(TaskData[id])
 }
 

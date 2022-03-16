@@ -4,12 +4,7 @@ import TodoService from '../../utils/api/service/TodoService'
 
 const Card = ({name, task, isDone, id}) => {
 
-    const [isActive, setActive] = useState(false);
     const [isTaskDone, setIsTaskDone] = useState(isDone)
-
-    const toggleClass = () => {
-        setActive(!isActive)
-    }
 
     function toggleDone() {
         TodoService.changeTaskIsDone(id)
@@ -20,9 +15,7 @@ const Card = ({name, task, isDone, id}) => {
     }
 
     return (
-
         <li className={isTaskDone ? css.lineThrough : null} onClick={toggleDone}> {task} {name} </li>
-
     )
 }
 

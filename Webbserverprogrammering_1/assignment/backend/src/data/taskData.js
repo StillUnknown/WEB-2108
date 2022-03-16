@@ -2,7 +2,7 @@ const TaskData = [
     {
         name: 'Christoffer',
         task: 'Shop groceries',
-        isDone: true,
+        isDone: false,
         id: 0
     },
     {
