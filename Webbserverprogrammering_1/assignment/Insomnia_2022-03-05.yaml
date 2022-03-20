@@ -1,7 +1,7 @@
 _type: export
 __export_format: 4
-__export_date: 2022-03-05T11:37:38.660Z
-__export_source: insomnia.desktop.app:v2022.1.0
+__export_date: 2022-03-20T13:04:20.185Z
+__export_source: insomnia.desktop.app:v2022.2.0
 resources:
   - _id: req_abd0f19cdaaf42b3862270c0be506f0e
     parentId: wrk_3e746bac113e4820a8bf98efb02089d5
@@ -329,11 +329,11 @@ resources:
     _type: unit_test
   - _id: ut_47c7708d883a4d059f5de890cc4226ff
     parentId: uts_df962ceb26194b9d8aedfaa9a3b514a1
-    modified: 1646480148151
+    modified: 1647781405470
     created: 1646230351836
     requestId: req_3599bcff60bf4cd3b1a12fb54512c000
     name: Create data
-    code: |-
+    code: |
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
       const data = body
@@ -343,6 +343,7 @@ resources:
       expect(data).to.be.an('object')
       expect(data.name).to.equal('Michaela')
       expect(data.task).to.equal('Dance')
+      expect(body.isDone).to.equal(false)
     _type: unit_test
   - _id: ut_249ca4abe59743b18904a32016d647ac
     parentId: uts_df962ceb26194b9d8aedfaa9a3b514a1

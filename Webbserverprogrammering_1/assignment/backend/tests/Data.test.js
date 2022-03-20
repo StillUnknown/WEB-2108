@@ -113,6 +113,7 @@ const createTask = () => {
                     const body = response.body
                     expect(body.name).to.equal(newUser.name)
                     expect(body.task).to.equal(newUser.task)
+                    expect(body.isDone).to.equal(false)
                     done()
                 })
         })
