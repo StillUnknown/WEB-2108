@@ -3,10 +3,10 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 const port = process.env.PORT
-const connectToDatabase = async (uri, callback) => {
+const connectToDatabase = async (app) => {
     try {
         const db_URL=process.env.DATABASE_URL
-        await mongoose.connect(db_URL, {useNewUrlParser: true, useUnifiedTopology: true})
+        await mongoose.connect(db_URL)
         console.log('Successfully connected to database')
     } catch (error) {
         console.log('ERROR WHILE TRYING TO CONNECT TO THE DATABASE:', error)
