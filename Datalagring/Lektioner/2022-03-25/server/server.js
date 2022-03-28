@@ -21,3 +21,5 @@ app.use(Middlewares.errorHandler)
 
 Configuration.connectToDatabase(app)
 Configuration.connectToPort(app)
+
+export default app
