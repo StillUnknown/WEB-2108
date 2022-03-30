@@ -5,7 +5,7 @@ import morgan from 'morgan'
 import Middlewares from "./middlewares/Middlewares.js"
 import Configurations from "./configurations/Configurations.js"
 import TaskRoutes from "./routes/TaskRoutes.js"
-import AliveController from "./controller/AliveController.js"
+
 import ApplyMiddlewares from "./configurations/ApplyMiddlewares.js"
 
 dotenv.config()
@@ -16,7 +16,7 @@ app.use(helmet())
 app.use(express.urlencoded())
 app.use(morgan('common'))
 
-AliveController.alive(app)
+
 TaskRoutes.taskRoutes(app)
 app.use(Middlewares.notFound)
 app.use(Middlewares.errorHandler)
