@@ -48,13 +48,13 @@ const getTaskById = async (req, res) => {
 const getTaskWithNameQuery = async (req, res) => {
 
     try {
-        const response = await TaskModel.find({name: req.params.name})
+        const response = await TaskModel.find({name: req.query.name})
         response.length !== 0
             ? res.status(StatusCode.OK).send(response)
-            : res.status(StatusCode.NOT_FOUND).send({ message: `Could not find user with name: ` + req.params.name })
+            : res.status(StatusCode.NOT_FOUND).send({ message: `Could not find user with name: ` + req.query.name })
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error while trying to retrieve user with name: ` + req.params.userId,
+            message: `Error while trying to retrieve user with name: ` + req.query.userId,
             error: error.message
         })
     }
@@ -82,7 +82,7 @@ const deleteTask = async (req, res) => {
     try {
         const response = await TaskModel.findByIdAndDelete(req.params.userId)
         res.status(StatusCode.OK).send({
-            message: `Successfully deleted the task: ${response.task} and ID: ${response.userId}`
+            message: `Successfully deleted the task: ${response.task} and name: ${response.name}`
         })
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
