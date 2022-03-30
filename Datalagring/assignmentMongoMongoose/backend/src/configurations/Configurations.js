@@ -25,7 +25,7 @@ const connectToPort = (app) => {
     })
 }
 
-const connectToDatabase = async () => {
+const connectToDatabase = async (app) => {
     const uri = mongodb_url + dbName
     try {
         await mongoose.connect(uri)

@@ -1,0 +1,19 @@
+import cors from 'cors'
+import express from "express"
+
+const allowedRequestOrigin = '*'
+const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
+
+const cors_options = {
+    origin: allowedRequestOrigin,
+    methods: allowedRequestMethods
+}
+
+const ApplyMiddlewares = (app) => {
+    app.use(cors(cors_options))
+    app.use(express.json())
+}
+
+export default {
+    ApplyMiddlewares
+}
