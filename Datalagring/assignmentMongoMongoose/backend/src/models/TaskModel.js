@@ -6,8 +6,8 @@ dotenv.config()
 const dbCollection = process.env.MONGODB_COLLECTION
 
 const TaskSchema = new mongoose.Schema({
-    Task: String,
-    Name: String,
+    task: String,
+    name: String,
     isDone: false
 }, {
     timestamps: true
@@ -15,4 +15,6 @@ const TaskSchema = new mongoose.Schema({
 
 const TaskModel = new mongoose.model(dbCollection, TaskSchema)
 
-export default TaskModel
+export default {
+    TaskModel
+}
