@@ -3,6 +3,7 @@
 // 2xx successful – the request was successfully received, understood, and accepted
 const OK = 200
 const CREATED = 201
+const ACCEPTED = 202
 
 // 3xx redirection – further action needs to be taken in order to complete the request
 
@@ -24,5 +25,6 @@ export default {
     FORBIDDEN,
     NOT_FOUND,
     METHOD_NOT_ALLOWED,
-    INTERNAL_SERVER_ERROR
+    INTERNAL_SERVER_ERROR,
+    ACCEPTED
 }
