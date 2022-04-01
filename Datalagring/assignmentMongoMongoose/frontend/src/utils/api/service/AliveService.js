@@ -4,4 +4,6 @@ const alive = () => {
     return http.get('/')
 }
 
-export default alive
+export default {
+    alive
+}

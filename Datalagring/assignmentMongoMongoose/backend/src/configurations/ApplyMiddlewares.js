@@ -14,6 +14,4 @@ const ApplyMiddlewares = (app) => {
     app.use(express.json())
 }
 
-export default {
-    ApplyMiddlewares
-}
+export default ApplyMiddlewares
