@@ -10,8 +10,6 @@ X
 (backend/src/configurations/StatusCode.js,b\a\ba582dd9ff3546b304224eadbe6acca7b7dd91d0
 Y
 )backend/src/controller/AliveController.js,6\5\6564d3c860a9ce42f7de74abc0dae3d81e5e68d0
-P
- backend/src/routes/AliveRoute.js,9\6\960c239e9e50f1a6c1249058afe0de772e39c322
 E
 backend/src/server.js,e\3\e39e226d76793263ab49e3d6b7a0ade0b9d29cdf
 V
