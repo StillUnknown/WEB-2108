@@ -8,10 +8,6 @@ K
 backend/src/utils/Logger.js,7\7\77b5c577d178b6cc2e45c8add2de8c362cd548d2
 X
 (backend/src/configurations/StatusCode.js,b\a\ba582dd9ff3546b304224eadbe6acca7b7dd91d0
-Y
-)backend/src/controller/AliveController.js,6\5\6564d3c860a9ce42f7de74abc0dae3d81e5e68d0
-\
-,backend/src/configurations/Configurations.js,d\3\d3aedc10274e14c293bea52a49d9daa1919ae09e
 <
 backend/.env,f\3\f30451335edfb80e231f658d0defc83bb7e4c3a7
 O
@@ -20,8 +16,6 @@ J
 frontend/package-lock.json,7\5\75b3b81cff849b08343553e269c3327a04ab22e0
 C
 frontend/.gitignore,e\2\e23a63a9f05477a70f6e75d709dbb4eae2db742d
-Z
-*frontend/src/utils/global/style/global.css,0\b\0befc844f0c353373c3213998708114e48f879fb
 M
 frontend/public/manifest.json,c\d\cd34dec7520a7acb6883aced77aaaa93699c86ed
 J
