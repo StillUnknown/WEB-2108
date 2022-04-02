@@ -56,3 +56,17 @@ Z
 *frontend/src/utils/global/style/global.css,0\b\0befc844f0c353373c3213998708114e48f879fb
 T
 $frontend/src/components/CardList.jsx,0\e\0ef4e7aeba91ef1bf51647ac1e28e4522c0fcf4f
+d
+4frontend/src/components/taskList/TaskList.module.css,1\a\1a99d130f7a860765463dca3271b79871a9ebeef
+Q
+!frontend/src/components/Alive.jsx,d\5\d5a5b0110daf81a9940768c311b40abe67e83b59
+\
+,frontend/src/components/card/Card.module.css,4\6\46c2057658c1ec538fc2ea0e6cec764929c11f92
+h
+8frontend/src/components/createTask/CreateTask.module.css,7\0\703c8135378bd699c40f03aaa7e0721476b023b7
+Y
+)backend/src/controller/AliveController.js,6\5\6564d3c860a9ce42f7de74abc0dae3d81e5e68d0
+U
+%frontend/src/components/card/Card.jsx,a\8\a8318e4c4609d97b8499d5801717fab98cfd6f3f
+a
+1frontend/src/components/createTask/CreateTask.jsx,c\f\cf5f1f998f8a7b1ce0fcb9afc7bbcbe9c086ccba
