@@ -12,15 +12,13 @@ import AliveRoute from "./routes/AliveRoute.js";
 dotenv.config()
 const app = express()
 
-
+ApplyMiddlewares.ApplyMiddlewares
 app.use(helmet())
 app.use(express.urlencoded({ extended: true }))
-app.use(express.json())
 app.use(morgan('common'))
 
 AliveRoute.aliveRoute(app)
 TaskRoutes.taskRoutes(app)
-ApplyMiddlewares.ApplyMiddlewares
 app.use(Middlewares.notFound)
 app.use(Middlewares.errorHandler)
 

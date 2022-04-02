@@ -12,3 +12,51 @@ Y
 )backend/src/controller/AliveController.js,6\5\6564d3c860a9ce42f7de74abc0dae3d81e5e68d0
 \
 ,backend/src/configurations/Configurations.js,d\3\d3aedc10274e14c293bea52a49d9daa1919ae09e
+X
+(backend/src/controller/TaskController.js,3\7\371ad2c9bc5128fceb975db3b7e3e39878c9559c
+<
+backend/.env,f\3\f30451335edfb80e231f658d0defc83bb7e4c3a7
+O
+backend/src/models/TaskModel.js,4\1\41e281b19ad717c2aeb16f456e171d0caa2f19e9
+J
+frontend/package-lock.json,7\5\75b3b81cff849b08343553e269c3327a04ab22e0
+C
+frontend/.gitignore,e\2\e23a63a9f05477a70f6e75d709dbb4eae2db742d
+Z
+*frontend/src/utils/global/style/global.css,0\b\0befc844f0c353373c3213998708114e48f879fb
+M
+frontend/public/manifest.json,c\d\cd34dec7520a7acb6883aced77aaaa93699c86ed
+J
+frontend/public/robots.txt,7\1\71da921be3a0f0a448954fe008e28e105a81deb2
+H
+frontend/src/App.test.js,8\2\824b503175b2d4643dca251a406e74fc8b4562e6
+J
+frontend/public/index.html,5\3\53b461857fde9b76a1c6e79a500050ceffbd7f33
+B
+frontend/README.md,6\a\6a3a36e34dda2b89c027f00ac950371695b13c75
+O
+frontend/src/reportWebVitals.js,9\f\9f720addad7168969b50fe5ceca5a9e8dcf8069d
+J
+frontend/src/setupTests.js,7\3\73d6ccd1abf2bb05a47e15c443fb0e32314ec163
+E
+frontend/src/index.js,0\9\09a4e53ab0e5e7637fd01136f19a9bb570e1ef2d
+P
+ backend/src/routes/TaskRoutes.js,5\f\5ffbf8fb497b5aa0996225d68b8af4aadc0ea149
+P
+ backend/src/routes/AliveRoute.js,9\6\960c239e9e50f1a6c1249058afe0de772e39c322
+]
+-frontend/src/utils/api/service/TaskService.js,e\3\e30c8161c9e4a9b972c7db19ac8d9551404b5c7f
+E
+frontend/package.json,3\7\37083060967a471c011a16651e22bdc2ade41759
+V
+&backend/src/middlewares/Middlewares.js,d\1\d1c748d06c897b9c256597d987054bcd1f4ffd59
+D
+backend/package.json,2\d\2d67691333633e849af94af966942f0c1b3151c6
+Q
+!frontend/src/components/Alive.jsx,d\5\d5a5b0110daf81a9940768c311b40abe67e83b59
+^
+.frontend/src/utils/api/service/AliveService.js,c\4\c4ef1a51684ae22b336e7651ded867d4f728e161
+C
+frontend/src/App.js,d\6\d63b8ace488b6134c279ccc0cc109223d4d79c20
+Q
+!frontend/src/utils/api/TaskAPI.js,b\b\bbdc5bd7eacbe3a718e9ec42e5795d15303d68c7
