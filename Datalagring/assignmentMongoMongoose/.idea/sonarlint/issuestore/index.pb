@@ -12,8 +12,6 @@ Y
 )backend/src/controller/AliveController.js,6\5\6564d3c860a9ce42f7de74abc0dae3d81e5e68d0
 \
 ,backend/src/configurations/Configurations.js,d\3\d3aedc10274e14c293bea52a49d9daa1919ae09e
-X
-(backend/src/controller/TaskController.js,3\7\371ad2c9bc5128fceb975db3b7e3e39878c9559c
 <
 backend/.env,f\3\f30451335edfb80e231f658d0defc83bb7e4c3a7
 O
@@ -41,11 +39,7 @@ J
 E
 frontend/src/index.js,0\9\09a4e53ab0e5e7637fd01136f19a9bb570e1ef2d
 P
- backend/src/routes/TaskRoutes.js,5\f\5ffbf8fb497b5aa0996225d68b8af4aadc0ea149
-P
  backend/src/routes/AliveRoute.js,9\6\960c239e9e50f1a6c1249058afe0de772e39c322
-]
--frontend/src/utils/api/service/TaskService.js,e\3\e30c8161c9e4a9b972c7db19ac8d9551404b5c7f
 E
 frontend/package.json,3\7\37083060967a471c011a16651e22bdc2ade41759
 V
@@ -56,7 +50,7 @@ Q
 !frontend/src/components/Alive.jsx,d\5\d5a5b0110daf81a9940768c311b40abe67e83b59
 ^
 .frontend/src/utils/api/service/AliveService.js,c\4\c4ef1a51684ae22b336e7651ded867d4f728e161
-C
-frontend/src/App.js,d\6\d63b8ace488b6134c279ccc0cc109223d4d79c20
 Q
 !frontend/src/utils/api/TaskAPI.js,b\b\bbdc5bd7eacbe3a718e9ec42e5795d15303d68c7
+^
+.backend/src/configurations/ApplyMiddlewares.js,2\c\2c7a7e1404a3933b37d8148778c2ece395a99785

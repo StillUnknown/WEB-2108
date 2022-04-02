@@ -13,6 +13,7 @@ const taskRoutes = (app) => {
     app.get(searchTask, TaskController.getTaskWithNameQuery)
     app.put(tasksUrlById, TaskController.updateTask)
     app.delete(tasksUrlById, TaskController.deleteTask)
+    app.put(`/toggleTaskDone/:id`, TaskController.toggleTaskDone)
 }
 
 export default {
