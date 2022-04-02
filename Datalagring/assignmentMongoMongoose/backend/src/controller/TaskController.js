@@ -93,7 +93,7 @@ const deleteTask = async (req, res) => {
 }
 
 const toggleTaskDone = (req, res) => {
-    const id = Number(req.params.userId)
+    const id = Number(req.params._id)
     TaskModel[id].isDone = !TaskModel[id].isDone
     res.status(StatusCode.ACCEPTED).send(TaskModel[id])
 }

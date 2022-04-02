@@ -48,3 +48,15 @@ Q
 !frontend/src/utils/api/TaskAPI.js,b\b\bbdc5bd7eacbe3a718e9ec42e5795d15303d68c7
 ^
 .backend/src/configurations/ApplyMiddlewares.js,2\c\2c7a7e1404a3933b37d8148778c2ece395a99785
+E
+backend/src/server.js,e\3\e39e226d76793263ab49e3d6b7a0ade0b9d29cdf
+d
+4frontend/src/components/taskList/TaskList.module.css,1\a\1a99d130f7a860765463dca3271b79871a9ebeef
+\
+,frontend/src/components/card/Card.module.css,4\6\46c2057658c1ec538fc2ea0e6cec764929c11f92
+]
+-frontend/src/components/taskList/taskList.jsx,4\2\420c5c23ad0f0715717f544ccc4860de13a0a550
+P
+ backend/src/routes/TaskRoutes.js,5\f\5ffbf8fb497b5aa0996225d68b8af4aadc0ea149
+\
+,backend/src/configurations/Configurations.js,d\3\d3aedc10274e14c293bea52a49d9daa1919ae09e

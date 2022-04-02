@@ -9,7 +9,8 @@ const CardList = ({task}) => {
                         <Card key={item.id}
                               id={item.id}
                               name={item.name}
-                              task={item.task}/>
+                              task={item.task}
+                              isDone={item.isDone}/>
                     )
                 })
             }
