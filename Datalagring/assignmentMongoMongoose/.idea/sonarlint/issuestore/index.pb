@@ -40,8 +40,6 @@ V
 &backend/src/middlewares/Middlewares.js,d\1\d1c748d06c897b9c256597d987054bcd1f4ffd59
 D
 backend/package.json,2\d\2d67691333633e849af94af966942f0c1b3151c6
-Q
-!frontend/src/components/Alive.jsx,d\5\d5a5b0110daf81a9940768c311b40abe67e83b59
 ^
 .frontend/src/utils/api/service/AliveService.js,c\4\c4ef1a51684ae22b336e7651ded867d4f728e161
 Q
@@ -50,11 +48,11 @@ Q
 .backend/src/configurations/ApplyMiddlewares.js,2\c\2c7a7e1404a3933b37d8148778c2ece395a99785
 E
 backend/src/server.js,e\3\e39e226d76793263ab49e3d6b7a0ade0b9d29cdf
-d
-4frontend/src/components/taskList/TaskList.module.css,1\a\1a99d130f7a860765463dca3271b79871a9ebeef
-\
-,frontend/src/components/card/Card.module.css,4\6\46c2057658c1ec538fc2ea0e6cec764929c11f92
 ]
 -frontend/src/components/taskList/taskList.jsx,4\2\420c5c23ad0f0715717f544ccc4860de13a0a550
 \
 ,backend/src/configurations/Configurations.js,d\3\d3aedc10274e14c293bea52a49d9daa1919ae09e
+Z
+*frontend/src/utils/global/style/global.css,0\b\0befc844f0c353373c3213998708114e48f879fb
+T
+$frontend/src/components/CardList.jsx,0\e\0ef4e7aeba91ef1bf51647ac1e28e4522c0fcf4f

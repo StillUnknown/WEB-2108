@@ -2,14 +2,13 @@ import http from '../TaskAPI'
 
 const taskUrl = `/task`
 const tasksUrlById = `${taskUrl}/:userId`
-const searchTask = `/searchTask`
 
 const getAllTasks = () => {
     return http.get(taskUrl)
 }
 
-const createTask = () => {
-    return http.post(taskUrl)
+const createTask = (newName) => {
+    return http.post(taskUrl, newName)
 }
 
 const updateTask = (_id) => {
@@ -24,8 +23,8 @@ const getTaskById = (_id) => {
     return http.get(tasksUrlById)
 }
 
-const getTaskWithNameQuery = () => {
-    return http.get(searchTask)
+const getTaskWithNameQuery = (name) => {
+    return http.get(`/searchTask?name=${name}`)
 }
 
 const toggleTaskDone = (_id) => {
