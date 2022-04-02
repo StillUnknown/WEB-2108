@@ -66,7 +66,7 @@ const updateTask = async (req, res) => {
         if (!req.body) { return res.status(StatusCode.BAD_REQUEST).send({ message: `Cannot update empty values` })}
         const response = await TaskModel.findByIdAndUpdate(req.params.userId, {
             task: req.body.task,
-            name: req.body.name
+            name: req.body.name,
         }, { new: true })
         res.status(StatusCode.OK).send(response)
     } catch (error) {
@@ -93,9 +93,9 @@ const deleteTask = async (req, res) => {
 }
 
 const toggleTaskDone = (req, res) => {
-    const id = Number(req.params._id)
-    TaskModel[id].isDone = !TaskModel[id].isDone
-    res.status(StatusCode.ACCEPTED).send(TaskModel[id])
+    const _id = Number(req.params.userId)
+    TaskModel[_id].isDone = !TaskModel[_id].isDone
+    res.status(StatusCode.ACCEPTED).send(TaskModel[_id])
 }
 
 export default {
