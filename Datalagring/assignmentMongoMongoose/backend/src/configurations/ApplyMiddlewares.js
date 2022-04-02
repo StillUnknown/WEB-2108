@@ -1,11 +1,11 @@
 import cors from 'cors'
 import express from "express"
 
-const allowedRequestOrigin = '*'
+const allowedRequestOrigins = '*'
 const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
 
 const cors_options = {
-    origin: allowedRequestOrigin,
+    origin: allowedRequestOrigins,
     methods: allowedRequestMethods
 }
 
