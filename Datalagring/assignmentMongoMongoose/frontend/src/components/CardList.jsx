@@ -6,8 +6,8 @@ const CardList = ({task}) => {
             {
                 task.map((item) => {
                     return (
-                        <Card key={item.id}
-                              id={item.id}
+                        <Card key={item._id}
+                              _id={item._id}
                               name={item.name}
                               task={item.task}
                               isDone={item.isDone}/>
