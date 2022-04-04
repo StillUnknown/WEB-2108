@@ -15,7 +15,7 @@ const Alive = () => {
     useEffect( () => {
         checkIfApiIsAlive()
     }, [])
-console.log(data)
+
     const displayData = () => {
         if (data.length !== 0) {
             return <h3>Response from API: "{ data }"</h3>

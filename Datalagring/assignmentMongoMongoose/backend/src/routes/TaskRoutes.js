@@ -6,6 +6,7 @@ const taskRoutes = (app) => {
     const taskUrl = `/task`
     const tasksUrlById = `${taskUrl}/:userId`
     const searchTask = `/searchTask`
+    const toggleTaskDone = '/toggleTaskDone:_id'
 
     app.post(taskUrl, TaskController.createTask)
     app.get(taskUrl, TaskController.getAllTasks)
@@ -13,7 +14,7 @@ const taskRoutes = (app) => {
     app.get(searchTask, TaskController.getTaskWithNameQuery)
     app.put(tasksUrlById, TaskController.updateTask)
     app.delete(tasksUrlById, TaskController.deleteTask)
-    app.put(`/toggleTaskDone/:id`, TaskController.toggleTaskDone)
+    app.put(toggleTaskDone, TaskController.toggleTaskDone)
 }
 
 export default {

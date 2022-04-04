@@ -9,7 +9,7 @@ const environment = process.env.ENVIRONMENT
 const mongodb_url = process.env.MONGODB_URL
 const dbName = process.env.MONGODB_DB_NAME
 
-const isServerInDevelopmentMode = () => {
+const isServerInDevOrProdMode = () => {
     const denEnv = 'development'
     const env = environment || denEnv
     const isDevelopment = env === denEnv
@@ -20,23 +20,23 @@ const isServerInDevelopmentMode = () => {
 
 const connectToPort = (app) => {
     app.listen(port, () => {
-        isServerInDevelopmentMode()
-        Logger.info(`server started at http://localhost:${port}`)
+        isServerInDevOrProdMode()
+        Logger.info(`Server started at http://localhost:${port}`)
     })
 }
 
-const connectToDatabase = async (app) => {
+const connectToDB = async (app) => {
     const uri = mongodb_url + dbName
     try {
         await mongoose.connect(uri)
-        Logger.info(`Successfully connected to the Database`)
+        Logger.info(`You have successfully connected to the Database`)
     } catch (error) {
-        Logger.error(`Error connecting to the Database`.toUpperCase(), error)
+        Logger.error(`ERROR OCCURRED WHILE CONNECTING TO DB`, error)
         process.exit()
     }
 }
 
 export default {
     connectToPort,
-    connectToDatabase
+    connectToDB
 }
