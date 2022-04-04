@@ -3,7 +3,7 @@ import Logger from "../utils/Logger.js";
 import StatusCode from "../configurations/StatusCode.js";
 
 
-const createNewTask = async (req, res) => {
+const createTask = async (req, res) => {
     Logger.http(req.body)
 
     const task = new TaskModel({
@@ -99,7 +99,7 @@ const toggleTaskDone = (req, res) => {
 }
 
 export default {
-    createNewTask,
+    createTask,
     getAllTasks,
     getTaskById,
     getTaskWithNameQuery,

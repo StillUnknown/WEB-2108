@@ -22,7 +22,7 @@ TaskRoutes.taskRoutes(app)
 app.use(Middlewares.notFound)
 app.use(Middlewares.errorHandler)
 
-Configurations.connectToDatabase(app)
 Configurations.connectToPort(app)
+Configurations.connectToDatabase(app)
 
 export default app

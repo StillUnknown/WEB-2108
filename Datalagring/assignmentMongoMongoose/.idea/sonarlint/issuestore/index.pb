@@ -30,8 +30,6 @@ D
 -frontend/src/components/taskList/taskList.jsx,4\2\420c5c23ad0f0715717f544ccc4860de13a0a550
 Z
 *frontend/src/utils/global/style/global.css,0\b\0befc844f0c353373c3213998708114e48f879fb
-T
-$frontend/src/components/CardList.jsx,0\e\0ef4e7aeba91ef1bf51647ac1e28e4522c0fcf4f
 d
 4frontend/src/components/taskList/TaskList.module.css,1\a\1a99d130f7a860765463dca3271b79871a9ebeef
 \
@@ -44,3 +42,23 @@ z
 Jfrontend/src/components/getSingleTaskByName/GetSingleTaskByName.module.css,2\2\229801d1e8d3a172b646972b772d28c6a6471784
 m
 =frontend/src/components/getSingleTaskByName/GetSingleTask.jsx,2\4\2406eed8a27bb53bc02067a01f7d29d3ca3992b9
+C
+frontend/src/App.js,d\6\d63b8ace488b6134c279ccc0cc109223d4d79c20
+X
+(backend/src/configurations/StatusCode.js,b\a\ba582dd9ff3546b304224eadbe6acca7b7dd91d0
+V
+&backend/src/middlewares/Middlewares.js,d\1\d1c748d06c897b9c256597d987054bcd1f4ffd59
+O
+backend/src/models/TaskModel.js,4\1\41e281b19ad717c2aeb16f456e171d0caa2f19e9
+J
+frontend/public/index.html,5\3\53b461857fde9b76a1c6e79a500050ceffbd7f33
+E
+frontend/package.json,3\7\37083060967a471c011a16651e22bdc2ade41759
+^
+.frontend/src/utils/api/service/AliveService.js,c\4\c4ef1a51684ae22b336e7651ded867d4f728e161
+Q
+!frontend/src/utils/api/TaskAPI.js,b\b\bbdc5bd7eacbe3a718e9ec42e5795d15303d68c7
+P
+ backend/src/routes/AliveRoute.js,9\6\960c239e9e50f1a6c1249058afe0de772e39c322
+Q
+!frontend/src/components/Alive.jsx,d\5\d5a5b0110daf81a9940768c311b40abe67e83b59
