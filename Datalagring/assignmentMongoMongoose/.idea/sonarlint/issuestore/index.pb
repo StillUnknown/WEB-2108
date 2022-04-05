@@ -60,3 +60,27 @@ Y
 ,backend/src/configurations/Configurations.js,d\3\d3aedc10274e14c293bea52a49d9daa1919ae09e
 E
 backend/src/server.js,e\3\e39e226d76793263ab49e3d6b7a0ade0b9d29cdf
+K
+backend/src/utils/Logger.js,7\7\77b5c577d178b6cc2e45c8add2de8c362cd548d2
+C
+frontend/src/App.js,d\6\d63b8ace488b6134c279ccc0cc109223d4d79c20
+]
+-frontend/src/components/taskList/taskList.jsx,4\2\420c5c23ad0f0715717f544ccc4860de13a0a550
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+a
+1frontend/src/components/createTask/CreateTask.jsx,c\f\cf5f1f998f8a7b1ce0fcb9afc7bbcbe9c086ccba
+]
+-frontend/src/utils/api/service/TaskService.js,e\3\e30c8161c9e4a9b972c7db19ac8d9551404b5c7f
+P
+ backend/src/routes/TaskRoutes.js,5\f\5ffbf8fb497b5aa0996225d68b8af4aadc0ea149
+X
+(backend/src/controller/TaskController.js,3\7\371ad2c9bc5128fceb975db3b7e3e39878c9559c
+U
+%frontend/src/components/card/Card.jsx,a\8\a8318e4c4609d97b8499d5801717fab98cfd6f3f
+T
+$frontend/src/components/CardList.jsx,0\e\0ef4e7aeba91ef1bf51647ac1e28e4522c0fcf4f
+m
+=frontend/src/components/getSingleTaskByName/GetSingleTask.jsx,2\4\2406eed8a27bb53bc02067a01f7d29d3ca3992b9
+O
+backend/src/models/TaskModel.js,4\1\41e281b19ad717c2aeb16f456e171d0caa2f19e9
