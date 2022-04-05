@@ -24,7 +24,7 @@ const getTaskById = (_id) => {
 }
 
 const getTaskWithNameQuery = (name) => {
-    return http.get(`/searchTask?name=${name}`)
+    return http.get(`/searchTask/${name}`)
 }
 
 const toggleTaskDone = (_id) => {

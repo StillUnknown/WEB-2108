@@ -11,7 +11,8 @@ const CreateTask = () => {
     const sendDataToApi = () => {
         const newTask = {
             'task': task,
-            'name': name
+            'name': name,
+            'isDone': false
         }
         TaskService.createTask(newTask)
             .then(response => {

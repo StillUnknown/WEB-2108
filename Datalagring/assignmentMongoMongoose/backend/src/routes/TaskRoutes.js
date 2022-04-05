@@ -2,11 +2,10 @@ import TaskController from "../controller/TaskController.js";
 
 // Endpoint +Business Logic and CRUD Operations
 const taskRoutes = (app) => {
-
     const taskUrl = `/task`
     const tasksUrlById = `${taskUrl}/:userId`
-    const searchTask = `/searchTask`
-    const toggleTaskDone = '/toggleTaskDone:_id'
+    const searchTask = `/searchTask/:name`
+    const toggleTaskDone = '/toggleTaskDone/:userId'
 
     app.post(taskUrl, TaskController.createTask)
     app.get(taskUrl, TaskController.getAllTasks)
