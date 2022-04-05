@@ -15,7 +15,7 @@ const Card = ({ name, task, isDone, _id }) => {
     }
 
     return (
-        <li className={ isTaskDone ? css.lineThrough : null } onClick={toggleIsDone}> Task: {task} Name: {name} ID: {_id} </li>
+        <li className={ isTaskDone ? css.lineThrough : null } onClick={toggleIsDone}> <b>Task:</b> {task} <b>Name:</b> {name} <b>Id:</b> {_id} </li>
     )
 }
 
