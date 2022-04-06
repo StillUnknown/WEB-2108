@@ -2,7 +2,9 @@ import './utils/global/style/global.css'
 import Alive from "./components/Alive";
 import TaskList from "./components/taskList/taskList";
 import CreateTask from "./components/createTask/CreateTask";
-import GetSingleTask from "./components/getSingleTaskByName/GetSingleTask";
+import GetTaskUsingName from './components/getTaskUsingName/GetTaskUsingName'
+import GetTaskUsingId from './components/getTaskUsingId/GetTaskUsingId'
+
 
 function App() {
     return (
@@ -10,7 +12,8 @@ function App() {
             <Alive/>
             <TaskList/>
             <CreateTask/>
-            <GetSingleTask/>
+            <GetTaskUsingName/>
+            <GetTaskUsingId/>
         </>
     );
 }

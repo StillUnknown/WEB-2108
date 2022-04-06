@@ -3,7 +3,7 @@ import  { useState } from 'react'
 import css from './GetSingleTaskByName.module.css'
 import Card from "../card/Card";
 
-const GetSingleTask = () => {
+const GetTaskUsingName = () => {
     const [data, setData] = useState([])
     const [name, setName] = useState('')
 
@@ -31,4 +31,4 @@ const GetSingleTask = () => {
     )
 }
 
-export default GetSingleTask
+export default GetTaskUsingName

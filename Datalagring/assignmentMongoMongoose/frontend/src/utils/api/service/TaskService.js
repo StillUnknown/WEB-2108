@@ -20,7 +20,7 @@ const deleteTask = (_id) => {
 }
 
 const getTaskById = (_id) => {
-    return http.get(tasksUrlById)
+    return http.get(`/task/${_id}`)
 }
 
 const getTaskWithNameQuery = (name) => {
