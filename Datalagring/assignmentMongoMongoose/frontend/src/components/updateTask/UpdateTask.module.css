@@ -44,3 +44,8 @@
 .h3Style {
     background-color: lightgray;
 }
+
+.pStyle {
+    background-color: lightgrey;
+    font-size: 18px;
+}

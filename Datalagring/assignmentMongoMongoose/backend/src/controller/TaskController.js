@@ -41,10 +41,8 @@ const getTaskById = async (req, res) => {
         const response = await TaskModel.findById(req.params.userId)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error occurred while trying to retrieve user with id: ` + req.params.userId,
-            error: error.message
-        })
+        res.status(StatusCode.INTERNAL_SERVER_ERROR).send(`Error occurred while trying to retrieve user with id: ` + req.params.userId,
+        )
     }
 }
 
@@ -90,10 +88,8 @@ const deleteTask = async (req, res) => {
         res.status(StatusCode.OK).send(`Successfully deleted the task: ${response.task} and name: ${response.name}`
         )
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error while trying to delete the task with ID: ` + req.params.userId,
-            error: error.message
-        })
+        res.status(StatusCode.INTERNAL_SERVER_ERROR).send(`Error while trying to delete the task with ID: ` + req.params.userId,
+        )
     }
 }
 
