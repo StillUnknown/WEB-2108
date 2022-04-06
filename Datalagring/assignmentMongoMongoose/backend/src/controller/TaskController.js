@@ -26,6 +26,7 @@ const getAllTasks = async (req, res) => {
 
     try {
         const response = await TaskModel.find()
+        Logger.debug(response)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
