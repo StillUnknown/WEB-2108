@@ -16,7 +16,7 @@ const updateTask = (_id, changedTask) => {
 }
 
 const deleteTask = (_id) => {
-    return http.delete(tasksUrlById)
+    return http.delete(`/task/${_id}`)
 }
 
 const getTaskById = (_id) => {

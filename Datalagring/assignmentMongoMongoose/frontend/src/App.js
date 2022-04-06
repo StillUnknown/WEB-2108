@@ -5,6 +5,7 @@ import CreateTask from "./components/createTask/CreateTask";
 import GetTaskUsingName from './components/getTaskUsingName/GetTaskUsingName'
 import GetTaskUsingId from './components/getTaskUsingId/GetTaskUsingId'
 import UpdateTask from './components/updateTask/UpdateTask'
+import DeleteTask from './components/deleteTask/DeleteTask'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <GetTaskUsingName/>
             <GetTaskUsingId/>
             <UpdateTask/>
+            <DeleteTask/>
         </>
     );
 }
