@@ -11,8 +11,8 @@ const createTask = (newName) => {
     return http.post(taskUrl, newName)
 }
 
-const updateTask = (_id) => {
-    return http.put(`/task/`)
+const updateTask = (_id, changedTask) => {
+    return http.put(`/task/${_id}`, changedTask)
 }
 
 const deleteTask = (_id) => {
