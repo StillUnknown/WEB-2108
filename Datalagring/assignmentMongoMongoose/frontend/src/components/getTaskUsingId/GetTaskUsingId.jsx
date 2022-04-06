@@ -19,7 +19,7 @@ const GetTaskUsingId = () => {
         <>
             <div className={css.centerContent}>
                 <h1 className={css.h1Style} data-testid='header'>Get Single Task By Id</h1>
-                Id: <input className={css.inputStyle} type='text'
+                Id: <input className={css.inputStyle} type='number'
                            value={_id}
                            onChange={event => set_Id(event.target.value)}/>
                 <button className={css.buttonStyle} onClick={sendDataToApi}>Get Single Task By Id</button>
