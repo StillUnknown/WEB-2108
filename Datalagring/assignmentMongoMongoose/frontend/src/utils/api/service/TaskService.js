@@ -12,7 +12,7 @@ const createTask = (newName) => {
 }
 
 const updateTask = (_id) => {
-    return http.put(tasksUrlById)
+    return http.put(`/task/`)
 }
 
 const deleteTask = (_id) => {
