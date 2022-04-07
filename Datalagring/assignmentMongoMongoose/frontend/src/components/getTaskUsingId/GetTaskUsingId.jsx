@@ -2,6 +2,7 @@ import TaskService from "../../utils/api/service/TaskService";
 import {useState} from 'react'
 import css from './GetTaskUsingId.module.css'
 import Card from "../card/Card";
+import CardList from '../CardList'
 
 const GetTaskUsingId = () => {
     const [data, setData] = useState([])
@@ -27,7 +28,7 @@ const GetTaskUsingId = () => {
                 {data.name ? <Card name={data.name}
                                    task={data.task}
                                    _id={data._id}/>
-                    : <h3>{data}</h3>}
+                    : <h3>{data.error}</h3>}
             </div>
         </>
     )
