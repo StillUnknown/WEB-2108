@@ -5,14 +5,16 @@ import Card from "../card/Card";
 import CardList from '../CardList'
 
 const GetTaskUsingId = () => {
-    const [data, setData] = useState([])
+    const [oneTask, setOneTask] = useState([])
     const [_id, set_Id] = useState('')
 
-    const sendDataToApi = () => {
+    const getTaskWithId = () => {
         TaskService.getTaskById(_id)
             .then(response => {
-                setData(response.data)
+                const emptyArray = []
+                emptyArray.push(response.data)
                 console.log(response.data)
+                setOneTask(response.data)
             })
             .catch(error => console.log(error))
     }
@@ -24,11 +26,11 @@ const GetTaskUsingId = () => {
                 Id: <input className={css.inputStyle} type='text'
                            value={_id}
                            onChange={event => set_Id(event.target.value)}/>
-                <button className={css.buttonStyle} onClick={sendDataToApi}>Get Single Task By Id</button>
-                {data.name ? <Card name={data.name}
-                                   task={data.task}
-                                   _id={data._id}/>
-                    : <h3>{data.error}</h3>}
+                <button className={css.buttonStyle} onClick={getTaskWithId}>Get Single Task By Id</button>
+                {oneTask.name ? <Card name={oneTask.name}
+                                      task={oneTask.task}
+                                      _id={oneTask._id}/>
+                    : <h3>{oneTask.error}</h3>}
             </div>
         </>
     )
