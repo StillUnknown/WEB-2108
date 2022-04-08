@@ -1,5 +1,5 @@
 import TaskService from "../../utils/api/service/TaskService";
-import { useState } from "react";
+import {useState} from "react";
 import css from './CreateTask.module.css'
 import Card from "../card/Card";
 
@@ -18,7 +18,7 @@ const CreateTask = () => {
             .then(response => {
                 setData(response.data)
             })
-            .catch (error => console.log(error))
+            .catch(error => console.log(error))
     }
     return (
         <div>
@@ -32,7 +32,8 @@ const CreateTask = () => {
                              onChange={event => setName(event.target.value)}/>
                 <button className={css.buttonStyle} onClick={sendDataToApi}>CreateTask</button>
                 {data.name ? <Card name={data.name}
-                                   task={data.task}/>
+                                   task={data.task}
+                                   _id={data._id}/>
                     : ''}
             </div>
         </div>

@@ -54,7 +54,7 @@ const getAllTasks = async (req, res) => {
 const getTaskById = async (req, res) => {
 
     try {
-        TaskModel.findById(req.params.id, (error, task) => {
+        TaskModel.findById(req.params.userId, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
