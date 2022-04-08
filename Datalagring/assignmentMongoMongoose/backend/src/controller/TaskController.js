@@ -10,7 +10,7 @@ const createTask = async (req, res) => {
     Logger.http(req.body)
 
     const {task, name} = req.body
-    if ( task && name ) {
+    if (task && name) {
         const newTask = {
             task: task,
             name: name,
@@ -25,7 +25,7 @@ const createTask = async (req, res) => {
             res.status(StatusCode.CREATED).send(response)
         } catch (error) {
             Logger.error(error)
-            res.status(StatusCode.BAD_REQUEST).send({error: Error `Error creating new task`})
+            res.status(StatusCode.BAD_REQUEST).send({error: Error`Error creating new task`})
         }
     } else {
         Logger.error(error)
@@ -39,7 +39,7 @@ const getAllTasks = async (req, res) => {
         TaskModel.find({}, (error, tasks) => {
             if (error) {
                 Logger.error(error)
-                res.status(StatusCode.BAD_REQUEST).send({ error: `Error retrieving tasks`})
+                res.status(StatusCode.BAD_REQUEST).send({error: `Error retrieving tasks`})
             } else {
                 Logger.info(tasks)
                 res.status(StatusCode.OK).send(tasks)
@@ -47,7 +47,7 @@ const getAllTasks = async (req, res) => {
         })
     } catch (error) {
         Logger.error(error)
-        res.status(StatusCode.BAD_REQUEST).send({ error: `Error getting tasks` })
+        res.status(StatusCode.BAD_REQUEST).send({error: `Error getting tasks`})
     }
 }
 
@@ -78,7 +78,7 @@ const getTaskById = async (req, res) => {
 const getTaskWithNameQuery = async (req, res) => {
 
     try {
-        TaskModel.find({ name: req.params.name }, (error, task) => {
+        TaskModel.find({name: req.params.name}, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
@@ -87,7 +87,7 @@ const getTaskWithNameQuery = async (req, res) => {
             } else {
                 Logger.info(task)
                 res.status(StatusCode).send(task.length > 0 ? task :
-                    { message: `User with name: "${req.params.name}" not found` })
+                    {message: `User with name: "${req.params.name}" not found`})
             }
         })
     } catch (error) {
@@ -107,7 +107,7 @@ const updateTask = async (req, res) => {
         }
         Logger.debug(req.params.userId)
         Logger.debug(updatedTask)
-        TaskModel.findByIdAndUpdate(req.params.id, updatedTask, { new:true }, (error, task) => {
+        TaskModel.findByIdAndUpdate(req.params.id, updatedTask, {new: true}, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
@@ -131,19 +131,30 @@ const updateTask = async (req, res) => {
 const deleteTask = async (req, res) => {
 
     try {
-        const response = await TaskModel.findByIdAndDelete(req.params.userId)
-        res.status(StatusCode.OK).send(`Successfully deleted the task: ${response.task} and name: ${response.name}`
-        )
+        TaskModel.findByIdAndRemove(req.params.userId, (error, task) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error deleting task`
+                })
+            } else {
+                Logger.info(task)
+                res.status(StatusCode).send(
+                    user ?
+                        {
+                            message: `User with id: "${req.params.userId}" was deleted from database`
+                        } :
+                        {
+                            message: `Task with id: "${req.params.userId}" not found`
+                        })
+            }
+        })
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send(`Error while trying to delete the task with ID: ` + req.params.userId,
-        )
+        Logger.error(error)
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error deleting task`
+        })
     }
-}
-
-const toggleTaskDone = (req, res) => {
-    const _id = Number(req.params.userId)
-    database[_id].isDone = !database[_id].isDone
-    res.status(StatusCode.ACCEPTED).send(database[_id])
 }
 
 export default {
@@ -153,5 +164,4 @@ export default {
     getTaskWithNameQuery,
     updateTask,
     deleteTask,
-    toggleTaskDone
 }
