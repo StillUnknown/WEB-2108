@@ -7,13 +7,15 @@ const DeleteTask = () => {
     const [data, setData] = useState('')
     const [_id, set_Id] = useState('')
 
-    const sendDataToApi = () => {
+    const deleteTaskUsingId = () => {
         TodoService.deleteTask(_id)
             .then(response => {
-                setData(response.data)
+                setData(response.data.message)
                 console.log(response.data)
             })
-            .catch(error => console.log(error))
+            .catch(error => {
+                setData(error.response.data.message)
+            })
     }
 
     return (
@@ -23,7 +25,7 @@ const DeleteTask = () => {
                 Id: <input data-testid='dataInput' className={css.inputStyle} type="text"
                            value={_id}
                            onChange={event => set_Id(event.target.value)}/>
-                <button data-testid='deleteButton' className={css.buttonStyle} onClick={sendDataToApi}>Delete Task
+                <button data-testid='deleteButton' className={css.buttonStyle} onClick={deleteTaskUsingId}>Delete Task
                 </button>
                 <h3 data-testid='DbResponse'>{data}</h3>
             </div>
