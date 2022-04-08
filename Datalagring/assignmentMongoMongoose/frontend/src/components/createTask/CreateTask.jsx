@@ -23,7 +23,7 @@ const CreateTask = () => {
     return (
         <div>
             <div className={css.centerContent}>
-                <h1 className={css.h1Style} data-testid='header'>CreateTask</h1>
+                <h1 className={css.h1Style} data-testid='header'>Create Task</h1>
                 Task: <input className={css.inputStyle} type="text"
                              value={task}
                              onChange={event => setTask(event.target.value)}/>
