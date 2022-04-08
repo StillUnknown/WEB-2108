@@ -63,7 +63,7 @@ const getTaskById = async (req, res) => {
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task ? task : {
-                    message: `User with id: ${req.params.id} not found`
+                    message: `User with id: ${req.params.userId} not found`
                 })
             }
         })
@@ -105,18 +105,18 @@ const updateTask = async (req, res) => {
             task: req.body.task,
             name: req.body.name
         }
-        Logger.debug(req.params.id)
+        Logger.debug(req.params.userId)
         Logger.debug(updatedTask)
-        TaskModel.findByIdAndUpdate(req.params.id, updatedTask, {new: true}, (error, task) => {
+        TaskModel.findByIdAndUpdate(req.params.userId, updatedTask, {new: true}, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
-                    error: `Error updating task with id: ${req.params.id}`
+                    error: `Error updating task with id: ${req.params.userId}`
                 })
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task ? task : {
-                    message: `User with id: ${req.params.id} not found`
+                    message: `User with id: ${req.params.userId} not found`
                 })
             }
         })
@@ -131,7 +131,7 @@ const updateTask = async (req, res) => {
 const deleteTask = async (req, res) => {
 
     try {
-        TaskModel.findByIdAndRemove(req.params.id, (error, task) => {
+        TaskModel.findByIdAndRemove(req.params.userId, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
@@ -142,7 +142,7 @@ const deleteTask = async (req, res) => {
                 res.status(StatusCode.OK).send(
                     task ?
                         {
-                            message: `User with id: ${req.params.id} was deleted from database`
+                            message: `User with id: ${req.params.userId} was deleted from database`
                         } :
                         {
                             message: `Task with id: "${req.params.userId}" not found`
