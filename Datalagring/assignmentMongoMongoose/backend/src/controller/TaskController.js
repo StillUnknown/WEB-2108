@@ -54,26 +54,46 @@ const getAllTasks = async (req, res) => {
 const getTaskById = async (req, res) => {
 
     try {
-        const response = await TaskModel.findById(req.params.userId)
-        res.status(StatusCode.OK).send(response)
+        TaskModel.findById(req.params.userId, (error, task) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error getting task`
+                })
+            } else {
+                Logger.info(task)
+                res.status(StatusCode.OK).send(task ? task : {
+                    message: `User with id: "${req.params.userId}" not found`
+                })
+            }
+        })
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send(`Error occurred while trying to retrieve user with id: ` + req.params.userId,
-        )
+        Logger.error(error)
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error getting task`
+        })
     }
 }
 
 const getTaskWithNameQuery = async (req, res) => {
 
     try {
-        const response = await TaskModel.find({name: req.params.name})
-        Logger.debug(response)
-        response.length !== 0
-            ? res.status(StatusCode.OK).send(response)
-            : res.status(StatusCode.NOT_FOUND).send({message: `Could not find user with name: ` + req.params.name})
+        TaskModel.find({ name: req.params.name }, (error, task) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error getting task`
+                })
+            } else {
+                Logger.info(task)
+                res.status(StatusCode).send(task.length > 0 ? task :
+                    { message: `User with name: "${req.params.name}" not found` })
+            }
+        })
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error while trying to retrieve user with name: ` + req.params.userId,
-            error: error.message
+        Logger.error(error)
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error getting task`
         })
     }
 }
@@ -81,18 +101,29 @@ const getTaskWithNameQuery = async (req, res) => {
 const updateTask = async (req, res) => {
 
     try {
-        if (!req.body) {
-            return res.status(StatusCode.BAD_REQUEST).send(`Cannot update empty values`)
-        }
-        const response = await TaskModel.findByIdAndUpdate(req.params.userId, {
+        const updatedTask = {
             task: req.body.task,
-            name: req.body.name,
-        }, {new: true})
-        res.status(StatusCode.OK).send(response)
+            name: req.body.name
+        }
+        Logger.debug(req.params.userId)
+        Logger.debug(updatedTask)
+        TaskModel.findByIdAndUpdate(req.params.id, updatedTask, { new:true }, (error, task) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error updating task with id: "${req.params.userId}"`
+                })
+            } else {
+                Logger.info(task)
+                res.status(StatusCode.OK).send(task ? task : {
+                    message: `User with id: "${req.params.userId}" not found`
+                })
+            }
+        })
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error occurred while trying to update values of the user with ID: ` + req.params.userId,
-            error: error.message
+        Logger.error(error)
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error updating task`
         })
     }
 }
