@@ -4,6 +4,7 @@
 const OK = 200
 const CREATED = 201
 const ACCEPTED = 202
+const NO_CONTENT = 204
 
 // 3xx redirection – further action needs to be taken in order to complete the request
 
@@ -26,5 +27,6 @@ export default {
     NOT_FOUND,
     METHOD_NOT_ALLOWED,
     INTERNAL_SERVER_ERROR,
-    ACCEPTED
+    ACCEPTED,
+    NO_CONTENT
 }

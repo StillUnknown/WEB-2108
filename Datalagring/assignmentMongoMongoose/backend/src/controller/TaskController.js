@@ -6,32 +6,48 @@ import dotenv from 'dotenv'
 const database = process.env.MONGODB_COLLECTION
 
 const createTask = async (req, res) => {
+    Logger.info(`createTask()`)
     Logger.http(req.body)
 
-    const task = new TaskModel({
-        task: req.body.task,
-        name: req.body.name,
-        isDone: false
-    })
-    Logger.debug(task)
+    const {task, name} = req.body
+    if ( task && name ) {
+        const newTask = {
+            task: task,
+            name: name,
+            isDone: false
+        }
+        Logger.debug(newTask)
 
-    try {
-        const response = await task.save()
-        Logger.debug(response)
-        res.status(StatusCode.CREATED).send(response)
-    } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
+        try {
+            const task = new TaskModel(newTask)
+            const response = await task.save()
+            Logger.debug(response)
+            res.status(StatusCode.CREATED).send(response)
+        } catch (error) {
+            Logger.error(error)
+            res.status(StatusCode.BAD_REQUEST).send({error: Error `Error creating new task`})
+        }
+    } else {
+        Logger.error(error)
+        res.status(StatusCode.NO_CONTENT).send(`No body found`)
     }
 }
 
 const getAllTasks = async (req, res) => {
 
     try {
-        const response = await TaskModel.find()
-        Logger.debug(response)
-        res.status(StatusCode.OK).send(response)
+        TaskModel.find({}, (error, tasks) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({ error: `Error retrieving tasks`})
+            } else {
+                Logger.info(tasks)
+                res.status(StatusCode.OK).send(tasks)
+            }
+        })
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
+        Logger.error(error)
+        res.status(StatusCode.BAD_REQUEST).send({ error: `Error getting tasks` })
     }
 }
 
