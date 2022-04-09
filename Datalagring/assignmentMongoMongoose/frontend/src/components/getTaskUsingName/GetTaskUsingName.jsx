@@ -10,8 +10,10 @@ const GetTaskUsingName = () => {
     const sendDataToApi = () => {
         TaskService.getTaskWithNameQuery(name)
             .then(response => {
-                setData(response.data)
-                console.log(response.data)
+                const dataArray = []
+                dataArray.push(response.data)
+                console.log(dataArray)
+                setData(dataArray)
             })
             .catch(error => console.log(error))
     }
@@ -19,12 +21,13 @@ const GetTaskUsingName = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1 className={css.h1Style} data-testid='header'>Get Single Data By Name</h1>
+                <h1 className={css.h1Style} data-testid='header'>Get Task By Name</h1>
                 Name: <input className={css.inputStyle} type='text'
                              value={name}
                              onChange={event => setName(event.target.value)}/>
-                <button className={css.buttonStyle} onClick={sendDataToApi}>Get Single Data By Name</button>
-                <CardList task={data}/>
+                <button className={css.buttonStyle} onClick={sendDataToApi}>Get Task By Name</button>
+                <button onClick={() => setData([])}> Clear</button>
+                <CardList tasks={data}/>
             </div>
         </>
     )

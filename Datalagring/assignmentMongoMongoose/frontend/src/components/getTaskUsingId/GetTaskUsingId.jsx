@@ -22,11 +22,11 @@ const GetTaskUsingId = () => {
     return (
         <>
             <div className={css.centerContent}>
-                <h1 className={css.h1Style} data-testid='header'>Get Single Task By Id</h1>
+                <h1 className={css.h1Style} data-testid='header'>Get Task By Id</h1>
                 Id: <input className={css.inputStyle} type='text'
                            value={_id}
                            onChange={event => set_Id(event.target.value)}/>
-                <button className={css.buttonStyle} onClick={getTaskWithId}>Get Single Task By Id</button>
+                <button className={css.buttonStyle} onClick={getTaskWithId}>Get Task By Id</button>
                 {oneTask.name ? <Card name={oneTask.name}
                                       task={oneTask.task}
                                       _id={oneTask._id}/>

@@ -20,7 +20,7 @@ const TaskList = () => {
                 <h1 className={css.h1Style} data-testid='header'>TaskList</h1>
                 <h3 className={css.h3Style}>Click the button to get the most updated TaskList</h3>
                 <button className={css.buttonStyle} onClick={fetchDataFromBackend}>Update</button>
-                <CardList task={data}/>
+                <CardList tasks={data}/>
             </div>
         </>
     )

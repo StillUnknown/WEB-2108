@@ -1,16 +1,16 @@
 import Card from "./card/Card";
 
-const CardList = ({task}) => {
+const CardList = ({tasks}) => {
     return (
         <ul>
             {
-                task.map((item) => {
+                tasks.map((task) => {
                     return (
-                        <Card key={item._id}
-                              _id={item._id}
-                              name={item.name}
-                              task={item.task}
-                              isDone={item.isDone}/>
+                        <Card key={task._id}
+                              _id={task._id}
+                              name={task.name}
+                              task={task.task}
+                              isDone={task.isDone}/>
                     )
                 })
             }
