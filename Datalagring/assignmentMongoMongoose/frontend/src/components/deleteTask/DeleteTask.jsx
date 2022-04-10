@@ -25,6 +25,7 @@ const DeleteTask = () => {
                 Id: <input data-testid='dataInput' className={css.inputStyle} type="text"
                            value={id}
                            onChange={event => setId(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setId([])}>Clear id</button>
                 <button data-testid='deleteButton' className={css.buttonStyle} onClick={deleteTaskUsingId}>Delete Task
                 </button>
                 <p data-testid='DbResponse'>{data}</p>

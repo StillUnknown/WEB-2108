@@ -21,6 +21,7 @@ const TaskList = () => {
                 <h3 className={css.h3Style}>Click the button to get the most updated TaskList</h3>
                 <button className={css.buttonStyle} onClick={fetchDataFromBackend}>Update</button>
                 <CardList tasks={data}/>
+                <button className={css.buttonStyle} onClick={() => setData([])}>Close tasklist</button>
             </div>
         </>
     )

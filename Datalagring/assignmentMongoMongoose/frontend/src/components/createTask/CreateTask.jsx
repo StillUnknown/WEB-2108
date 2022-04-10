@@ -27,10 +27,13 @@ const CreateTask = () => {
                 Task: <input className={css.inputStyle} type="text"
                              value={task}
                              onChange={event => setTask(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setTask([])}>Clear task</button>
                 Name: <input className={css.inputStyle} type="text"
                              value={name}
                              onChange={event => setName(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setName([])}>Clear name</button>
                 <button className={css.buttonStyle} onClick={sendDataToApi}>CreateTask</button>
+
                 {data.name ? <Card name={data.name}
                                    task={data.task}
                                    _id={data._id}/>

@@ -25,6 +25,7 @@ const GetTaskUsingId = () => {
                 Id: <input className={css.inputStyle} type='text'
                            value={id}
                            onChange={event => setId(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setId([])}>Clear id</button>
                 <button className={css.buttonStyle} onClick={getTaskWithId}>Get Task By Id</button>
                 {oneTask.length > 0 && oneTask[0].message
                     ? <li>{oneTask[0].message}</li>

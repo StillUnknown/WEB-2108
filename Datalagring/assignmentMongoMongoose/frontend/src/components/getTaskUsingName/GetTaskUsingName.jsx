@@ -2,6 +2,7 @@ import TaskService from "../../utils/api/service/TaskService";
 import {useState} from 'react'
 import css from './GetSingleTaskByName.module.css'
 import CardList from '../CardList'
+import Card from '../card/Card'
 
 const GetTaskUsingName = () => {
     const [data, setData] = useState([])
@@ -25,8 +26,8 @@ const GetTaskUsingName = () => {
                 Name: <input className={css.inputStyle} type='text'
                              value={name}
                              onChange={event => setName(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setData([])}>Clear name</button>
                 <button className={css.buttonStyle} onClick={sendDataToApi}>Get Task By Name</button>
-                <button onClick={() => setData([])}> Clear</button>
                 {data.length > 0 && data[0].message
                     ? <p>{data[0].message}</p>
                     : <CardList tasks={data}/>}
