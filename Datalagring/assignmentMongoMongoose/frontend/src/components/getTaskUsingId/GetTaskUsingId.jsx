@@ -1,7 +1,6 @@
 import TaskService from "../../utils/api/service/TaskService";
 import {useState} from 'react'
 import css from './GetTaskUsingId.module.css'
-import Card from "../card/Card";
 import CardList from '../CardList'
 
 const GetTaskUsingId = () => {
@@ -11,10 +10,10 @@ const GetTaskUsingId = () => {
     const getTaskWithId = () => {
         TaskService.getTaskById(_id)
             .then(response => {
-                const emptyArray = []
-                emptyArray.push(response.data)
-                console.log(response.data)
-                setOneTask(response.data)
+                const dataArray = []
+                dataArray.push(response.data)
+                console.log(dataArray)
+                setOneTask(dataArray)
             })
             .catch(error => console.log(error))
     }
@@ -27,10 +26,9 @@ const GetTaskUsingId = () => {
                            value={_id}
                            onChange={event => set_Id(event.target.value)}/>
                 <button className={css.buttonStyle} onClick={getTaskWithId}>Get Task By Id</button>
-                {oneTask.name ? <Card name={oneTask.name}
-                                      task={oneTask.task}
-                                      _id={oneTask._id}/>
-                    : <h3>{oneTask.error}</h3>}
+                { oneTask.length > 0 && oneTask[0].message
+                ? <li>{oneTask[0].message}</li>
+                : <CardList tasks={oneTask}/>}
             </div>
         </>
     )

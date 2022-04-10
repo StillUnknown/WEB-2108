@@ -1,7 +1,7 @@
 import TaskService from "../../utils/api/service/TaskService";
 import {useState} from "react";
-import Card from "../card/Card";
 import css from './UpdateTask.module.css'
+import CardList from '../CardList'
 
 const UpdateTask = () => {
     const [data, setData] = useState([])
@@ -16,7 +16,10 @@ const UpdateTask = () => {
         }
         TaskService.updateTask(_id, changedTask)
             .then(response => {
-                setData(response.data)
+                const dataArray = []
+                dataArray.push(response.data)
+                console.log(dataArray)
+                setData(dataArray)
             })
             .catch(error => console.log(error))
     }
@@ -43,10 +46,9 @@ const UpdateTask = () => {
                         onClick={sendDataToApi}>
                     Update Task
                 </button>
-                {data.name ? <Card name={data.name}
-                                   task={data.task}
-                                   _id={data._id}/>
-                    : <h3>{data}</h3>}
+                {data.length > 0 && data[0].message
+                ? <ul>{data[0].message}</ul>
+                : <CardList tasks={data}/>}
             </div>
         </>
     )

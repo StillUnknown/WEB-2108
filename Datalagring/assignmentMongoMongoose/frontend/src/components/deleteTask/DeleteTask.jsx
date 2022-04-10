@@ -1,7 +1,7 @@
 import TodoService from "../../utils/api/service/TaskService";
 import {useState} from "react";
 import css from './DeleteTask.module.css'
-import CardList from '../CardList'
+
 
 const DeleteTask = () => {
     const [data, setData] = useState('')
@@ -27,7 +27,7 @@ const DeleteTask = () => {
                            onChange={event => set_Id(event.target.value)}/>
                 <button data-testid='deleteButton' className={css.buttonStyle} onClick={deleteTaskUsingId}>Delete Task
                 </button>
-                <h3 data-testid='DbResponse'>{data}</h3>
+                <ul data-testid='DbResponse'>{data}</ul>
             </div>
         </>
     )
