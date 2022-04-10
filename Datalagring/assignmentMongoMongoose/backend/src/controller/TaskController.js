@@ -54,23 +54,23 @@ const getAllTasks = async (req, res) => {
 const getTaskById = async (req, res) => {
 
     try {
-        TaskModel.findById(req.params.userId, (error, task) => {
+        TaskModel.findById(req.params.id, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
-                    error: `Error getting task`
+                    error: `Error getting task if`
                 })
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task ? task : {
-                    message: `User with id: ${req.params.userId} not found`
+                    message: `Task with id: ${req.params.id} not found`
                 })
             }
         })
     } catch (error) {
         Logger.error(error)
         res.status(StatusCode.BAD_REQUEST).send({
-            error: `Error getting task`
+            error: `Error getting task catch`
         })
     }
 }
@@ -87,7 +87,7 @@ const getTaskWithNameQuery = async (req, res) => {
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task.length > 0 ? task :
-                    {message: `User with name: ${req.params.name} not found`})
+                    {message: `Task with name: ${req.params.name} not found`})
             }
         })
     } catch (error) {
@@ -105,18 +105,18 @@ const updateTask = async (req, res) => {
             task: req.body.task,
             name: req.body.name
         }
-        Logger.debug(req.params.userId)
+        Logger.debug(req.params.id)
         Logger.debug(updatedTask)
-        TaskModel.findByIdAndUpdate(req.params.userId, updatedTask, {new: true}, (error, task) => {
+        TaskModel.findByIdAndUpdate(req.params.id, updatedTask, {new: true}, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
-                    error: `Error updating task with id: ${req.params.userId}`
+                    error: `Could not find task with id: ${req.params.id}`
                 })
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task ? task : {
-                    message: `User with id: ${req.params.userId} not found`
+                    message: `Task with id: ${req.params.id} not found`
                 })
             }
         })
@@ -131,7 +131,7 @@ const updateTask = async (req, res) => {
 const deleteTask = async (req, res) => {
 
     try {
-        TaskModel.findByIdAndRemove(req.params.userId, (error, task) => {
+        TaskModel.findByIdAndRemove(req.params.id, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
@@ -142,10 +142,10 @@ const deleteTask = async (req, res) => {
                 res.status(StatusCode.OK).send(
                     task ?
                         {
-                            message: `User with id: ${req.params.userId} was deleted from database`
+                            message: `Task with id: ${req.params.id} was deleted from database`
                         } :
                         {
-                            message: `Task with id: "${req.params.userId}" not found`
+                            message: `Task with id: "${req.params.id}" not found`
                         })
             }
         })

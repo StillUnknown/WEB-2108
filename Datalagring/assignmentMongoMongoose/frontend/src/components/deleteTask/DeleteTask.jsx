@@ -5,10 +5,10 @@ import css from './DeleteTask.module.css'
 
 const DeleteTask = () => {
     const [data, setData] = useState('')
-    const [_id, set_Id] = useState('')
+    const [id, setId] = useState('')
 
     const deleteTaskUsingId = () => {
-        TodoService.deleteTask(_id)
+        TodoService.deleteTask(id)
             .then(response => {
                 setData(response.data.message)
                 console.log(response.data)
@@ -23,11 +23,11 @@ const DeleteTask = () => {
             <div className={css.centerContent}>
                 <h1 className={css.h1Style}>Delete Task</h1>
                 Id: <input data-testid='dataInput' className={css.inputStyle} type="text"
-                           value={_id}
-                           onChange={event => set_Id(event.target.value)}/>
+                           value={id}
+                           onChange={event => setId(event.target.value)}/>
                 <button data-testid='deleteButton' className={css.buttonStyle} onClick={deleteTaskUsingId}>Delete Task
                 </button>
-                <ul data-testid='DbResponse'>{data}</ul>
+                <p data-testid='DbResponse'>{data}</p>
             </div>
         </>
     )

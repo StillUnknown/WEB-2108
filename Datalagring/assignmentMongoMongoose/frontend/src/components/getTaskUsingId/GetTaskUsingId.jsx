@@ -5,10 +5,10 @@ import CardList from '../CardList'
 
 const GetTaskUsingId = () => {
     const [oneTask, setOneTask] = useState([])
-    const [_id, set_Id] = useState('')
+    const [id, setId] = useState('')
 
     const getTaskWithId = () => {
-        TaskService.getTaskById(_id)
+        TaskService.getTaskById(id)
             .then(response => {
                 const dataArray = []
                 dataArray.push(response.data)
@@ -23,12 +23,12 @@ const GetTaskUsingId = () => {
             <div className={css.centerContent}>
                 <h1 className={css.h1Style} data-testid='header'>Get Task By Id</h1>
                 Id: <input className={css.inputStyle} type='text'
-                           value={_id}
-                           onChange={event => set_Id(event.target.value)}/>
+                           value={id}
+                           onChange={event => setId(event.target.value)}/>
                 <button className={css.buttonStyle} onClick={getTaskWithId}>Get Task By Id</button>
-                { oneTask.length > 0 && oneTask[0].message
-                ? <li>{oneTask[0].message}</li>
-                : <CardList tasks={oneTask}/>}
+                {oneTask.length > 0 && oneTask[0].message
+                    ? <li>{oneTask[0].message}</li>
+                    : <CardList tasks={oneTask}/>}
             </div>
         </>
     )

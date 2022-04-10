@@ -7,14 +7,14 @@ const UpdateTask = () => {
     const [data, setData] = useState([])
     const [name, setName] = useState('')
     const [task, setTask] = useState('')
-    const [_id, set_Id] = useState('')
+    const [id, setId] = useState('')
 
     const sendDataToApi = () => {
         const changedTask = {
             'name': name,
             'task': task,
         }
-        TaskService.updateTask(_id, changedTask)
+        TaskService.updateTask(id, changedTask)
             .then(response => {
                 const dataArray = []
                 dataArray.push(response.data)
@@ -32,8 +32,8 @@ const UpdateTask = () => {
                     have to type current name in both current name and assign new name</p>
                 Id: <input className={css.inputStyle}
                            type="text"
-                           value={_id}
-                           onChange={event => set_Id(event.target.value)}/>
+                           value={id}
+                           onChange={event => setId(event.target.value)}/>
                 Task: <input className={css.inputStyle}
                              type="text"
                              value={task}
@@ -47,8 +47,8 @@ const UpdateTask = () => {
                     Update Task
                 </button>
                 {data.length > 0 && data[0].message
-                ? <ul>{data[0].message}</ul>
-                : <CardList tasks={data}/>}
+                    ? <ul>{data[0].message}</ul>
+                    : <CardList tasks={data}/>}
             </div>
         </>
     )
