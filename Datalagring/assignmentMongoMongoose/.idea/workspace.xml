@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="." />
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,13 +113,7 @@
       <workItem from="1649610092641" duration="5319000" />
       <workItem from="1649617301809" duration="1145000" />
       <workItem from="1649659846822" duration="12798000" />
-      <workItem from="1649676409067" duration="5837000" />
-    </task>
-    <task id="LOCAL−00011" summary="Lägger till frontend react till inlämningen">
-      <created>1648834520280</created>
-      <option name="number" value="LOCAL−00011" />
-      <option name="presentableId" value="LOCAL−00011" />
-      <updated>1648834520280</updated>
+      <workItem from="1649676409067" duration="5899000" />
     </task>
     <task id="LOCAL−00012" summary="Börjar bygga routes för frontend">
       <created>1648836707221</created>
@@ -407,7 +403,13 @@
       <option name="presentableId" value="LOCAL−00059" />
       <updated>1649682506001</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL−00060" summary=".">
+      <created>1649682575673</created>
+      <option name="number" value="LOCAL−00060" />
+      <option name="presentableId" value="LOCAL−00060" />
+      <updated>1649682575673</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

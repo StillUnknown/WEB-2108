@@ -2,7 +2,6 @@ import TaskService from "../../utils/api/service/TaskService";
 import {useState} from 'react'
 import css from './GetSingleTaskByName.module.css'
 import CardList from '../CardList'
-import Card from '../card/Card'
 
 const GetTaskUsingName = () => {
     const [data, setData] = useState([])
