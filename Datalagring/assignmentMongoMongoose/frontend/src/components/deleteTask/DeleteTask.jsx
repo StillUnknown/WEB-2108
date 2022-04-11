@@ -10,7 +10,7 @@ const DeleteTask = () => {
     const deleteTaskUsingId = () => {
         TodoService.deleteTask(id)
             .then(response => {
-                setData(response.data.message)
+                setData(response.data)
                 console.log(response.data)
             })
             .catch(error => {
@@ -28,7 +28,7 @@ const DeleteTask = () => {
                 <button className={css.buttonStyle} onClick={() => setId([])}>Clear id</button>
                 <button data-testid='deleteButton' className={css.buttonStyle} onClick={deleteTaskUsingId}>Delete Task
                 </button>
-                <p data-testid='DbResponse'>{data}</p>
+                <p>{data}</p>
             </div>
         </>
     )
