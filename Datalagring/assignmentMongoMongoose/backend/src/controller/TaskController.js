@@ -157,6 +157,12 @@ const deleteTask = async (req, res) => {
     }
 }
 
+const toggleTaskDone = (req, res) => {
+    const _id = Number(req.params.id)
+    Task_database.tasks[_id].isDone = !Task_database.tasks[_id].isDone
+    res.status(202).send(Task_database.tasks[_id])
+}
+
 export default {
     createTask,
     getAllTasks,
@@ -164,4 +170,5 @@ export default {
     getTaskWithNameQuery,
     updateTask,
     deleteTask,
+    toggleTaskDone
 }

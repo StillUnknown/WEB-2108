@@ -1,7 +1,22 @@
+import css from './Card.module.css'
+import {useState} from 'react'
+import TaskService from '../../utils/api/service/TaskService'
+
+
 const Card = ({task, name, _id, isDone}) => {
 
+    const [isTaskDone, setIsTaskDone] = useState(isDone)
+
+    function toggleDone() {
+        TaskService.toggleTaskDone(_id)
+            .then(response => {
+                console.log(response.data)
+                setIsTaskDone(response.data.isDone)
+            }).catch(error => console.log(error))
+    }
+
     return (
-        <li><b>Task:</b> {task} <b> Name:</b> {name} <b>Id:</b> {_id} </li>
+        <li className={isTaskDone ? css.lineThrough : null} onClick={toggleDone}><b>Task:</b> {task} <b> Name:</b> {name} <b>Id:</b> {_id} </li>
     )
 }
 
