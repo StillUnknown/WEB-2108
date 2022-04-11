@@ -110,9 +110,9 @@ const updateTask = async (req, res) => {
         TaskModel.findByIdAndUpdate(req.params.id, updatedTask, {new: true}, (error, task) => {
             if (error) {
                 Logger.error(error)
-                res.status(StatusCode.BAD_REQUEST).send({
+                res.status(StatusCode.BAD_REQUEST).send([{
                     error: `Could not find task with id: ${req.params.id}`
-                })
+                }])
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task ? task : {
