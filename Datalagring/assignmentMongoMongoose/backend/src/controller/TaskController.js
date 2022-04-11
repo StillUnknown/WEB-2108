@@ -157,33 +157,33 @@ const deleteTask = async (req, res) => {
     }
 }
 
-// const toggleTaskDone = (req, res) => {
-//
-//     try {
-//         TaskModel.findByIdAndUpdate(req.params.id, (error, task) => {
-//             if (error) {
-//                 Logger.error(error)
-//                 res.status(StatusCode.BAD_REQUEST).send({
-//                     error: `Error changing isDone`
-//                 })
-//             } else {
-//                 Task_database.tasks[req.params.id].isDone = !Task_database.tasks[req.params.id].isDone
-//                 res.status(StatusCode.OK).send(TaskModel[req.params.id].isDone)
-//             }
-//         })
-//     } catch (error) {
-//         Logger.error(error)
-//         res.status(StatusCode.BAD_REQUEST).send({
-//             error: `Error deleting task`
-//         })
-//     }
-// }
-
 const toggleTaskDone = (req, res) => {
-    const _id = Number(req.params.id)
-    Task_database.tasks[_id].isDone = !Task_database.tasks[_id].isDone
-    res.status(202).send(Task_database.tasks[_id])
+
+    try {
+        TaskModel.findByIdAndUpdate(req.params.id, (error, task) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error changing isDone`
+                })
+            } else {
+                Task_database.tasks[req.params.id].isDone = !Task_database.tasks[req.params.id].isDone
+                res.status(StatusCode.OK).send(TaskModel[req.params.id].isDone)
+            }
+        })
+    } catch (error) {
+        Logger.error(error)
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error deleting task`
+        })
+    }
 }
+
+// const toggleTaskDone = (req, res) => {
+//     const _id = Number(req.params.id)
+//     Task_database.tasks[_id].isDone = !Task_database.tasks[_id].isDone
+//     res.status(202).send(Task_database.tasks[_id])
+// }
 
 export default {
     createTask,
