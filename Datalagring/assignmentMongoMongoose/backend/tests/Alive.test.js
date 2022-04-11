@@ -7,6 +7,21 @@ Chai.should()
 Chai.use(ChaiHTTP)
 const expect = Chai.expect
 
+const randomURL = Math.random().toString(36).substring(7)
+
+const testNonExistingRoute = () => {
+    describe('Testing a route that does not exist', () => {
+        test('should return status 404', (done) => {
+            Chai.request(app)
+                .get(`/${randomURL}`)
+                .end((request, response) => {
+                    expect(response.status).to.equal(404)
+                    done()
+                })
+        })
+    })
+}
+
 const testingAliveRoute = () => {
     describe('Test Alive route', () => {
         test('Expecting 200 OK', (done) => {
@@ -21,6 +36,7 @@ const testingAliveRoute = () => {
     })
 }
 
-describe('Testing Alive route', () => {
+describe('Testing Alive route and route that does not exist', () => {
+    testNonExistingRoute()
     testingAliveRoute()
 })
