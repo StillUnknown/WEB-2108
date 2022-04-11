@@ -34,14 +34,17 @@ const UpdateTask = () => {
                            type="text"
                            value={id}
                            onChange={event => setId(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setId([])}>Clear id</button>
                 Task: <input className={css.inputStyle}
                              type="text"
                              value={task}
                              onChange={event => setTask(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setTask([])}>Clear task</button>
                 Name: <input className={css.inputStyle}
                              type="text"
                              value={name}
                              onChange={event => setName(event.target.value)}/>
+                <button className={css.buttonStyle} onClick={() => setName([])}>Clear name</button>
                 <button className={css.buttonStyle}
                         onClick={sendDataToApi}>
                     Update Task

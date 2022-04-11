@@ -26,7 +26,7 @@ const GetTaskUsingName = () => {
                 Name: <input className={css.inputStyle} type='text'
                              value={name}
                              onChange={event => setName(event.target.value)}/>
-                <button className={css.buttonStyle} onClick={() => setData([])}>Clear name</button>
+                <button className={css.buttonStyle} onClick={() => setName([])}>Clear name</button>
                 <button className={css.buttonStyle} onClick={sendDataToApi}>Get Task By Name</button>
                 {data.length > 0 && data[0].message
                     ? <p>{data[0].message}</p>
