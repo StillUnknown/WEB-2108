@@ -115,7 +115,7 @@ const updateTask = async (req, res) => {
                 }])
             } else {
                 Logger.info(task)
-                res.status(StatusCode.OK).send(task ? task : {
+                res.status(StatusCode.ACCEPTED).send(task ? task : {
                     message: `Task with id: ${req.params.id} not found`
                 })
             }
@@ -141,12 +141,10 @@ const deleteTask = async (req, res) => {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(
                     task ?
-                        {
-                            message: `Task with id: ${req.params.id} was deleted from database`
-                        } :
-                        {
-                            message: `Task with id: "${req.params.id}" not found`
-                        })
+                        `Task with id: ${req.params.id} was deleted from database`
+                        :
+                        `Task with id: ${req.params.id} not found`
+                )
             }
         })
     } catch (error) {
