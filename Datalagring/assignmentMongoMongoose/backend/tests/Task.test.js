@@ -7,6 +7,16 @@ Chai.should()
 Chai.use(ChaiHTTP)
 const expect = Chai.expect
 
+const newTask = {
+    task: 'Cykla',
+    name: 'Liselott'
+}
+
+const changedTask = {
+    task: 'Handla',
+    name: 'Liselott'
+}
+
 const randomString = Math.random().toString(36).substring(7)
 console.log(randomString)
 
@@ -47,7 +57,26 @@ const checkThatTaskDoNotExist = () => {
     })
 }
 
+const createTask = () => {
+    describe('Testing to create new task', () => {
+        test('Should expect a new task be to created', (done) => {
+            Chai.request(app)
+                .post(`/task`)
+                .send(newTask)
+                .end((error, response) => {
+                    expect(response.status).to.equal(201)
+
+                    const body = response.body
+                    expect(body.task).to.equal('Cykla')
+                    expect(body.name).to.equal('Liselott')
+                    done()
+                })
+        })
+    })
+}
+
 describe('Testing TaskController funktions', () => {
     getAllTasks()
     checkThatTaskDoNotExist()
+    createTask()
 })
