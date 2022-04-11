@@ -87,7 +87,7 @@ const getTaskWithNameQuery = async (req, res) => {
             } else {
                 Logger.info(task)
                 res.status(StatusCode.OK).send(task.length > 0 ? task :
-                    {message: `Task with name: ${req.params.name} not found`})
+                    `Task with name: ${req.params.name} not found`)
             }
         })
     } catch (error) {
