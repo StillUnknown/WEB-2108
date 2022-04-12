@@ -1,9 +1,6 @@
 import TaskModel from "../models/TaskModel.js";
 import Logger from "../utils/Logger.js";
 import StatusCode from "../configurations/StatusCode.js";
-import dotenv from 'dotenv'
-
-const database = process.env.MONGODB_COLLECTION
 
 const createTask = async (req, res) => {
     Logger.info(`createTask()`)

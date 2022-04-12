@@ -14,7 +14,7 @@ const isServerInDevOrProdMode = () => {
     const env = environment || denEnv
     const isDevelopment = env === denEnv
     if (isDevelopment) {
-        Logger.warn(`server is in development mode!`.toUpperCase())
+        Logger.warn(`SERVER IS IN DEVELOPMENT MODE!`)
     }
 }
 

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Pillar med tester">
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Fixar med tester igen. Nu funkar global_id till alla tester">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/Task.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Task.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/configurations/Configurations.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/configurations/Configurations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/TaskController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/backend/src/controller/TaskController.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/CardList.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/controller/AliveController.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/src/configurations/Configurations.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/configurations/StatusCode.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/App.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/createTask/CreateTask.jsx" root0="SKIP_INSPECTION" />
@@ -119,13 +121,8 @@
       <workItem from="1649756454614" duration="73000" />
       <workItem from="1649768252095" duration="2586000" />
       <workItem from="1649771110491" duration="106000" />
-      <workItem from="1649782542600" duration="933000" />
-    </task>
-    <task id="LOCAL−00020" summary="Får nu med id i error message angående isDone">
-      <created>1648915994140</created>
-      <option name="number" value="LOCAL−00020" />
-      <option name="presentableId" value="LOCAL−00020" />
-      <updated>1648915994140</updated>
+      <workItem from="1649782542600" duration="1165000" />
+      <workItem from="1649786787062" duration="669000" />
     </task>
     <task id="LOCAL−00021" summary="Försöker felsöka varför isDone inte funkar">
       <created>1648916288906</created>
@@ -415,7 +412,13 @@
       <option name="presentableId" value="LOCAL−00068" />
       <updated>1649771201821</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL−00069" summary="Fixar med tester igen. Nu funkar global_id till alla tester">
+      <created>1649783678280</created>
+      <option name="number" value="LOCAL−00069" />
+      <option name="presentableId" value="LOCAL−00069" />
+      <updated>1649783678282</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +438,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fortsätter ändra TaskController" />
     <MESSAGE value="Skriver färdigt den nya TaskController" />
     <MESSAGE value="Missade några statuskoder men nu verkar delete funka" />
     <MESSAGE value="Lägger till userId igen då det är så jag skickar det via routes i backend" />
@@ -460,6 +462,7 @@
     <MESSAGE value="Byter namn på min databas" />
     <MESSAGE value="Ändrar lite namn så det passar bättre med min inlämning" />
     <MESSAGE value="Pillar med tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pillar med tester" />
+    <MESSAGE value="Fixar med tester igen. Nu funkar global_id till alla tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixar med tester igen. Nu funkar global_id till alla tester" />
   </component>
 </project>
