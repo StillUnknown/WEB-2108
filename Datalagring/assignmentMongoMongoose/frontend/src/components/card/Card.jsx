@@ -8,10 +8,13 @@ const Card = ({task, name, _id, isDone}) => {
     const [isTaskDone, setIsTaskDone] = useState(isDone)
 
     function toggleDone() {
-        TaskService.toggleTaskDone(_id)
+        const payload = {
+            newTodoStatus : !isTaskDone
+        }
+        TaskService.toggleTaskDone(_id, payload)
             .then(response => {
                 console.log(response.data)
-                setIsTaskDone(response.data.isDone)
+                setIsTaskDone(response.data)
             }).catch(error => console.log(error))
     }
 

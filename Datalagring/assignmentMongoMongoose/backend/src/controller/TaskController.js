@@ -159,21 +159,27 @@ const deleteTask = async (req, res) => {
 const toggleTaskDone = (req, res) => {
 
     try {
-        TaskModel.findByIdAndUpdate(req.params.id, (error, task) => {
+        const returnUpdatedObject = {
+            new: true}
+        const Query = {
+            isDone: newTodoStatus
+        }
+        const {id} = req.params
+        const {newTodoStatus} = req.body
+        TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, task) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
                     error: `Error changing isDone`
                 })
             } else {
-                Task_database.tasks[req.params.id].isDone = !Task_database.tasks[req.params.id].isDone
-                res.status(StatusCode.OK).send(TaskModel[req.params.id].isDone)
+                res.status(StatusCode.OK).send(task.isDone)
             }
         })
     } catch (error) {
         Logger.error(error)
         res.status(StatusCode.BAD_REQUEST).send({
-            error: `Error deleting task`
+            error: `Error updating isDone`
         })
     }
 }

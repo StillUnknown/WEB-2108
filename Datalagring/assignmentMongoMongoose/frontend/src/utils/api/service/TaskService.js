@@ -26,8 +26,8 @@ const getTaskWithNameQuery = (name) => {
     return http.get(`/searchTask/${name}`)
 }
 
-const toggleTaskDone = (id) => {
-    return http.put(`/toggleTaskDone/${id}`)
+const toggleTaskDone = (id, payload) => {
+    return http.put(`/toggleTaskDone/${id}`, payload)
 }
 
 export default {
