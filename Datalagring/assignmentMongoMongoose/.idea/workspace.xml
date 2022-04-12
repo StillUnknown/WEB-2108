@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Fixade getByName">
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Lägger till en .env_templete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/TaskController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/Task.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Task.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,19 +115,7 @@
       <workItem from="1649617301809" duration="1145000" />
       <workItem from="1649659846822" duration="12798000" />
       <workItem from="1649676409067" duration="5930000" />
-      <workItem from="1649749165173" duration="4050000" />
-    </task>
-    <task id="LOCAL−00014" summary="Försöker felsöka varför jag inte får ut Api Is Alive på frontend">
-      <created>1648839642351</created>
-      <option name="number" value="LOCAL−00014" />
-      <option name="presentableId" value="LOCAL−00014" />
-      <updated>1648839642351</updated>
-    </task>
-    <task id="LOCAL−00015" summary="Försöker felsöka varför jag inte får ut Api Is Alive på frontend">
-      <created>1648887921770</created>
-      <option name="number" value="LOCAL−00015" />
-      <option name="presentableId" value="LOCAL−00015" />
-      <updated>1648887921770</updated>
+      <workItem from="1649749165173" duration="5661000" />
     </task>
     <task id="LOCAL−00016" summary="Hittade felet">
       <created>1648888219339</created>
@@ -413,7 +399,19 @@
       <option name="presentableId" value="LOCAL−00062" />
       <updated>1649751909665</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL−00063" summary="Fixade toggleTaskDone med hjälp av Lars">
+      <created>1649754623314</created>
+      <option name="number" value="LOCAL−00063" />
+      <option name="presentableId" value="LOCAL−00063" />
+      <updated>1649754623314</updated>
+    </task>
+    <task id="LOCAL−00064" summary="Lägger till en .env_templete">
+      <created>1649754793676</created>
+      <option name="number" value="LOCAL−00064" />
+      <option name="presentableId" value="LOCAL−00064" />
+      <updated>1649754793676</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,8 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Lägger till och fixar med update så den funkar nu" />
-    <MESSAGE value="Byter ut Card mot CardList i getByName" />
     <MESSAGE value="Fortsätter med inlämningen" />
     <MESSAGE value="Försöker fixa inlämningen men det går just nu inget vidare" />
     <MESSAGE value="Lägger till frontendtester och börjar med backendtesterna" />
@@ -458,6 +454,8 @@
     <MESSAGE value="Felsöker" />
     <MESSAGE value="." />
     <MESSAGE value="Fixade getByName" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixade getByName" />
+    <MESSAGE value="Fixade toggleTaskDone med hjälp av Lars" />
+    <MESSAGE value="Lägger till en .env_templete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lägger till en .env_templete" />
   </component>
 </project>
