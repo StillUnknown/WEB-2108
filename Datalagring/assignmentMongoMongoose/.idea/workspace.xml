@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Ändrar lite namn så det passar bättre med min inlämning">
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Pillar med tester">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/tests/Task.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Task.test.js" afterDir="false" />
     </list>
@@ -118,13 +118,8 @@
       <workItem from="1649749165173" duration="5756000" />
       <workItem from="1649756454614" duration="73000" />
       <workItem from="1649768252095" duration="2586000" />
-      <workItem from="1649771110491" duration="29000" />
-    </task>
-    <task id="LOCAL−00019" summary="Får nu fram tasks i getAllTasks i frontend">
-      <created>1648915616014</created>
-      <option name="number" value="LOCAL−00019" />
-      <option name="presentableId" value="LOCAL−00019" />
-      <updated>1648915616019</updated>
+      <workItem from="1649771110491" duration="106000" />
+      <workItem from="1649782542600" duration="933000" />
     </task>
     <task id="LOCAL−00020" summary="Får nu med id i error message angående isDone">
       <created>1648915994140</created>
@@ -414,7 +409,13 @@
       <option name="presentableId" value="LOCAL−00067" />
       <updated>1649770142488</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL−00068" summary="Pillar med tester">
+      <created>1649771201820</created>
+      <option name="number" value="LOCAL−00068" />
+      <option name="presentableId" value="LOCAL−00068" />
+      <updated>1649771201821</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ändrar TaskController enligt bonus :D:D:D:D:D" />
     <MESSAGE value="Fortsätter ändra TaskController" />
     <MESSAGE value="Skriver färdigt den nya TaskController" />
     <MESSAGE value="Missade några statuskoder men nu verkar delete funka" />
@@ -459,6 +459,7 @@
     <MESSAGE value="Ändrar i testerna" />
     <MESSAGE value="Byter namn på min databas" />
     <MESSAGE value="Ändrar lite namn så det passar bättre med min inlämning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ändrar lite namn så det passar bättre med min inlämning" />
+    <MESSAGE value="Pillar med tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pillar med tester" />
   </component>
 </project>

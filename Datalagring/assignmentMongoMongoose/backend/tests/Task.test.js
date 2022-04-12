@@ -31,12 +31,11 @@ const createTask = () => {
                 .send(newTask)
                 .end((error, response) => {
                     expect(response.status).to.equal(201)
+                    global_id = response.body._id
 
                     const body = response.body
                     expect(body.task).to.equal('Cykla')
                     expect(body.name).to.equal('Liselott')
-
-                    let global_id = body.id
                     done()
                 })
         })
@@ -73,7 +72,9 @@ const checkThatTaskDoNotExist = () => {
                 .get(`/searchTask/Aram`)
                 .end((error, response) => {
                     expect(response.status).to.equal(200)
-                    expect(response.text).to.equal([{message: `Task with name: Aram not found`}])
+                    expect(response.text).to.equal({
+                        "message":"Task with name: Aram not found"
+                    })
                     done()
                 })
         })
@@ -89,7 +90,6 @@ const getTaskWithNameQuery = () => {
                     expect(response.status).to.equal(200)
 
                     const body = response.body[0]
-                    expect(body).to.be.an('object')
                     expect(body.task).to.equal('Cykla')
                     expect(body.name).to.equal('Liselott')
                     done()
@@ -117,14 +117,14 @@ const updateTask = () => {
 }
 
 const getTaskWithId = () => {
-    describe('Testing an existing task using name query (GET)', () => {
+    describe('Testing an existing task using id (GET)', () => {
         test('Should return an object with data', (done) => {
             Chai.request(app)
                 .get(`/task/${global_id}`)
                 .end((error, response) => {
                     expect(response.status).to.equal(200)
 
-                    const body = response.body[0]
+                    const body = response.body
                     expect(body).to.be.an('object')
                     expect(body.task).to.equal('Handla')
                     expect(body.name).to.equal('Liselott')
