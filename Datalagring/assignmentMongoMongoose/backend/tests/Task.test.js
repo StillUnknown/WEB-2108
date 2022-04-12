@@ -36,7 +36,7 @@ const createTask = () => {
                     expect(body.task).to.equal('Cykla')
                     expect(body.name).to.equal('Liselott')
 
-                    body.id = global_id
+                    let global_id = body.id
                     done()
                 })
         })
