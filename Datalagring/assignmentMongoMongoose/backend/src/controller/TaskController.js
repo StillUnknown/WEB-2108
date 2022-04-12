@@ -159,13 +159,14 @@ const deleteTask = async (req, res) => {
 const toggleTaskDone = (req, res) => {
 
     try {
-        const returnUpdatedObject = {
-            new: true}
-        const Query = {
-            isDone: newTodoStatus
-        }
         const {id} = req.params
-        const {newTodoStatus} = req.body
+        const {newTaskStatus} = req.body
+        const returnUpdatedObject = {
+            new: true
+        }
+        const Query = {
+            isDone: newTaskStatus
+        }
         TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, task) => {
             if (error) {
                 Logger.error(error)

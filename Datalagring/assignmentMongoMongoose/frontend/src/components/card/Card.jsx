@@ -9,7 +9,7 @@ const Card = ({task, name, _id, isDone}) => {
 
     function toggleDone() {
         const payload = {
-            newTodoStatus : !isTaskDone
+            newTaskStatus : !isTaskDone
         }
         TaskService.toggleTaskDone(_id, payload)
             .then(response => {
