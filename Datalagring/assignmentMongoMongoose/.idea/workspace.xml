@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Fyller i dokumentationen">
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Småfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/createTask/CreateTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/createTask/CreateTask.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +132,8 @@
       <workItem from="1649782542600" duration="1165000" />
       <workItem from="1649786787062" duration="2363000" />
       <workItem from="1649838112511" duration="7955000" />
-      <workItem from="1649851247005" duration="5350000" />
-    </task>
-    <task id="LOCAL−00029" summary="Lägger till GetTaskUsingId">
-      <created>1649233775440</created>
-      <option name="number" value="LOCAL−00029" />
-      <option name="presentableId" value="LOCAL−00029" />
-      <updated>1649233775440</updated>
+      <workItem from="1649851247005" duration="5383000" />
+      <workItem from="1649856916043" duration="87000" />
     </task>
     <task id="LOCAL−00030" summary="Ändrar i GetTaskUsingId.jsx så att const med useState har korrekta namnangivelser">
       <created>1649235962348</created>
@@ -429,7 +423,13 @@
       <option name="presentableId" value="LOCAL−00077" />
       <updated>1649852187701</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL−00078" summary="Småfix">
+      <created>1649856649713</created>
+      <option name="number" value="LOCAL−00078" />
+      <option name="presentableId" value="LOCAL−00078" />
+      <updated>1649856649713</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,13 +467,13 @@
     <MESSAGE value="Ändrar lite namn så det passar bättre med min inlämning" />
     <MESSAGE value="Pillar med tester" />
     <MESSAGE value="Fixar med tester igen. Nu funkar global_id till alla tester" />
-    <MESSAGE value="Småfix" />
     <MESSAGE value="Bygger om TaskController och getByName för att få ut det omskrivna message" />
     <MESSAGE value="Bygger om Task.test för att matcha det nya message från getByName i TaskController" />
     <MESSAGE value="Trodde jag var smart men nej, det funkade inte..." />
     <MESSAGE value="Lägger till Insomniatesterna i projektet" />
     <MESSAGE value="Skapar en README fil för dokumentationen" />
     <MESSAGE value="Fyller i dokumentationen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fyller i dokumentationen" />
+    <MESSAGE value="Småfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Småfix" />
   </component>
 </project>

@@ -30,7 +30,8 @@ jag fick kommentera bort den. Ändrar jag i TaskController så funkar inte front
 
 Med hjälp av console.log() och via inspektorn. Det har krävts en hel del felsökningar för att vad jag får för svar från
 backend.  
-Dessutom valde jag att ha med en logger i backend för att enklare svaret från backend.
+Dessutom valde jag att ha med en logger i backend för att enklare svaret från backend. Har även tagit hjälp av Michaela
+när något inte funkat som jag vill.
 
 ### Vad gick bra:
 
