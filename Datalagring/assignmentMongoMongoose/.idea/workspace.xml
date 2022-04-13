@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Bygger om Task.test för att matcha det nya message från getByName i TaskController">
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Trodde jag var smart men nej, det funkade inte...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/TaskController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/Task.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Task.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +69,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -124,13 +122,7 @@
       <workItem from="1649771110491" duration="106000" />
       <workItem from="1649782542600" duration="1165000" />
       <workItem from="1649786787062" duration="2363000" />
-      <workItem from="1649838112511" duration="1295000" />
-    </task>
-    <task id="LOCAL−00024" summary="Ändrar lite funktionsnamn">
-      <created>1649072437999</created>
-      <option name="number" value="LOCAL−00024" />
-      <option name="presentableId" value="LOCAL−00024" />
-      <updated>1649072437999</updated>
+      <workItem from="1649838112511" duration="4874000" />
     </task>
     <task id="LOCAL−00025" summary="Ändrar tillbaka så backend funkar  :D">
       <created>1649079194333</created>
@@ -420,7 +412,13 @@
       <option name="presentableId" value="LOCAL−00072" />
       <updated>1649838517126</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL−00073" summary="Trodde jag var smart men nej, det funkade inte...">
+      <created>1649839494746</created>
+      <option name="number" value="LOCAL−00073" />
+      <option name="presentableId" value="LOCAL−00073" />
+      <updated>1649839494747</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +438,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Går igenom getTaskUsingId" />
     <MESSAGE value="Sitter med inlämningen men får inte skiten att funka" />
     <MESSAGE value="Felsöker inlämningen" />
     <MESSAGE value="Lägger till lite knappar" />
@@ -465,6 +462,7 @@
     <MESSAGE value="Småfix" />
     <MESSAGE value="Bygger om TaskController och getByName för att få ut det omskrivna message" />
     <MESSAGE value="Bygger om Task.test för att matcha det nya message från getByName i TaskController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bygger om Task.test för att matcha det nya message från getByName i TaskController" />
+    <MESSAGE value="Trodde jag var smart men nej, det funkade inte..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trodde jag var smart men nej, det funkade inte..." />
   </component>
 </project>
