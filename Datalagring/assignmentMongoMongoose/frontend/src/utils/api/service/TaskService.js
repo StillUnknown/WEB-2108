@@ -6,8 +6,8 @@ const getAllTasks = () => {
     return http.get(taskUrl)
 }
 
-const createTask = (newName) => {
-    return http.post(taskUrl, newName)
+const createTask = (newTask) => {
+    return http.post(taskUrl, newTask)
 }
 
 const updateTask = (id, changedTask) => {

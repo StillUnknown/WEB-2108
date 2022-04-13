@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Fyller i dokumentationen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/createTask/CreateTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/createTask/CreateTask.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +133,7 @@
       <workItem from="1649782542600" duration="1165000" />
       <workItem from="1649786787062" duration="2363000" />
       <workItem from="1649838112511" duration="7955000" />
-      <workItem from="1649851247005" duration="924000" />
-    </task>
-    <task id="LOCAL−00028" summary="Lägger till &lt;b&gt;&lt;/b&gt; i li-taggen i Card">
-      <created>1649173722559</created>
-      <option name="number" value="LOCAL−00028" />
-      <option name="presentableId" value="LOCAL−00028" />
-      <updated>1649173722559</updated>
+      <workItem from="1649851247005" duration="5350000" />
     </task>
     <task id="LOCAL−00029" summary="Lägger till GetTaskUsingId">
       <created>1649233775440</created>
@@ -428,7 +423,13 @@
       <option name="presentableId" value="LOCAL−00076" />
       <updated>1649846704306</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL−00077" summary="Fyller i dokumentationen">
+      <created>1649852187701</created>
+      <option name="number" value="LOCAL−00077" />
+      <option name="presentableId" value="LOCAL−00077" />
+      <updated>1649852187701</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
