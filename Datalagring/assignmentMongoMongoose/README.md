@@ -1,7 +1,7 @@
 ## Projekt
 
-Hur kan vi implementera en databas till en backend medTillhörande API som vi testar med API-tester. Detta ska göras med
-hjälp av Node.js, MongoDB, Mongoose och React.js
+Hur kan vi implementera en databas till en backend med tillhörande API som vi testar med API-tester. Detta ska göras med
+hjälp av Docker, Node.js, MongoDB, Mongoose och React.js
 
 ### Projektplanering:
 
