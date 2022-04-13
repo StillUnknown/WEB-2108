@@ -72,9 +72,7 @@ const checkThatTaskDoNotExist = () => {
                 .get(`/searchTask/Aram`)
                 .end((error, response) => {
                     expect(response.status).to.equal(200)
-                    expect(response.text).to.equal({
-                        "message":"Task with name: Aram not found"
-                    })
+                    expect(response.text).to.equal(`Task with name: Aram not found`)
                     done()
                 })
         })

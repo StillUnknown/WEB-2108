@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Småfix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/TaskController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" afterDir="false" />
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Bygger om TaskController och getByName för att få ut det omskrivna message">
+      <change beforePath="$PROJECT_DIR$/backend/tests/Task.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/Task.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +121,7 @@
       <workItem from="1649771110491" duration="106000" />
       <workItem from="1649782542600" duration="1165000" />
       <workItem from="1649786787062" duration="2363000" />
-      <workItem from="1649838112511" duration="203000" />
-    </task>
-    <task id="LOCAL−00022" summary="Lägger till createfunktion">
-      <created>1648920201707</created>
-      <option name="number" value="LOCAL−00022" />
-      <option name="presentableId" value="LOCAL−00022" />
-      <updated>1648920201707</updated>
+      <workItem from="1649838112511" duration="326000" />
     </task>
     <task id="LOCAL−00023" summary="Försöker lägga till GetSingleTask men får det inte att funka">
       <created>1648923927985</created>
@@ -419,7 +411,13 @@
       <option name="presentableId" value="LOCAL−00070" />
       <updated>1649788877045</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL−00071" summary="Bygger om TaskController och getByName för att få ut det omskrivna message">
+      <created>1649838415437</created>
+      <option name="number" value="LOCAL−00071" />
+      <option name="presentableId" value="LOCAL−00071" />
+      <updated>1649838415437</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Missade några statuskoder men nu verkar delete funka" />
     <MESSAGE value="Lägger till userId igen då det är så jag skickar det via routes i backend" />
     <MESSAGE value="Går igenom getTaskUsingId" />
     <MESSAGE value="Sitter med inlämningen men får inte skiten att funka" />
@@ -464,6 +461,7 @@
     <MESSAGE value="Pillar med tester" />
     <MESSAGE value="Fixar med tester igen. Nu funkar global_id till alla tester" />
     <MESSAGE value="Småfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Småfix" />
+    <MESSAGE value="Bygger om TaskController och getByName för att få ut det omskrivna message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bygger om TaskController och getByName för att få ut det omskrivna message" />
   </component>
 </project>
