@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Gör fireEvent i DeleteTask.test.js">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/TaskRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/TaskRoutes.js" afterDir="false" />
-    </list>
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Ändrade i TaskRoutes.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,13 +136,7 @@
       <workItem from="1649856916043" duration="112000" />
       <workItem from="1649859905934" duration="174000" />
       <workItem from="1649923072981" duration="312000" />
-      <workItem from="1649923403142" duration="3087000" />
-    </task>
-    <task id="LOCAL−00032" summary="Lägger till och fixar med update så den funkar nu">
-      <created>1649238000315</created>
-      <option name="number" value="LOCAL−00032" />
-      <option name="presentableId" value="LOCAL−00032" />
-      <updated>1649238000315</updated>
+      <workItem from="1649923403142" duration="3522000" />
     </task>
     <task id="LOCAL−00033" summary="Byter ut Card mot CardList i getByName">
       <created>1649240746091</created>
@@ -435,7 +426,13 @@
       <option name="presentableId" value="LOCAL−00080" />
       <updated>1649924739560</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL−00081" summary="Ändrade i TaskRoutes.js">
+      <created>1649927486973</created>
+      <option name="number" value="LOCAL−00081" />
+      <option name="presentableId" value="LOCAL−00081" />
+      <updated>1649927486973</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Börjar med toggleTaskIsDone" />
     <MESSAGE value="toggleTaskDone är klar men funkar bara från backend." />
     <MESSAGE value="byter toggleTaskDone till en annan" />
     <MESSAGE value="Fortsätter med backend tester" />
@@ -480,6 +476,7 @@
     <MESSAGE value="Småfix" />
     <MESSAGE value="README" />
     <MESSAGE value="Gör fireEvent i DeleteTask.test.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gör fireEvent i DeleteTask.test.js" />
+    <MESSAGE value="Ändrade i TaskRoutes.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ändrade i TaskRoutes.js" />
   </component>
 </project>
