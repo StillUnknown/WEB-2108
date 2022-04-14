@@ -9,5 +9,5 @@ beforeEach(() => {
 })
 
 test('Check that h1 contains the words Get Single Data By Name', () => {
-    expect(getByTestId('header').textContent).toBe('Get Single Data By Name')
+    expect(getByTestId('header').textContent).toBe('Get Task By Name')
 })
