@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="README">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/__tests__/DeleteTask.test.js" afterDir="false" />
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Gör fireEvent i DeleteTask.test.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/__tests__/getTaskUsingName.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/__tests__/GetTaskUsingName.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/deleteTask/DeleteTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/deleteTask/DeleteTask.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/TaskRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/TaskRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +35,30 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/backend/tests/Alive.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/tests/Task.test.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/frontend/src/App.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/__tests__/createTask.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/__tests__/GetTaskUsingName.test.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/frontend/src/components/deleteTask/DeleteTask.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/updateTask/UpdateTask.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/frontend/src/components/card/Card.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/routes/TaskRoutes.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/frontend/src/components/taskList/TaskList.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/getTaskUsingId/GetTaskUsingId.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/src/configurations/ApplyMiddlewares.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/getTaskUsingName/GetTaskUsingName.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/backend/src/server.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/models/TaskModel.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/controller/TaskController.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/frontend/src/components/CardList.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/controller/AliveController.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/backend/src/configurations/Configurations.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/src/middlewares/Middlewares.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/configurations/StatusCode.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/frontend/src/components/__tests__/DeleteTask.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/App.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/createTask/CreateTask.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/App.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/deleteTask/DeleteTask.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/card/Card.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/taskList/TaskList.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/src/server.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/CardList.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/src/configurations/Configurations.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/__tests__/DeleteTask.test.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="275tFmPzK7gAyUk4eJvxBqT4k3E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,13 +139,7 @@
       <workItem from="1649856916043" duration="112000" />
       <workItem from="1649859905934" duration="174000" />
       <workItem from="1649923072981" duration="312000" />
-      <workItem from="1649923403142" duration="1198000" />
-    </task>
-    <task id="LOCAL−00031" summary="Ändrar i GetTaskUsingId.jsx type i inputen blir number">
-      <created>1649236051938</created>
-      <option name="number" value="LOCAL−00031" />
-      <option name="presentableId" value="LOCAL−00031" />
-      <updated>1649236051938</updated>
+      <workItem from="1649923403142" duration="3087000" />
     </task>
     <task id="LOCAL−00032" summary="Lägger till och fixar med update så den funkar nu">
       <created>1649238000315</created>
@@ -435,7 +429,13 @@
       <option name="presentableId" value="LOCAL−00079" />
       <updated>1649857018689</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL−00080" summary="Gör fireEvent i DeleteTask.test.js">
+      <created>1649924739560</created>
+      <option name="number" value="LOCAL−00080" />
+      <option name="presentableId" value="LOCAL−00080" />
+      <updated>1649924739560</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Försöker få getBtName att funka men icke!" />
     <MESSAGE value="Börjar med toggleTaskIsDone" />
     <MESSAGE value="toggleTaskDone är klar men funkar bara från backend." />
     <MESSAGE value="byter toggleTaskDone till en annan" />
@@ -480,6 +479,7 @@
     <MESSAGE value="Fyller i dokumentationen" />
     <MESSAGE value="Småfix" />
     <MESSAGE value="README" />
-    <option name="LAST_COMMIT_MESSAGE" value="README" />
+    <MESSAGE value="Gör fireEvent i DeleteTask.test.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gör fireEvent i DeleteTask.test.js" />
   </component>
 </project>
