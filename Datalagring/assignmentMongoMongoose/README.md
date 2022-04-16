@@ -6,7 +6,7 @@ hjälp av Docker, Node.js, MongoDB, Mongoose och React.js
 ### Projektplanering:
 
 Har som vanligt gjorts i Trello och här kommer
-länken: ![TRELLO](https://trello.com/invite/b/kpCDxOoB/59a8df1f9d8069a3ba2300ff373705ec/datalagring "Trello")
+länken: [TRELLO](https://trello.com/invite/b/kpCDxOoB/59a8df1f9d8069a3ba2300ff373705ec/datalagring "Trello")
 
 ### Beskriv lite olika lösningar du gjort:
 
