@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Ändrade i TaskRoutes.js" />
+    <list default="true" id="44045dea-594f-4820-a285-c8990f745d38" name="Changes" comment="Går igenom alla filer för att se om det ligger importer som inte behövs eller annat småfix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +35,12 @@
     <setting file="file://$PROJECT_DIR$/backend/tests/Alive.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/tests/Task.test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/__tests__/createTask.test.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/Alive.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/__tests__/GetTaskUsingName.test.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/utils/api/TaskAPI.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/utils/api/service/TaskService.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/updateTask/UpdateTask.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/utils/api/service/AliveService.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/routes/TaskRoutes.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/components/getTaskUsingId/GetTaskUsingId.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/backend/src/configurations/ApplyMiddlewares.js" root0="SKIP_INSPECTION" />
@@ -71,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Fullstack/Lektioner" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -137,12 +142,10 @@
       <workItem from="1649859905934" duration="174000" />
       <workItem from="1649923072981" duration="312000" />
       <workItem from="1649923403142" duration="3522000" />
-    </task>
-    <task id="LOCAL−00033" summary="Byter ut Card mot CardList i getByName">
-      <created>1649240746091</created>
-      <option name="number" value="LOCAL−00033" />
-      <option name="presentableId" value="LOCAL−00033" />
-      <updated>1649240746091</updated>
+      <workItem from="1649929776471" duration="481000" />
+      <workItem from="1649930382763" duration="392000" />
+      <workItem from="1650524656050" duration="3000" />
+      <workItem from="1650524831377" duration="21000" />
     </task>
     <task id="LOCAL−00034" summary="Fortsätter med inlämningen">
       <created>1649248862462</created>
@@ -432,7 +435,13 @@
       <option name="presentableId" value="LOCAL−00081" />
       <updated>1649927486973</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL−00082" summary="Går igenom alla filer för att se om det ligger importer som inte behövs eller annat småfix">
+      <created>1649930237837</created>
+      <option name="number" value="LOCAL−00082" />
+      <option name="presentableId" value="LOCAL−00082" />
+      <updated>1649930237837</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="toggleTaskDone är klar men funkar bara från backend." />
     <MESSAGE value="byter toggleTaskDone till en annan" />
     <MESSAGE value="Fortsätter med backend tester" />
     <MESSAGE value="Lägger till createTask i test" />
@@ -477,6 +485,7 @@
     <MESSAGE value="README" />
     <MESSAGE value="Gör fireEvent i DeleteTask.test.js" />
     <MESSAGE value="Ändrade i TaskRoutes.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ändrade i TaskRoutes.js" />
+    <MESSAGE value="Går igenom alla filer för att se om det ligger importer som inte behövs eller annat småfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Går igenom alla filer för att se om det ligger importer som inte behövs eller annat småfix" />
   </component>
 </project>
