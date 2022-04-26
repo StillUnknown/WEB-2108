@@ -23,3 +23,30 @@ const applyMiddlewares = (app: express.Application) => {
     app.use(express.json())
     app.use(express.urlencoded({extended: false}))
 }
+
+const notFound = (req: { originalUrl: any; }, res: { status: (arg0: number) => void; }, next: (arg0: Error) => void) => {
+    const error = new Error(`Not found: ${req.originalUrl}`)
+    res.status(StatusCode.NOT_FOUND)
+    next(error)
+}
+
+const errorHandler = (error: any, req: any, res: any, next: any) => {
+    const statusCode = res.statusCode === 200 ? StatusCode.NOT_FOUND : res.statusCode
+    res.status(statusCode)
+    res.json({
+        statusCode,
+        message: error.message,
+        stackTrace: env === 'development' ? error.stack : 'lol'
+    })
+    next(error)
+}
+
+const errorHandlerAndNotFound = (app: express.Application) => {
+    app.use(notFound)
+    app.use(errorHandler)
+}
+
+export default {
+    applyMiddlewares,
+    errorHandlerAndNotFound
+}
