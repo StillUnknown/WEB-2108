@@ -2,3 +2,23 @@
 2022-04-26 13:27:59:2759 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
 2022-04-26 13:27:59:2759 [32minfo[39m: [32mSuccessfully connected to the database[39m
 2022-04-26 13:27:59:2759 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-26 13:52:10:5210 [32minfo[39m: [32m⚡[server]: Server is running at http://localhost/:8080[39m
+2022-04-26 13:52:10:5210 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
+2022-04-26 13:52:10:5210 [32minfo[39m: [32mSuccessfully connected to the database[39m
+2022-04-26 13:52:10:5210 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-26 13:52:18:5218 [35mhttp[39m: [35mGET / 200 27 - 3.095 ms[39m
+[35m[39m
+2022-04-26 13:52:18:5218 [35mhttp[39m: [35mGET /favicon.ico 404 1457 - 5.019 ms[39m
+[35m[39m
+2022-04-26 13:54:11:5411 [32minfo[39m: [32m⚡[server]: Server is running at http://localhost/:8080[39m
+2022-04-26 13:54:11:5411 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
+2022-04-26 13:54:11:5411 [32minfo[39m: [32mSuccessfully connected to the database[39m
+2022-04-26 13:54:11:5411 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-26 13:54:47:5447 [35mhttp[39m: [35mGET / 304 - - 2.644 ms[39m
+[35m[39m
+2022-04-26 14:03:53:353 [35mhttp[39m: [35mGET / 200 27 - 0.786 ms[39m
+[35m[39m
+2022-04-26 14:40:08:408 [32minfo[39m: [32m⚡[server]: Server is running at http://localhost/:8080[39m
+2022-04-26 14:40:08:408 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
+2022-04-26 14:40:08:408 [32minfo[39m: [32mSuccessfully connected to the database[39m
+2022-04-26 14:40:08:408 [37mdebug[39m: [37m--= lolz =--[39m
