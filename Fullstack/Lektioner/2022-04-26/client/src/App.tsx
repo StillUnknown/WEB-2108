@@ -12,7 +12,6 @@ const App: React.FC = () => {
                     <Route path="/users/:id" element={<UserPage/>}/>
                 </Routes>
             </Router>
-
         </div>
     )
 }
