@@ -299,3 +299,968 @@
 2022-04-27 10:03:26:326 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
 2022-04-27 10:03:26:326 [32minfo[39m: [32mSuccessfully connected to the database[39m
 2022-04-27 10:03:26:326 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-28 13:53:06:536 [32minfo[39m: [32m⚡[server]: Server is running at http://localhost/:8080[39m
+2022-04-28 13:53:06:536 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
+2022-04-28 13:53:06:536 [32minfo[39m: [32mSuccessfully connected to the database[39m
+2022-04-28 13:53:06:536 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-28 13:53:49:5349 [35mhttp[39m: [35mGET / 200 27 - 1.704 ms[39m
+[35m[39m
+2022-04-28 13:53:49:5349 [35mhttp[39m: [35mGET / 304 - - 0.658 ms[39m
+[35m[39m
+2022-04-28 13:53:54:5354 [35mhttp[39m: [35mGET / 304 - - 0.309 ms[39m
+[35m[39m
+2022-04-28 13:53:54:5354 [35mhttp[39m: [35mGET / 304 - - 0.372 ms[39m
+[35m[39m
+2022-04-28 15:38:47:3847 [32minfo[39m: [32m⚡[server]: Server is running at http://localhost/:8080[39m
+2022-04-28 15:38:47:3847 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
+2022-04-28 15:38:47:3847 [32minfo[39m: [32mSuccessfully connected to the database[39m
+2022-04-28 15:38:47:3847 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-28 15:42:27:4227 [35mhttp[39m: [35mGET / 200 27 - 2.040 ms[39m
+[35m[39m
+2022-04-28 15:42:27:4227 [35mhttp[39m: [35mGET / 200 27 - 0.304 ms[39m
+[35m[39m
+2022-04-28 15:42:30:4230 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 15:42:30:4230 [35mhttp[39m: [35m{ name: 'Bertil', age: 19, gender: 'Male' }[39m
+2022-04-28 15:42:30:4230 [35mhttp[39m: [35m{ name: 'Bertil', age: 19, gender: 'Male' }[39m
+2022-04-28 15:42:30:4230 [35mhttp[39m: [35m{[39m
+[35m  name: 'Bertil',[39m
+[35m  age: 19,[39m
+[35m  gender: 'Male',[39m
+[35m  _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m  createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m  updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 15:42:30:4230 [35mhttp[39m: [35mPOST /user 201 161 - 37.812 ms[39m
+[35m[39m
+2022-04-28 15:42:34:4234 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 15:42:34:4234 [35mhttp[39m: [35m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 15:42:34:4234 [35mhttp[39m: [35m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 15:42:34:4234 [35mhttp[39m: [35m{[39m
+[35m  name: 'Aram',[39m
+[35m  age: 19,[39m
+[35m  gender: 'Male',[39m
+[35m  _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m  createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m  updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 15:42:34:4234 [35mhttp[39m: [35mPOST /user 201 159 - 6.349 ms[39m
+[35m[39m
+2022-04-28 15:42:39:4239 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 15:42:39:4239 [35mhttp[39m: [35m{ name: 'Liselott', age: 19, gender: 'Male' }[39m
+2022-04-28 15:42:39:4239 [35mhttp[39m: [35m{ name: 'Liselott', age: 19, gender: 'Male' }[39m
+2022-04-28 15:42:39:4239 [35mhttp[39m: [35m{[39m
+[35m  name: 'Liselott',[39m
+[35m  age: 19,[39m
+[35m  gender: 'Male',[39m
+[35m  _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m  createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m  updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 15:42:39:4239 [35mhttp[39m: [35mPOST /user 201 163 - 5.450 ms[39m
+[35m[39m
+2022-04-28 15:42:52:4252 [35mhttp[39m: [35mGET / 304 - - 0.530 ms[39m
+[35m[39m
+2022-04-28 15:42:52:4252 [35mhttp[39m: [35mGET / 304 - - 0.260 ms[39m
+[35m[39m
+2022-04-28 15:42:54:4254 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 15:42:54:4254 [35mhttp[39m: [35mGET /user/all 200 487 - 12.360 ms[39m
+[35m[39m
+2022-04-28 15:43:22:4322 [35mhttp[39m: [35m[][39m
+2022-04-28 15:43:22:4322 [35mhttp[39m: [35mGET /user/name/626a99cf17da4d21c82861f7 200 2 - 4.716 ms[39m
+[35m[39m
+2022-04-28 15:43:23:4323 [35mhttp[39m: [35m[][39m
+2022-04-28 15:43:23:4323 [35mhttp[39m: [35mGET /user/name/626a99cf17da4d21c82861f7 304 - - 4.053 ms[39m
+[35m[39m
+2022-04-28 15:43:32:4332 [35mhttp[39m: [35m[][39m
+2022-04-28 15:43:32:4332 [35mhttp[39m: [35mGET /user/name/626a99cf17da4d21c82861f8 200 2 - 3.270 ms[39m
+[35m[39m
+2022-04-28 16:32:52:3252 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:32:52:3252 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:52:3252 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:52:3252 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa59417da4d21c82861fd"),[39m
+[35m  createdAt: 2022-04-28T14:32:52.746Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:52.746Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:32:52:3252 [35mhttp[39m: [35mPOST /user 201 160 - 5.313 ms[39m
+[35m[39m
+2022-04-28 16:32:54:3254 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m  createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35mPOST /user 201 160 - 6.772 ms[39m
+[35m[39m
+2022-04-28 16:32:54:3254 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m  createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35mPOST /user 201 160 - 6.956 ms[39m
+[35m[39m
+2022-04-28 16:32:54:3254 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m  createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:32:54:3254 [35mhttp[39m: [35mPOST /user 201 160 - 4.484 ms[39m
+[35m[39m
+2022-04-28 16:32:55:3255 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:32:55:3255 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:55:3255 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:32:55:3255 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m  createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:32:55:3255 [35mhttp[39m: [35mPOST /user 201 160 - 4.504 ms[39m
+[35m[39m
+2022-04-28 16:34:49:3449 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:34:49:3449 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:34:49:3449 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:34:49:3449 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m  createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m  updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:34:49:3449 [35mhttp[39m: [35mPOST /user 201 160 - 6.582 ms[39m
+[35m[39m
+2022-04-28 16:34:52:3452 [35mhttp[39m: [35mGET / 304 - - 0.407 ms[39m
+[35m[39m
+2022-04-28 16:34:52:3452 [35mhttp[39m: [35mGET / 304 - - 0.221 ms[39m
+[35m[39m
+2022-04-28 16:35:00:350 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:35:00:350 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:35:00:350 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:35:00:350 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m  createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m  updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:35:00:350 [35mhttp[39m: [35mPOST /user 201 160 - 4.754 ms[39m
+[35m[39m
+2022-04-28 16:35:48:3548 [32minfo[39m: [32mcreateUser()[39m
+2022-04-28 16:35:48:3548 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:35:48:3548 [35mhttp[39m: [35m{ name: 'Ada', age: 18, gender: 'Female' }[39m
+2022-04-28 16:35:48:3548 [35mhttp[39m: [35m{[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m  createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m  updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:35:48:3548 [35mhttp[39m: [35mPOST /user 201 160 - 6.289 ms[39m
+[35m[39m
+2022-04-28 16:36:01:361 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59417da4d21c82861fd"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:52.746Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:52.746Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:36:01:361 [35mhttp[39m: [35mGET /user/all 200 1775 - 6.441 ms[39m
+[35m[39m
+2022-04-28 16:37:38:3738 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("626aa59417da4d21c82861fd"),[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  createdAt: 2022-04-28T14:32:52.746Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:52.746Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:37:38:3738 [35mhttp[39m: [35mDELETE /user/626aa59417da4d21c82861fd 200 197 - 8.776 ms[39m
+[35m[39m
+2022-04-28 16:37:46:3746 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:37:46:3746 [35mhttp[39m: [35mGET /user/all 200 1614 - 5.099 ms[39m
+[35m[39m
+2022-04-28 16:52:39:5239 [32minfo[39m: [32m⚡[server]: Server is running at http://localhost/:8080[39m
+2022-04-28 16:52:39:5239 [33mwarn[39m: [33mSERVER IS RUNNING IN DEVELOPMENT MODE[39m
+2022-04-28 16:52:39:5239 [32minfo[39m: [32mSuccessfully connected to the database[39m
+2022-04-28 16:52:39:5239 [37mdebug[39m: [37m--= lolz =--[39m
+2022-04-28 16:54:17:5417 [35mhttp[39m: [35m[][39m
+2022-04-28 16:54:17:5417 [35mhttp[39m: [35mGET /user/name/626aa64417da4d21c828620b 200 2 - 12.141 ms[39m
+[35m[39m
+2022-04-28 16:54:23:5423 [35mhttp[39m: [35mGET / 304 - - 0.865 ms[39m
+[35m[39m
+2022-04-28 16:54:23:5423 [35mhttp[39m: [35mGET / 304 - - 0.342 ms[39m
+[35m[39m
+2022-04-28 16:54:24:5424 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:54:24:5424 [35mhttp[39m: [35mGET /user/all 304 - - 10.722 ms[39m
+[35m[39m
+2022-04-28 16:54:29:5429 [35mhttp[39m: [35m[][39m
+2022-04-28 16:54:29:5429 [35mhttp[39m: [35mGET /user/name/626aa59617da4d21c8286201 200 2 - 3.491 ms[39m
+[35m[39m
+2022-04-28 16:55:41:5541 [35mhttp[39m: [35m[][39m
+2022-04-28 16:55:41:5541 [35mhttp[39m: [35mGET /user/name/626aa59617da4d21c8286201 304 - - 3.250 ms[39m
+[35m[39m
+2022-04-28 16:55:42:5542 [35mhttp[39m: [35m[][39m
+2022-04-28 16:55:42:5542 [35mhttp[39m: [35mGET /user/name/626aa59617da4d21c8286201 304 - - 3.111 ms[39m
+[35m[39m
+2022-04-28 16:55:42:5542 [35mhttp[39m: [35m[][39m
+2022-04-28 16:55:42:5542 [35mhttp[39m: [35mGET /user/name/626aa59617da4d21c8286201 304 - - 3.223 ms[39m
+[35m[39m
+2022-04-28 16:55:43:5543 [35mhttp[39m: [35mGET / 304 - - 0.246 ms[39m
+[35m[39m
+2022-04-28 16:55:43:5543 [35mhttp[39m: [35mGET / 304 - - 0.225 ms[39m
+[35m[39m
+2022-04-28 16:55:46:5546 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:55:46:5546 [35mhttp[39m: [35mGET /user/all 304 - - 5.598 ms[39m
+[35m[39m
+2022-04-28 16:55:53:5553 [35mhttp[39m: [35m[][39m
+2022-04-28 16:55:53:5553 [35mhttp[39m: [35mGET /user/name/626aa59617da4d21c82861ff 200 2 - 3.744 ms[39m
+[35m[39m
+2022-04-28 16:57:00:570 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:57:00:570 [35mhttp[39m: [35mGET /user/626aa59617da4d21c82861ff 200 160 - 5.994 ms[39m
+[35m[39m
+2022-04-28 16:57:06:576 [31merror[39m: [31mCast to ObjectId failed for value "626aa59617da4d21c82861fg" (type string) at path "_id" for model "user"[39m
+2022-04-28 16:57:06:576 [35mhttp[39m: [35mGET /user/626aa59617da4d21c82861fg 400 30 - 2.399 ms[39m
+[35m[39m
+2022-04-28 16:57:15:5715 [35mhttp[39m: [35mnull[39m
+2022-04-28 16:57:15:5715 [35mhttp[39m: [35mGET /user/626aa59617da4d21c82861f7 200 63 - 3.391 ms[39m
+[35m[39m
+2022-04-28 16:57:17:5717 [35mhttp[39m: [35mGET / 304 - - 0.306 ms[39m
+[35m[39m
+2022-04-28 16:57:17:5717 [35mhttp[39m: [35mGET / 304 - - 0.297 ms[39m
+[35m[39m
+2022-04-28 16:57:23:5723 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("626aa59617da4d21c82861ff"),[39m
+[35m  name: 'Ada',[39m
+[35m  age: 18,[39m
+[35m  gender: 'Female',[39m
+[35m  createdAt: 2022-04-28T14:32:54.587Z,[39m
+[35m  updatedAt: 2022-04-28T14:32:54.587Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:57:23:5723 [35mhttp[39m: [35mDELETE /user/626aa59617da4d21c82861ff 200 80 - 4.608 ms[39m
+[35m[39m
+2022-04-28 16:57:27:5727 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:57:27:5727 [35mhttp[39m: [35mGET /user/all 200 1453 - 5.428 ms[39m
+[35m[39m
+2022-04-28 16:57:31:5731 [37mdebug[39m: [37m626aa59617da4d21c82861ff[39m
+2022-04-28 16:57:31:5731 [37mdebug[39m: [37m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 16:57:31:5731 [37mdebug[39m: [37m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 16:57:31:5731 [35mhttp[39m: [35mnull[39m
+2022-04-28 16:57:31:5731 [35mhttp[39m: [35mPUT /user/626aa59617da4d21c82861ff 200 63 - 22.931 ms[39m
+[35m[39m
+2022-04-28 16:58:24:5824 [37mdebug[39m: [37m626aa59617da4d21c82861ff[39m
+2022-04-28 16:58:24:5824 [37mdebug[39m: [37m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 16:58:24:5824 [37mdebug[39m: [37m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 16:58:24:5824 [35mhttp[39m: [35mnull[39m
+2022-04-28 16:58:24:5824 [35mhttp[39m: [35mPUT /user/626aa59617da4d21c82861ff 200 63 - 5.321 ms[39m
+[35m[39m
+2022-04-28 16:58:26:5826 [35mhttp[39m: [35mGET / 304 - - 0.283 ms[39m
+[35m[39m
+2022-04-28 16:58:26:5826 [35mhttp[39m: [35mGET / 304 - - 0.263 ms[39m
+[35m[39m
+2022-04-28 16:58:29:5829 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Bertil',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:58:29:5829 [35mhttp[39m: [35mGET /user/all 304 - - 5.500 ms[39m
+[35m[39m
+2022-04-28 16:58:35:5835 [37mdebug[39m: [37m626a99c617da4d21c82861f3[39m
+2022-04-28 16:58:35:5835 [37mdebug[39m: [37m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 16:58:35:5835 [37mdebug[39m: [37m{ name: 'Aram', age: 19, gender: 'Male' }[39m
+2022-04-28 16:58:35:5835 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m  name: 'Aram',[39m
+[35m  age: 19,[39m
+[35m  gender: 'Male',[39m
+[35m  createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m  updatedAt: 2022-04-28T14:58:35.125Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-04-28 16:58:35:5835 [35mhttp[39m: [35mPUT /user/626a99c617da4d21c82861f3 200 159 - 5.092 ms[39m
+[35m[39m
+2022-04-28 16:58:39:5839 [35mhttp[39m: [35m[[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99c617da4d21c82861f3"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:30.364Z,[39m
+[35m    updatedAt: 2022-04-28T14:58:35.125Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99ca17da4d21c82861f5"),[39m
+[35m    name: 'Aram',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:34.818Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626a99cf17da4d21c82861f7"),[39m
+[35m    name: 'Liselott',[39m
+[35m    age: 19,[39m
+[35m    gender: 'Male',[39m
+[35m    createdAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    updatedAt: 2022-04-28T13:42:39.043Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286201"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.782Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59617da4d21c8286203"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:54.933Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa59717da4d21c8286205"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    updatedAt: 2022-04-28T14:32:55.062Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa60917da4d21c8286207"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    updatedAt: 2022-04-28T14:34:49.088Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa61417da4d21c8286209"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:00.842Z,[39m
+[35m    __v: 0[39m
+[35m  },[39m
+[35m  {[39m
+[35m    _id: new ObjectId("626aa64417da4d21c828620b"),[39m
+[35m    name: 'Ada',[39m
+[35m    age: 18,[39m
+[35m    gender: 'Female',[39m
+[35m    createdAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    updatedAt: 2022-04-28T14:35:48.407Z,[39m
+[35m    __v: 0[39m
+[35m  }[39m
+[35m][39m
+2022-04-28 16:58:39:5839 [35mhttp[39m: [35mGET /user/all 200 1451 - 6.400 ms[39m
+[35m[39m

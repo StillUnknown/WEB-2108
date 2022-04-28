@@ -1,6 +1,11 @@
 import React from "react";
 import css from './App.module.css'
 import Alive from "./components/Alive";
+import GetAllUsers from "./components/user/GetAllUsers";
+import GetUserById from "./components/user/GetUserById";
+import CreateUser from "./components/user/CreateUser";
+import DeleteUser from "./components/user/DeleteUser";
+import UpdateUser from "./components/user/UpdateUser";
 
 function App() {
     return (
@@ -9,13 +14,13 @@ function App() {
             <Alive/>
             <div className={css.container}>
                 <div>
-                    <p>Get All Users</p>
-                    <p>Get User by id</p>
+                    <GetAllUsers/>
+                    <GetUserById/>
                 </div>
                 <div>
-                    <p>Create User</p>
-                    <p>Update User</p>
-                    <p>Delete User</p>
+                    <CreateUser/>
+                    <UpdateUser/>
+                    <DeleteUser/>
                 </div>
             </div>
         </>

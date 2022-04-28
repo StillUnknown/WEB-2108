@@ -9,7 +9,6 @@ const Alive = () => {
     const alive = () => {
         AliveService.apiConnectionStatus()
             .then(response => {
-                console.log(response.data)
                 setText(response.data)
                 setConnected(true)
             })
