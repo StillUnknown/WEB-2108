@@ -1,18 +1,23 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Users from "./components/users/Users";
-import UserPage from "./components/users/UserPage";
+import css from './App.module.css'
 
-const App: React.FC = () => {
+function App() {
     return (
-        <div>
-            <Router>
-                <Routes>
-                    <Route path="/users" element={<Users/>}/>
-                    <Route path="/users/:id" element={<UserPage/>}/>
-                </Routes>
-            </Router>
-        </div>
+        <>
+            <h1>React App written in Typescript with CSS module</h1>
+            Alive
+            <div className={css.container}>
+                <div>
+                    <p>Get All Users</p>
+                    <p>Get User by id</p>
+                </div>
+                <div>
+                    <p>Create User</p>
+                    <p>Update User</p>
+                    <p>Delete User</p>
+                </div>
+            </div>
+        </>
     )
 }
 
