@@ -1,11 +1,12 @@
 import React from "react";
 import css from './App.module.css'
+import Alive from "./components/Alive";
 
 function App() {
     return (
         <>
             <h1>React App written in Typescript with CSS module</h1>
-            Alive
+            <Alive/>
             <div className={css.container}>
                 <div>
                     <p>Get All Users</p>
